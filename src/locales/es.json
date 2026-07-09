@@ -1,11 +1,746 @@
 {
+  "seo": {
+    "home": {
+      "title": "Honkai Nexus Anima - Guía de códigos, Anima y Beta",
+      "description": "La wiki de Honkai Nexus Anima cubre compañeros Anima, códigos, personajes, listas de niveles e información de la beta Evolution Test para el RPG de estrategia y colección de criaturas de HoYoverse.",
+      "keywords": "Honkai Nexus Anima, wiki de Honkai Nexus Anima, Anima, códigos, personajes, lista de niveles, Evolution Test, beta, HoYoverse",
+      "ogTitle": "Honkai Nexus Anima - Guía de códigos, Anima y Beta",
+      "ogDescription": "La wiki de Honkai Nexus Anima cubre compañeros Anima, códigos, personajes, listas de niveles e información de la beta Evolution Test para el RPG de estrategia y colección de criaturas de HoYoverse.",
+      "twitterTitle": "Honkai Nexus Anima - Guía de códigos, Anima y Beta",
+      "twitterDescription": "La wiki de Honkai Nexus Anima cubre compañeros Anima, códigos, personajes, listas de niveles e información de la beta Evolution Test para el RPG de estrategia y colección de criaturas de HoYoverse."
+    }
+  },
   "nav": {
-    "release": "Release",
+    "release": "Lanzamiento",
     "beta": "Beta",
-    "download": "Download",
-    "guide": "Guide",
-    "gameplay": "Gameplay",
-    "characters": "Characters",
+    "download": "Descargar",
+    "guide": "Guía",
+    "gameplay": "Jugabilidad",
+    "characters": "Personajes",
     "anima": "Anima"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Evolution Test ya disponible",
+    "title": "Wiki de Honkai Nexus Anima",
+    "description": "Tu centro de información sobre compañeros Anima, códigos, personajes y guías de estrategia de Honkai Nexus Anima. La nueva aventura de colección de criaturas de HoYoverse ya está en Evolution Test en PC, iOS y Android.",
+    "getFreeCodesCTA": "Verificar códigos",
+    "playOnRobloxCTA": "Visitar sitio oficial",
+    "stats": {
+      "stat1": {
+        "value": "9–27 de julio de 2026",
+        "label": "Evolution Test"
+      },
+      "stat2": {
+        "value": "PC, iOS, Android",
+        "label": "Plataformas de prueba"
+      },
+      "stat3": {
+        "value": "Por anunciar",
+        "label": "Fecha de lanzamiento"
+      },
+      "stat4": {
+        "value": "Beta cerrada gratuita",
+        "label": "Estado actual"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Honkai Nexus Anima",
+    "description": "Colecciona compañeros Anima, forja vínculos, explora los Planes y comanda Anima en Nexus Battles en este juego de aventura y estrategia de colección de criaturas de HoYoverse."
+  },
+  "tools": {
+    "title": "Honkai Nexus Anima",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para el Evolution Test, la colección de Anima, los personajes y las Nexus Battles",
+    "cards": [
+      {
+        "icon": "CalendarCheck",
+        "title": "Fecha de lanzamiento y plataformas",
+        "description": "Estado de la prueba, plataformas e información sobre el lanzamiento completo"
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Evolution Test y prerregistro",
+        "description": "Acceso a la beta, reclutamiento y selección de testers"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Conceptos básicos de Anima, exploración, vínculos y Nexus Battles"
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Lista y colección de Anima",
+        "description": "Anima revelados, temas y cómo funciona la colección"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List y roles de equipo",
+        "description": "Roles de Anima, Aspects y creación de equipos"
+      },
+      {
+        "icon": "Swords",
+        "title": "Sistema de batalla y estrategia",
+        "description": "Nexus Battles, configuración de equipos y tácticas de combate"
+      },
+      {
+        "icon": "Users",
+        "title": "Personajes e historia",
+        "description": "Personajes revelados, facciones y ambientación de la historia"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Últimas noticias y tráileres",
+        "description": "Actualizaciones de la prueba, publicaciones de DevTalk y tráileres"
+      }
+    ]
+  },
+  "modules": {
+    "honkaiNexusAnimaReleaseDate": {
+      "title": "Fecha de lanzamiento, estado de la prueba y plataformas de Honkai Nexus Anima",
+      "intro": "Esta sección ofrece a los jugadores la información práctica de lanzamiento que buscan primero: si el juego ya salió, qué plataformas son compatibles, cómo funciona la prueba cerrada actual y dónde encaja Honkai: Nexus Anima dentro de la franquicia Honkai.",
+      "rows": [
+        {
+          "topic": "Fecha de lanzamiento completo",
+          "status": "Por anunciar",
+          "details": "Aún no se ha anunciado una fecha de lanzamiento oficial. El hito confirmado más reciente es el inicio del Evolution Test el 9 de julio de 2026 (UTC+8)."
+        },
+        {
+          "topic": "Estado actual del juego",
+          "status": "Prueba beta cerrada",
+          "details": "Honkai: Nexus Anima se encuentra en una etapa de prueba limitada. El Evolution Test es una beta cerrada gratuita en la que los datos de la cuenta se borrarán tras finalizar la prueba."
+        },
+        {
+          "topic": "Plataformas del Evolution Test",
+          "status": "PC, iOS, Android",
+          "details": "El Evolution Test está disponible en PC y dispositivos móviles, incluidos iOS y Android."
+        },
+        {
+          "topic": "Plataformas de lanzamiento público",
+          "status": "Enfoque en PC y dispositivos móviles",
+          "details": "Los materiales oficiales y de prensa posicionan el juego para PC y dispositivos móviles. Las páginas de descarga de las tiendas para el lanzamiento público aún no son el canal de lanzamiento principal."
+        },
+        {
+          "topic": "Tipo de juego",
+          "status": "Estrategia y aventura de recolección de criaturas",
+          "details": "Los jugadores coleccionan compañeros Anima, crean vínculos con ellos, exploran el supramundo y usan las habilidades de los Anima en Nexus Battles."
+        },
+        {
+          "topic": "Rol en la serie Honkai",
+          "status": "Nueva entrega de Honkai",
+          "details": "Honkai: Nexus Anima es una nueva entrega de la serie Honkai con un enfoque de estrategia y recolección de criaturas diferente al de Honkai Impact 3rd y Honkai: Star Rail."
+        }
+      ]
+    },
+    "honkaiNexusAnimaEvolutionTest": {
+      "title": "Cómo funciona la Evolution Test de Honkai Nexus Anima",
+      "intro": "Antes del lanzamiento completo, la mayor parte del interés de los jugadores se centra en el acceso a la beta en lugar de en los códigos o el rerolling. Esta guía explica el flujo oficial de la Evolution Test, incluyendo el periodo de reclutamiento, la selección de probadores, las plataformas y las reglas de borrado de datos.",
+      "steps": [
+        {
+          "title": "Usa el sitio web oficial",
+          "description": "Ve al sitio web oficial de Honkai: Nexus Anima e inicia sesión con una cuenta de HoYoverse antes de usar cualquier función de registro o acceso a la prueba.",
+          "status": "Canal oficial"
+        },
+        {
+          "title": "Completa el prerregistro",
+          "description": "El prerregistro conecta la cuenta de HoYoverse con el proceso de acceso a la prueba y los avisos de seguimiento oficiales.",
+          "status": "Requerido para la selección"
+        },
+        {
+          "title": "Envía el cuestionario de reclutamiento",
+          "description": "Los jugadores que completen el cuestionario entrarán en el grupo de selección para la Evolution Test. Los datos de contacto deben completarse con cuidado porque los avisos de la prueba están vinculados a la información enviada.",
+          "status": "Grupo de selección"
+        },
+        {
+          "title": "Consulta el periodo de reclutamiento",
+          "description": "El reclutamiento para la Evolution Test se llevará a cabo desde el 22 de junio de 2026 a las 12:00 hasta el 3 de julio de 2026 a las 23:59 (UTC+8).",
+          "status": "Fecha clave"
+        },
+        {
+          "title": "Presta atención a las notificaciones para probadores",
+          "description": "Las notificaciones de acceso para probadores comenzarán a partir del 8 de julio de 2026 (UTC+8). Los jugadores pueden seguir los canales oficiales y usar la verificación de acceso del sitio oficial cuando esté disponible.",
+          "status": "Resultado de acceso"
+        },
+        {
+          "title": "Juega en las plataformas de prueba compatibles",
+          "description": "La Evolution Test comienza el 9 de julio de 2026 (UTC+8) y es compatible con PC, iOS y Android. La prueba es gratuita, limitada, cerrada y cuenta con borrado de datos.",
+          "status": "Beta cerrada"
+        }
+      ]
+    },
+    "honkaiNexusAnimaBeginnerGuide": {
+      "title": "Guía para principiantes de Honkai Nexus Anima: Cómo empezar a jugar",
+      "intro": "Esta guía para principiantes explica el flujo principal que los jugadores experimentan en el juego oficial: comenzar como un viajero que viaja entre planos, explorar nuevas áreas, coleccionar compañeros Anima, fortalecer vínculos y usar las habilidades de los Anima en misiones y Nexus Battles.",
+      "steps": [
+        {
+          "title": "Sigue primero el viaje principal",
+          "description": "El jugador asume el papel de un viajero que viaja entre planos, cuya historia comienza en un pueblo tranquilo antes de expandirse a nuevos reinos.",
+          "tip": "Usa el progreso de la historia para desbloquear sistemas antes de intentar crear equipos avanzados."
+        },
+        {
+          "title": "Aprende qué significan Nexus y Anima",
+          "description": "Nexus representa los vínculos entre conceptos emparejados como el Amor y el Odio o la Luz y la Oscuridad. Cuando esos vínculos se rompen, su poder remanente se manifiesta como Anima.",
+          "tip": "Trata a los Anima tanto como compañeros como herramientas de juego, no solo como criaturas coleccionables."
+        },
+        {
+          "title": "Colecciona compañeros Anima",
+          "description": "Los Anima son los compañeros centrales del juego. Tienen personalidades distintas y se utilizan tanto en la exploración como en el combate.",
+          "tip": "Crea una colección flexible en lugar de centrarte en un solo Anima favorito al principio."
+        },
+        {
+          "title": "Forja vínculos con los Anima",
+          "description": "Vincularse con los Anima desbloquea habilidades basadas en los conceptos que encarnan. Estas habilidades pueden cambiar la forma en que los jugadores luchan, exploran y resuelven encuentros.",
+          "tip": "Prioriza a los Anima que ayuden tanto en la exploración del mundo abierto como en las Nexus Battles."
+        },
+        {
+          "title": "Comprende las Nexus Battles",
+          "description": "En las Nexus Battles, los compañeros Anima acompañan al jugador y apoyan el combate estratégico. Combinar las habilidades de los Anima es parte de la creación de tácticas de batalla más fuertes.",
+          "tip": "Presta atención a las combinaciones de habilidades en lugar de solo al poder bruto."
+        },
+        {
+          "title": "Usa los videos oficiales para aprender sobre los sistemas",
+          "description": "El gameplay showcase oficial y los videos teaser muestran la exploración, los compañeros Anima, la personalización y el flujo del combate antes del lanzamiento público completo.",
+          "tip": "Mira el gameplay showcase antes de entrar a la prueba para que la interfaz de usuario y el flujo del combate te resulten familiares."
+        }
+      ]
+    },
+    "honkaiNexusAnimaAnimaList": {
+      "title": "Lista de Honkai Nexus Anima: Anima revelados y conceptos básicos de colección",
+      "intro": "Esta guía de colección destaca los Anima mostrados oficialmente o introducidos públicamente y explica lo que los jugadores pueden entender de los tráileres actuales y las publicaciones de DevTalk: los Anima tienen temas visuales distintivos, están ligados al sistema de vínculos del juego y pueden influir tanto en el combate como en la exploración del mundo abierto.",
+      "cards": [
+        {
+          "name": "Umpurrella",
+          "category": "Anima revelados",
+          "description": "Un compañero paraguas con forma de gato que aparece en el teaser oficial de Nexusbound, Watersong: A Sea of Flowers. Se presenta como un compañero centrado en los vínculos y ligado al sistema de colección de Anima general."
+        },
+        {
+          "name": "Seroplumanth",
+          "category": "Anima revelados",
+          "description": "Un Anima nacido de ramas de ciruelo marchitas y asociado con la nieve arremolinada y las flores de ciruelo. Muestra cómo los diseños de los Anima conectan la identidad de la criatura con temas basados en conceptos."
+        },
+        {
+          "name": "Cublade",
+          "category": "Anima revelados",
+          "description": "Una pequeña criatura con temática de espada que aparece en los materiales promocionales oficiales de eventos y pruebas, incluyendo recompensas de merchandising. Un ejemplo de la plantilla que es tan tierno como listo para el combate."
+        },
+        {
+          "name": "Bobabirb",
+          "category": "Anima revelados",
+          "description": "Un Anima con forma de ave con un motivo de comida y bebida, mencionado entre los Anima más recientes mostrados durante el periodo de prueba. Encaja con el tono lúdico de colección de criaturas del juego."
+        },
+        {
+          "name": "Foalhardy",
+          "category": "Anima revelados",
+          "description": "Un diseño de compañero con forma de potro mencionado entre los Anima más recientes revelados durante el periodo de la beta cerrada. Ayuda a completar la plantilla con variedad inspirada en animales."
+        },
+        {
+          "name": "Scorscythe",
+          "category": "Anima revelados",
+          "description": "Un diseño inspirado en un escorpión y una guadaña mencionado como uno de los últimos Anima revelados durante el periodo de prueba. Representa el lado más afilado y orientado a la batalla de la plantilla."
+        },
+        {
+          "name": "Puddlipup",
+          "category": "Anima revelados",
+          "description": "Un diseño de cachorro con aspecto de pudín destacado en la cobertura mediática temprana como uno de los diseños de criaturas caprichosas que definen el estilo y la identidad coleccionable del juego."
+        },
+        {
+          "name": "Sistema de colección",
+          "category": "Cómo funciona la colección",
+          "description": "Los jugadores coleccionan Anima, forman vínculos y desbloquean habilidades conectadas a los conceptos que cada Anima encarna. Los Anima afectan tanto a las Nexus Battles como a la exploración, por lo que el progreso de la colección está ligado directamente a la jugabilidad."
+        }
+      ]
+    },
+    "honkaiNexusAnimaTierList": {
+      "title": "Cuadrícula de prioridad de roles de Honkai Nexus Anima",
+      "intro": "Los equipos de Honkai: Nexus Anima se construyen en torno a los compañeros Anima, los temas de Aspect y las Nexus Battles estilo auto-battler. Usa esta cuadrícula para entender qué Anima revelados encajan en la presión de vanguardia, la utilidad de retaguardia, la colección centrada en vínculos y el aprendizaje de evolución.",
+      "tiers": [
+        {
+          "tier": "Roles de batalla principales",
+          "summary": "Mejores opciones para explicar la estructura básica del equipo y el posicionamiento en las Nexus Battles.",
+          "entries": [
+            {
+              "name": "Fyrklor",
+              "role": "Protector de vanguardia",
+              "aspect": "Fuerza",
+              "description": "Un Anima que blande un espadón, diseñado para la fuerza y la protección.",
+              "teamFit": "Colócalo al frente para crear espacio para Anima de ataque a distancia, utilidad o centrados en el vínculo detrás de él."
+            },
+            {
+              "name": "Scorscythe",
+              "role": "Presión cuerpo a cuerpo",
+              "aspect": "Guerra",
+              "description": "Un Anima con cola de cuchilla vinculado al Aspecto de la Guerra.",
+              "teamFit": "Úsalo en formaciones agresivas que necesiten una amenaza de batalla directa."
+            }
+          ]
+        },
+        {
+          "tier": "Roles de utilidad destacados",
+          "summary": "Anima que funcionan bien para explicar el comportamiento de los compañeros, la identidad visual y la variedad de roles.",
+          "entries": [
+            {
+              "name": "Umpurrella",
+              "role": "Utilidad de compañero",
+              "aspect": "Anima destacados",
+              "description": "Un Anima similar a una sombrilla que aparece en el avance de Watersong y en los adelantos de la marca de la ciudad.",
+              "teamFit": "Úsala como una carta de Anima reconocible para los jugadores que están aprendiendo sobre la identidad de los compañeros y la utilidad temática."
+            },
+            {
+              "name": "Camcorgi",
+              "role": "Compañero de exploración",
+              "aspect": "Memoria",
+              "description": "Un Anima canino asociado con capturar la vida a través de su lente.",
+              "teamFit": "Úsalo para notas de equipo centradas en la exploración, la memoria, las fotos y los compañeros."
+            }
+          ]
+        },
+        {
+          "tier": "Roles de colección y vínculo",
+          "summary": "Excelentes opciones para cartas de colección para principiantes porque sus temas son fáciles de entender.",
+          "entries": [
+            {
+              "name": "Vulberry",
+              "role": "Compañero de vínculo con temática de comida",
+              "aspect": "Saciedad",
+              "description": "Un Anima con temática de nata y fresa con una variante Chromatic mostrada en las actualizaciones oficiales.",
+              "teamFit": "Úsalo para explicaciones sobre la colección, la personalidad y las variantes raras."
+            },
+            {
+              "name": "Hoggit",
+              "role": "Compañero de confort",
+              "aspect": "Saciedad",
+              "description": "Un Anima lechón con aroma a tarta de manzana y una personalidad relajada y amante de la comida.",
+              "teamFit": "Úsalo en cartas para principiantes que expliquen la personalidad de los Anima y el atractivo de los vínculos."
+            },
+            {
+              "name": "Dragamour",
+              "role": "Compañero con temática de vínculo",
+              "aspect": "Amor",
+              "description": "Un Anima del Aspecto del Amor vinculado a leyendas y encuentros emocionales.",
+              "teamFit": "Úsalo en ejemplos de equipo relacionados con el trasfondo, los vínculos y las relaciones entre compañeros."
+            }
+          ]
+        },
+        {
+          "tier": "Roles de crecimiento y progresión",
+          "summary": "Las mejores opciones para explicar la evolución, el crecimiento y el desarrollo de los Anima a largo plazo.",
+          "entries": [
+            {
+              "name": "Línea de Inkifoal",
+              "role": "Ejemplo de progresión",
+              "aspect": "Exhibición de evolución",
+              "description": "Una línea evolutiva de Anima de tres etapas (de Inkifoal a Inkicorn y luego a Atragasus) mostrada en las actualizaciones de la Evolution Test.",
+              "teamFit": "Úsalo para enseñar a los jugadores que el crecimiento de los Anima puede cambiar su forma y fortalecer su identidad con el tiempo."
+            },
+            {
+              "name": "Moneytree",
+              "role": "Anima con temática de progresión",
+              "aspect": "Prosperidad",
+              "description": "Un Anima del Aspecto de Prosperidad vinculado a la imaginería de la riqueza y el crecimiento.",
+              "teamFit": "Úsalo en tarjetas de interfaz de usuario con temática de recursos, progresión y colección."
+            }
+          ]
+        }
+      ]
+    },
+    "honkaiNexusAnimaBattleSystem": {
+      "title": "Sistema de batalla y estrategia de Honkai Nexus Anima",
+      "intro": "Honkai: Nexus Anima utiliza una jugabilidad de estrategia y aventura de recolección de criaturas con combates al estilo auto-battler. Los jugadores coleccionan y entrenan Anima, los llevan a Nexus Battles y utilizan la planificación de equipos basada en Aspectos para crear diferentes configuraciones tácticas.",
+      "faqs": [
+        {
+          "question": "¿Qué tipo de sistema de batalla utiliza Honkai Nexus Anima?",
+          "answer": "Honkai: Nexus Anima utiliza un combate de estrategia y aventura centrado en los compañeros Anima. Las imágenes oficiales del juego muestran batallas estilo arena donde los Anima luchan de forma semiautónoma, lo que hace que la configuración del equipo y el equilibrio de roles sean más importantes que los comandos manuales turno por turno.",
+          "keyPoints": [
+            "Juego de estrategia y aventura de recolección de criaturas",
+            "Nexus Battles al estilo arena",
+            "Comportamiento de los Anima al estilo auto-battler",
+            "Planificación del equipo antes y durante el combate"
+          ]
+        },
+        {
+          "question": "¿Cómo deberían pensar los principiantes en los roles de equipo de Honkai Nexus Anima?",
+          "answer": "Comienza con una estructura de equipo simple: un Anima de presión en la línea delantera, un Anima de daño o utilidad, y un Anima con temática de vínculo o apoyo. Esto hace que cada ranura sea fácil de entender, al tiempo que deja espacio para la sinergia de Aspectos a medida que se revelen más Anima.",
+          "keyPoints": [
+            "Los Anima de la línea delantera crean espacio",
+            "Los Anima de daño presionan a los enemigos",
+            "Los Anima de utilidad añaden valor de control, apoyo o exploración",
+            "La identidad de los Aspectos ayuda a definir el estilo del equipo"
+          ]
+        },
+        {
+          "question": "¿Qué hace que la sinergia de Aspectos sea importante en Honkai Nexus Anima?",
+          "answer": "Nexus se refiere a los vínculos entre Aspectos emparejados como Amor y Odio, Luz y Oscuridad, y Realidad e Ilusión. Los Anima portan el poder remanente de los Aspectos, por lo que la creación de equipos debe agrupar a los compañeros por rol, temática y uso táctico, en lugar de solo por su apariencia.",
+          "keyPoints": [
+            "Los Aspectos dan forma a las tácticas de batalla",
+            "La identidad de los Anima afecta la planificación del equipo",
+            "Empareja la cobertura de roles con la cobertura de Aspectos",
+            "Usa las líneas evolutivas para planificar el crecimiento a largo plazo"
+          ]
+        },
+        {
+          "question": "¿Cómo se conecta la exploración con el combate de Honkai Nexus Anima?",
+          "answer": "Los Anima no son solo unidades de batalla; también viajan con el jugador a través de ciudades, planos y áreas de desafío. La evolución, el nombramiento, los momentos fotográficos y la colección de Chromatic Anima apoyan el ciclo general de vinculación con los compañeros antes de llevarlos a las Nexus Battles.",
+          "keyPoints": [
+            "Explora con compañeros Anima",
+            "Crea vínculos y nombra a tus compañeros",
+            "Busca Chromatic Anima raros",
+            "Lleva a los Anima vinculados a las Nexus Battles"
+          ]
+        },
+        {
+          "question": "¿Cuál es la estrategia inicial más simple en Honkai Nexus Anima?",
+          "answer": "Construye alrededor de un Anima ancla claro, luego añade compañeros que cubran sus debilidades. Un Anima de estilo Fuerza en la línea delantera funciona mejor cuando se empareja con compañeros de utilidad o de la línea trasera más seguros, mientras que los Anima con temática de comida o de vínculo se utilizan mejor para explicar los objetivos de colección y personalidad.",
+          "keyPoints": [
+            "Elige un ancla primero",
+            "Añade cobertura de roles en segundo lugar",
+            "No acumules solo un rol",
+            "Usa una lógica de posicionamiento simple antes de la sinergia avanzada"
+          ]
+        }
+      ]
+    },
+    "honkaiNexusAnimaCharacters": {
+      "title": "Guía de personajes e historia de Honkai Nexus Anima",
+      "intro": "La historia sigue a un viajero interdimensional que escapa del cautiverio y comienza un viaje desde Iia, un pueblo tranquilo en el Reality Plane. A medida que el jugador explora diferentes Planes, crea vínculos con Anima, descubre verdades ocultas y conoce a personajes conectados con el Nexus Hall, el True Nexus Building y las facciones principales de Iia.",
+      "cards": [
+        {
+          "name": "El Viajero",
+          "category": "Rol principal",
+          "tag": "Personaje del jugador",
+          "description": "El personaje del jugador es un viajero interdimensional que escapó del cautiverio y comienza el viaje del Evolution Test desde Iia en el Reality Plane.",
+          "hook": "Su pasado está ligado a las verdades ocultas por todo el mundo y a los vínculos rotos del Nexus."
+        },
+        {
+          "name": "Nanafey",
+          "category": "Personaje revelado",
+          "tag": "Teaser de personaje",
+          "description": "Nanafey aparece en el Teaser de personaje: The Wonder Girl Next Door y es uno de los personajes con nombre que se cruzan con el viajero durante el Evolution Test.",
+          "hook": "Su frase del teaser se centra en la curiosidad por el mundo más allá del pueblo, lo que la convierte en una carta de historia inicial muy fuerte."
+        },
+        {
+          "name": "Bai Mei",
+          "category": "Personaje revelado",
+          "tag": "Personaje de la historia",
+          "description": "Bai Mei figura entre los nuevos personajes que conocen al viajero a medida que el Evolution Test expande la historia y la ruta de exploración.",
+          "hook": "Usa a Bai Mei como una carta de personaje para nuevos encuentros de la historia y actualizaciones relacionadas con las facciones."
+        },
+        {
+          "name": "Olympia",
+          "category": "Personaje de facción",
+          "tag": "True Nexus Syndicate",
+          "description": "Olympia está vinculada al True Nexus Syndicate y aparece como una figura de Directora Interina en las actualizaciones de la historia de Iia.",
+          "hook": "Su papel le da a la historia un conflicto de facciones más marcado sobre cómo deberían relacionarse los humanos y los Anima."
+        },
+        {
+          "name": "Herocrates",
+          "category": "Personaje de facción",
+          "tag": "Nexus Association",
+          "description": "Herocrates está conectado con la Nexus Association, un grupo centrado en la coexistencia con los Anima y las actividades de rescate.",
+          "hook": "Usa esta carta para explicar el Nexus Hall y el lado más pacífico de las relaciones entre humanos y Anima."
+        },
+        {
+          "name": "Fleming Collective",
+          "category": "Facción",
+          "tag": "Facción de la ciudad",
+          "description": "El Fleming Collective es una facción comercial conectada con la Fleming Tower y el lado empresarial de la ciudad.",
+          "hook": "Esta facción añade poder corporativo, hitos urbanos y textura política a Iia."
+        },
+        {
+          "name": "True Nexus Syndicate",
+          "category": "Facción",
+          "tag": "Facción de conflicto",
+          "description": "El True Nexus Syndicate se presenta como una facción más contundente que cree que los Nexus Anima deberían trabajar para los humanos.",
+          "hook": "Usa esta carta de facción para ganchos de historia de conflicto, autoridad y estilo de los bajos fondos."
+        },
+        {
+          "name": "Iia",
+          "category": "Ubicación",
+          "tag": "Ciudad inicial",
+          "description": "Iia es la ciudad inicial en el Plano de la Realidad, con el New Quarter, espacios comerciales, monumentos arquitectónicos, el Nexus Hall y el True Nexus Building.",
+          "hook": "Iia funciona como la tarjeta de ubicación principal de la página de inicio porque conecta la exploración, las facciones, los personajes y la vida de los Anima."
+        }
+      ]
+    },
+    "honkaiNexusAnimaLatestNews": {
+      "title": "Últimas noticias y tráileres de Honkai Nexus Anima",
+      "intro": "Las actualizaciones de Honkai: Nexus Anima se publican a través del sitio web oficial, HoYoLAB, X y YouTube. Este canal recopila los hitos oficiales más importantes, incluyendo el reclutamiento para el Evolution Test, demostraciones de juego, avances de personajes, publicaciones de Anidex, revelaciones de facciones y actualizaciones de desarrollo de DevTalk.",
+      "items": [
+        {
+          "date": "2026-07-09",
+          "type": "Avance de personaje",
+          "title": "Nanafey - La chica maravilla de al lado",
+          "summary": "El avance de personaje de Nanafey se lanzó al comenzar el Evolution Test, ofreciendo a los jugadores una mirada detallada a uno de los personajes de la historia recientemente destacados.",
+          "link": "https://www.hoyolab.com/article/45785741",
+          "tag": "Último avance de personaje"
+        },
+        {
+          "date": "2026-07-09",
+          "type": "Hito de la prueba",
+          "title": "Comienza el Evolution Test",
+          "summary": "El Evolution Test comienza en PC, iOS y Android como una beta cerrada gratuita y limitada, con el borrado de los datos de la cuenta tras finalizar la prueba.",
+          "link": "https://hna.hoyoverse.com/",
+          "tag": "Beta cerrada"
+        },
+        {
+          "date": "2026-06-24",
+          "type": "Anima y facciones",
+          "title": "Vulberry, evolución de Inkifoal y las facciones de Iia",
+          "summary": "Las actualizaciones oficiales presentaron a Vulberry, destacaron la línea evolutiva de Inkifoal y describieron facciones como el Fleming Collective, la Nexus Association y el True Nexus Syndicate.",
+          "link": "https://x.com/HonkaiNA",
+          "tag": "Actualización de Anima"
+        },
+        {
+          "date": "2026-06-21",
+          "type": "Vídeo de jugabilidad",
+          "title": "Demostración de jugabilidad del Evolution Test",
+          "summary": "La demostración de jugabilidad presenta la versión ampliada del Evolution Test, incluyendo imágenes de Nexus Battles, exploración, compañeros Anima y nuevos sistemas de juego.",
+          "link": "https://www.youtube.com/watch?v=1Em1aoE1TMQ",
+          "tag": "Demostración de jugabilidad"
+        },
+        {
+          "date": "2026-06-21",
+          "type": "Tráiler",
+          "title": "Avance de Evolution - Hasta que nos encontremos",
+          "summary": "El avance de Evolution prepara el terreno para la gran aventura, los vínculos Anima y el viaje del jugador a través de los planos antes del Evolution Test de julio.",
+          "link": "https://www.youtube.com/watch?v=79czQSqYqnc",
+          "tag": "Avance oficial"
+        },
+        {
+          "date": "2026-02-26",
+          "type": "DevTalk",
+          "title": "Fase II - Entornos y nuevos Anima",
+          "summary": "El DevTalk presentó a Fyrklor y Hoggit, mostró mejoras en los entornos de Iia y ofreció un adelanto de un nuevo distrito de rascacielos conectado con Umpurrella.",
+          "link": "https://www.hoyolab.com/article/43957101",
+          "tag": "Charla con los desarrolladores"
+        },
+        {
+          "date": "2025-09-18",
+          "type": "Teaser de Nexusbound",
+          "title": "Watersong: Un mar de flores",
+          "summary": "El teaser centrado en Umpurrella mostró una historia más tierna de los compañeros Anima y ayudó a establecer el tono visual del juego centrado en los vínculos.",
+          "link": "https://www.hoyolab.com/article/41195632",
+          "tag": "Teaser de Anima"
+        },
+        {
+          "date": "2025-09-18",
+          "type": "Enlaces de redes sociales",
+          "title": "Resumen oficial de redes sociales",
+          "summary": "HoYoLAB ha recopilado los canales oficiales de redes sociales para los jugadores que quieran las últimas actualizaciones del juego, videos, beneficios y anuncios.",
+          "link": "https://www.hoyolab.com/circles/9/90002/official",
+          "tag": "Enlaces oficiales"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Honkai Nexus Anima",
+    "questions": [
+      {
+        "question": "¿Qué es Honkai Nexus Anima?",
+        "answer": "Honkai Nexus Anima es el juego de estrategia y aventura de recolección de criaturas de HoYoverse de la serie Honkai. Los jugadores coleccionan compañeros Anima, forjan vínculos, exploran los Planos y usan las habilidades de los Anima en las Nexus Battles."
+      },
+      {
+        "question": "¿Cuándo se llevará a cabo el Evolution Test de Honkai Nexus Anima?",
+        "answer": "El Evolution Test de Honkai Nexus Anima se llevará a cabo del 9 al 27 de julio de 2026 (UTC+8) como una beta cerrada gratuita en PC, iOS y Android; los datos de la cuenta se borrarán al finalizar la prueba."
+      },
+      {
+        "question": "¿En qué plataformas está disponible Honkai Nexus Anima?",
+        "answer": "Durante el Evolution Test, Honkai Nexus Anima está disponible en PC, iOS y Android. El lanzamiento oficial también se centrará en plataformas de PC y móviles."
+      },
+      {
+        "question": "¿Qué son los Anima en Honkai Nexus Anima?",
+        "answer": "Los Anima son los compañeros coleccionables centrales de Honkai Nexus Anima. Cada Anima posee el poder remanente de un vínculo Nexus entre Aspectos emparejados y pueden usarse tanto en la exploración como en las Nexus Battles."
+      },
+      {
+        "question": "¿Cómo obtengo acceso a la beta de Honkai Nexus Anima?",
+        "answer": "Para acceder al Evolution Test de Honkai Nexus Anima, inicia sesión en el sitio oficial con una cuenta de HoYoverse, completa el prerregistro y envía el cuestionario de reclutamiento durante el periodo de selección."
+      },
+      {
+        "question": "¿Es Honkai Nexus Anima gratuito?",
+        "answer": "El Evolution Test de Honkai Nexus Anima es una beta cerrada gratuita. El precio del lanzamiento oficial y la monetización aún no se han anunciado."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para explorar Honkai Nexus Anima?",
+    "description": "¡Únete a la comunidad de Honkai Nexus Anima en Discord para ver guías, actualizaciones y debates!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Visitar el sitio oficial"
+  },
+  "footer": {
+    "title": "Wiki de Honkai Nexus Anima",
+    "description": "Tu centro de recursos completo para los compañeros Anima, códigos, personajes y guías de estrategia de Honkai Nexus Anima.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Honkai Nexus Anima Wiki. No afiliado con HoYoverse.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Fecha de lanzamiento y plataformas de Honkai Nexus Anima",
+      "description": "Sigue la fecha de lanzamiento de Honkai Nexus Anima, el calendario de la Evolution Test, las plataformas compatibles y el estado del prerregistro mientras el juego avanza hacia su lanzamiento oficial.",
+      "metaTitle": "Fecha de lanzamiento de Honkai Nexus Anima - Evolution Test y plataformas",
+      "metaDescription": "Fecha de lanzamiento de Honkai Nexus Anima, calendario de la beta Evolution Test y plataformas compatibles (PC, iOS y Android). Sigue el cronograma del lanzamiento oficial y el estado del prerregistro.",
+      "categoryLabel": "INFORMACIÓN DE LANZAMIENTO",
+      "whatIs": "¿Qué es la sección de Lanzamiento?",
+      "whatIsDescription": "La sección de Lanzamiento reúne la información del cronograma que los jugadores buscan primero: si Honkai Nexus Anima ya está disponible, cuándo se realiza la Evolution Test actual, qué plataformas son compatibles y cómo encaja el prerregistro en la hoja de ruta del lanzamiento oficial.",
+      "why": "¿Por qué seguir la información de lanzamiento?",
+      "whySteps": {
+        "step1Title": "Conoce el periodo de prueba",
+        "step1Description": "La Evolution Test se llevará a cabo del 9 al 27 de julio de 2026 (UTC+8) como una beta cerrada gratuita, por lo que el momento de tu acceso es importante.",
+        "step2Title": "Elige tu plataforma",
+        "step2Description": "Confirma si tu PC o dispositivo iOS o Android es compatible antes de que comience la prueba o el lanzamiento oficial.",
+        "step3Title": "Planifica para el lanzamiento oficial",
+        "step3Description": "Sigue el prerregistro y los hitos oficiales para unirte al lanzamiento público en cuanto esté disponible."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de lanzamiento"
+    },
+    "beta": {
+      "title": "Evolution Test y acceso a la beta de Honkai Nexus Anima",
+      "description": "Únete a la Evolution Test de Honkai Nexus Anima con pasos claros para el prerregistro, el reclutamiento, la selección de probadores y el acceso a la beta cerrada en PC, iOS y Android.",
+      "metaTitle": "Beta de Honkai Nexus Anima - Acceso y reclutamiento para la Evolution Test",
+      "metaDescription": "Aprende cómo unirte a la beta cerrada de la Evolution Test de Honkai Nexus Anima. Sigue los pasos de prerregistro, reclutamiento y selección de probadores para acceder en PC, iOS y Android.",
+      "categoryLabel": "BETA Y PRUEBAS",
+      "whatIs": "¿Qué es la sección Beta?",
+      "whatIsDescription": "La sección Beta explica el flujo oficial de la Evolution Test de Honkai Nexus Anima, cubriendo el periodo de reclutamiento, la selección de probadores, las plataformas compatibles y las reglas de eliminación de datos para que sepas exactamente cómo funciona el acceso.",
+      "why": "¿Por qué leer las guías de la beta?",
+      "whySteps": {
+        "step1Title": "Completa el prerregistro",
+        "step1Description": "Vincula tu cuenta de HoYoverse mediante el prerregistro para entrar en el grupo de selección de probadores.",
+        "step2Title": "Envía tu reclutamiento",
+        "step2Description": "Completa el cuestionario de reclutamiento durante el periodo de selección con datos de contacto precisos.",
+        "step3Title": "Obtén acceso como probador",
+        "step3Description": "Mantente atento a las notificaciones para probadores a partir del 8 de julio de 2026 y juega la beta cerrada en dispositivos compatibles."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de la beta"
+    },
+    "download": {
+      "title": "Descarga e instalación de Honkai Nexus Anima",
+      "description": "Descarga e instala Honkai Nexus Anima en PC, iOS y Android, con pasos de prerregistro, registro, APK y configuración de plataforma para el Evolution Test y más allá.",
+      "metaTitle": "Descarga de Honkai Nexus Anima - Instalación en PC, iOS y Android",
+      "metaDescription": "Descarga Honkai Nexus Anima en PC, iOS y Android. Encuentra los pasos de prerregistro, registro, APK e instalación para el Evolution Test y el lanzamiento oficial.",
+      "categoryLabel": "DESCARGAR E INSTALAR",
+      "whatIs": "¿Qué es la sección de Descargas?",
+      "whatIsDescription": "La sección de Descargas te guía para obtener Honkai Nexus Anima en tu dispositivo, incluyendo el prerregistro, el flujo oficial de registro, opciones de instalación por APK y tiendas, y la configuración específica para PC, iOS y Android.",
+      "why": "¿Por qué consultar las guías de descarga?",
+      "whySteps": {
+        "step1Title": "Prerregístrate pronto",
+        "step1Description": "Regístrate a través de los canales oficiales para asegurar tu acceso y beneficios del día de lanzamiento.",
+        "step2Title": "Instala en tu plataforma",
+        "step2Description": "Sigue la ruta correcta para PC, App Store de iOS o APK de Android para una instalación limpia.",
+        "step3Title": "Configura tu cuenta",
+        "step3Description": "Conecta tu cuenta de HoYoverse para que el progreso y el acceso a las pruebas se transfieran sin problemas."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de descarga"
+    },
+    "guide": {
+      "title": "Guía para principiantes de Honkai Nexus Anima y cómo jugar",
+      "description": "Empieza con fuerza en Honkai Nexus Anima con guías para principiantes que cubren cómo jugar, sistemas principales, vínculos con Anima, exploración y qué tipo de juego es.",
+      "metaTitle": "Guía para principiantes de Honkai Nexus Anima - Cómo jugar y conceptos básicos",
+      "metaDescription": "Guía para principiantes de Honkai Nexus Anima: aprende a jugar, entiende los vínculos de Anima y las Nexus Battles, explora el mundo y domina los sistemas principales desde tu primera sesión.",
+      "categoryLabel": "GUÍAS Y CÓMO JUGAR",
+      "whatIs": "¿Qué es la sección de Guías?",
+      "whatIsDescription": "La sección de Guías detalla el funcionamiento de Honkai Nexus Anima para nuevos jugadores, desde el viaje inicial y la colección de Anima hasta la creación de vínculos, la exploración y los primeros pasos en las Nexus Battles.",
+      "why": "¿Por qué leer guías para principiantes?",
+      "whySteps": {
+        "step1Title": "Entiende el ciclo de juego principal",
+        "step1Description": "Aprende cómo la exploración, la recolección de Anima y los vínculos influyen en tu progresión.",
+        "step2Title": "Evita errores iniciales",
+        "step2Description": "Sigue los primeros pasos recomendados para no desperdiciar recursos ni pasar por alto sistemas clave.",
+        "step3Title": "Construye una base sólida",
+        "step3Description": "Configura tu equipo y vínculos correctamente antes de pasar a las Nexus Battles avanzadas."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías"
+    },
+    "gameplay": {
+      "title": "Jugabilidad y sistemas de batalla de Honkai Nexus Anima",
+      "description": "Domina la jugabilidad de Honkai Nexus Anima: combate en Nexus Battles, estrategia de auto-battler, PvP, gacha y comparaciones con juegos de colección de criaturas y auto-chess.",
+      "metaTitle": "Jugabilidad de Honkai Nexus Anima - Combate, Nexus Battles y estrategia",
+      "metaDescription": "Análisis profundo de la jugabilidad de Honkai Nexus Anima: combate en Nexus Battles, estrategia de auto-battler, PvP, tiradas de gacha y comparaciones con juegos de colección de criaturas y auto-chess.",
+      "categoryLabel": "JUGABILIDAD Y COMBATE",
+      "whatIs": "¿Qué es la sección de Jugabilidad?",
+      "whatIsDescription": "La sección de Jugabilidad explica cómo se juega realmente a Honkai Nexus Anima, incluyendo las Nexus Battles estilo auto-battler, el posicionamiento del equipo, la sinergia de Aspectos, el PvP, el sistema gacha y su relación con juegos similares.",
+      "why": "¿Por qué estudiar la jugabilidad?",
+      "whySteps": {
+        "step1Title": "Aprende sobre las Nexus Battles",
+        "step1Description": "Entiende el combate estilo arena donde los Anima luchan de forma semiautónoma según tu configuración.",
+        "step2Title": "Crea equipos más inteligentes",
+        "step2Description": "Combina los roles de los Anima y los temas de sus Aspectos para crear alineaciones tácticas más fuertes.",
+        "step3Title": "Compara y adáptate",
+        "step3Description": "Descubre cómo se compara el juego con los títulos de recolección de criaturas y auto-chess que ya conoces."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de jugabilidad"
+    },
+    "characters": {
+      "title": "Personajes e historia de Honkai Nexus Anima",
+      "description": "Conoce al elenco de Honkai Nexus Anima, incluidos el viajero, Nanafey, Bai Mei y las facciones que dan forma a la historia a través del Plano de la Realidad y los Planos.",
+      "metaTitle": "Personajes de Honkai Nexus Anima: elenco, facciones e historia",
+      "metaDescription": "Explora los personajes y la historia de Honkai Nexus Anima: el viajero, Nanafey, Bai Mei y facciones clave como la Nexus Association y el True Nexus Syndicate a través de los Planos.",
+      "categoryLabel": "PERSONAJES E HISTORIA",
+      "whatIs": "¿Qué es la sección de Personajes?",
+      "whatIsDescription": "La sección de Personajes presenta al elenco humano de Honkai Nexus Anima, sus roles en la historia y las facciones que impulsan el conflicto, desde la ciudad inicial de Iia hasta los Planos más lejanos.",
+      "why": "¿Por qué leer guías de personajes?",
+      "whySteps": {
+        "step1Title": "Conoce al elenco",
+        "step1Description": "Descubre quiénes son el viajero, Nanafey, Bai Mei y otros personajes con nombre.",
+        "step2Title": "Entiende las facciones",
+        "step2Description": "Mira cómo la Nexus Association, el True Nexus Syndicate y las facciones de la ciudad dan forma a la historia.",
+        "step3Title": "Sigue la historia",
+        "step3Description": "Sigue los arcos de los personajes y los conflictos de las facciones a medida que la Evolution Test expande la narrativa."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de personajes"
+    },
+    "anima": {
+      "title": "Lista y colección de Anima de Honkai Nexus Anima",
+      "description": "Explora la lista de Anima de Honkai Nexus Anima con los compañeros revelados, sus Aspectos y Rasgos, líneas de evolución, variantes Cromáticas y cómo funciona la colección.",
+      "metaTitle": "Lista de Anima de Honkai Nexus Anima: compañeros, Aspectos y evolución",
+      "metaDescription": "Lista de Anima y guía de colección de Honkai Nexus Anima: compañeros revelados, Aspectos, Rasgos, líneas de evolución y variantes Cromáticas raras para armar tu equipo.",
+      "categoryLabel": "LISTA DE ANIMA",
+      "whatIs": "¿Qué es la sección de Anima?",
+      "whatIsDescription": "La sección de Anima es tu base de datos de compañeros para Honkai Nexus Anima, que cubre los Anima revelados, sus temas de Aspecto y Rasgos, líneas de evolución, variantes raras Cromáticas y cómo el sistema de colección influye en el combate y la exploración.",
+      "why": "¿Por qué coleccionar Anima?",
+      "whySteps": {
+        "step1Title": "Crea un equipo versátil",
+        "step1Description": "Colecciona Anima de diferentes Aspectos para poder cubrir más roles de batalla.",
+        "step2Title": "Desbloquea habilidades de vínculo",
+        "step2Description": "Forma vínculos con los Anima para desbloquear habilidades ligadas a los conceptos que representan.",
+        "step3Title": "Busca variantes raras",
+        "step3Description": "Rastrea los Anima Cromáticos y sus líneas de evolución para completar tu colección."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de Anima"
+    }
   }
 }

@@ -1,11 +1,746 @@
 {
+  "seo": {
+    "home": {
+      "title": "Honkai Nexus Anima - コード、Anima＆ベータガイド",
+      "description": "Honkai Nexus Anima Wikiでは、HoYoverseのクリーチャー収集ストラテジーRPGにおけるanima companions、コード、キャラクター、ティアリスト、およびEvolution Testベータ情報を取り扱っています。",
+      "keywords": "Honkai Nexus Anima, Honkai Nexus Anima wiki, anima, コード, キャラクター, ティアリスト, Evolution Test, ベータ, HoYoverse",
+      "ogTitle": "Honkai Nexus Anima - コード、Anima＆ベータガイド",
+      "ogDescription": "Honkai Nexus Anima Wikiでは、HoYoverseのクリーチャー収集ストラテジーRPGにおけるanima companions、コード、キャラクター、ティアリスト、およびEvolution Testベータ情報を取り扱っています。",
+      "twitterTitle": "Honkai Nexus Anima - コード、Anima＆ベータガイド",
+      "twitterDescription": "Honkai Nexus Anima Wikiでは、HoYoverseのクリーチャー収集ストラテジーRPGにおけるanima companions、コード、キャラクター、ティアリスト、およびEvolution Testベータ情報を取り扱っています。"
+    }
+  },
   "nav": {
-    "release": "Release",
-    "beta": "Beta",
-    "download": "Download",
-    "guide": "Guide",
-    "gameplay": "Gameplay",
-    "characters": "Characters",
+    "release": "リリース",
+    "beta": "ベータ",
+    "download": "ダウンロード",
+    "guide": "ガイド",
+    "gameplay": "ゲームプレイ",
+    "characters": "キャラクター",
     "anima": "Anima"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語の切り替え",
+    "switchTheme": "テーマの切り替え",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定です"
+  },
+  "hero": {
+    "badge": "Evolution Test 開催中",
+    "title": "Honkai Nexus Anima Wiki",
+    "description": "Honkai Nexus Animaのanima companions、コード、キャラクター、攻略ガイドのハブサイトです。HoYoverseの新作クリーチャー収集アドベンチャーは、現在PC、iOS、AndroidでEvolution Testを実施しています。",
+    "getFreeCodesCTA": "コードを確認する",
+    "playOnRobloxCTA": "公式サイトを訪問する",
+    "stats": {
+      "stat1": {
+        "value": "2026年7月9日～27日",
+        "label": "Evolution Test"
+      },
+      "stat2": {
+        "value": "PC, iOS, Android",
+        "label": "テストプラットフォーム"
+      },
+      "stat3": {
+        "value": "後日発表",
+        "label": "リリース日"
+      },
+      "stat4": {
+        "value": "無料クローズドベータ",
+        "label": "現在のステータス"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Honkai Nexus Anima ゲームプレイ",
+    "description": "HoYoverseが贈るクリーチャー収集アドベンチャー戦略RPGで、Animaを仲間にし、絆を深め、Planesを探索し、Nexus Battlesで指揮を執ろう。"
+  },
+  "tools": {
+    "title": "Honkai Nexus Anima",
+    "titleHighlight": "リソース",
+    "subtitle": "Evolution Test、Anima収集、キャラクター、Nexus Battlesに関する全情報",
+    "cards": [
+      {
+        "icon": "カレンダー",
+        "title": "リリース日と対応プラットフォーム",
+        "description": "テスト状況、プラットフォーム、正式リリース情報"
+      },
+      {
+        "icon": "フラスコ",
+        "title": "Evolution Testと事前登録",
+        "description": "ベータアクセス、募集、テスター選定"
+      },
+      {
+        "icon": "ブック",
+        "title": "初心者ガイド",
+        "description": "Anima、探索、絆、Nexus Battlesの基礎"
+      },
+      {
+        "icon": "足跡",
+        "title": "Anima一覧とコレクション",
+        "description": "公開済みのAnima、テーマ、収集の仕組み"
+      },
+      {
+        "icon": "トロフィー",
+        "title": "最強ランキングとチーム内役割",
+        "description": "Animaの役割、Aspects、チーム編成"
+      },
+      {
+        "icon": "ソード",
+        "title": "バトルシステムと戦略",
+        "description": "Nexus Battles、チーム編成、戦闘タクティクス"
+      },
+      {
+        "icon": "ユーザー",
+        "title": "キャラクターとストーリー",
+        "description": "公開済みのキャラクター、陣営、ストーリー設定"
+      },
+      {
+        "icon": "ニュース",
+        "title": "最新ニュースとトレーラー",
+        "description": "テストアップデート、DevTalk、トレーラー"
+      }
+    ]
+  },
+  "modules": {
+    "honkaiNexusAnimaReleaseDate": {
+      "title": "Honkai Nexus Anima リリース日、テスト状況、対応プラットフォーム",
+      "intro": "このセクションでは、ゲームの配信状況、対応プラットフォーム、現在のクローズドテストの仕組み、そしてHonkaiシリーズにおけるHonkai Nexus Animaの位置付けなど、プレイヤーがまず必要とする実用的なリリース情報を提供します。",
+      "rows": [
+        {
+          "topic": "正式リリース日",
+          "status": "後日発表",
+          "details": "正式なサービス開始日はまだ公開されていません。現在確定している最新のマイルストーンは、2026年7月9日（UTC+8）に開始されるEvolution Testです。"
+        },
+        {
+          "topic": "現在のゲーム状況",
+          "status": "クローズドベータテスト実施中",
+          "details": "Honkai Nexus Animaは限定テスト段階にあります。Evolution Testは無料のクローズドベータテストであり、テスト終了後にアカウントデータは削除されます。"
+        },
+        {
+          "topic": "Evolution Test 対応プラットフォーム",
+          "status": "PC、iOS、Android",
+          "details": "Evolution Testは、PCおよびiOS、Androidを含むモバイルデバイスでプレイ可能です。"
+        },
+        {
+          "topic": "正式リリースプラットフォーム",
+          "status": "PCおよびモバイル向け",
+          "details": "公式およびプレス資料では、本作はPCおよびモバイル向けプレイを想定して位置づけられています。正式リリース用のストアダウンロードページは、まだ主な配信チャンネルではありません。"
+        },
+        {
+          "topic": "ゲームジャンル",
+          "status": "クリーチャー収集アドベンチャーストラテジー",
+          "details": "プレイヤーは Anima の仲間を集め、絆を深め、オーバーワールドを探索し、Nexus Battles で Anima のアビリティを使用します。"
+        },
+        {
+          "topic": "Honkai シリーズにおける役割",
+          "status": "Honkai シリーズ新作",
+          "details": "Honkai: Nexus Anima は、Honkai Impact 3rd や Honkai: Star Rail とは異なる、クリーチャー収集と戦略性に焦点を当てた Honkai シリーズの新作です。"
+        }
+      ]
+    },
+    "honkaiNexusAnimaEvolutionTest": {
+      "title": "Honkai Nexus Anima Evolution Test の仕組み",
+      "intro": "正式リリース前、プレイヤーの主な関心はコードやリセマラではなく、ベータテストへのアクセスにあります。本ガイドでは、募集期間、テスター選考、プラットフォーム、データワイプ（データ消去）ルールを含む、公式の Evolution Test の流れを説明します。",
+      "steps": [
+        {
+          "title": "公式サイトを使用する",
+          "description": "登録やテストアクセス機能を利用する前に、Honkai: Nexus Anima の公式サイトにアクセスし、HoYoverse アカウントでサインインしてください。",
+          "status": "公式チャンネル"
+        },
+        {
+          "title": "事前登録を完了する",
+          "description": "事前登録を行うことで、HoYoverse アカウントがテストのアクセス権プロセスおよび公式の次回以降の通知と紐付けられます。",
+          "status": "選考に必要"
+        },
+        {
+          "title": "募集アンケートを提出する",
+          "description": "アンケートを完了したプレイヤーは、Evolution Test の選考対象となります。テストに関する通知は提出された情報に紐付けられるため、連絡先情報は慎重に入力してください。",
+          "status": "選考対象"
+        },
+        {
+          "title": "募集期間を確認する",
+          "description": "Evolution Test の募集期間は、2026年6月22日 12:00 から 2026年7月3日 23:59 (UTC+8) までです。",
+          "status": "重要な日程"
+        },
+        {
+          "title": "テスター通知を確認する",
+          "description": "テスターのアクセス権通知は2026年7月8日 (UTC+8) より開始されます。プレイヤーは公式チャンネルをフォローするか、公式サイトでアクセス権確認機能が利用可能になった際に確認できます。",
+          "status": "アクセス権結果"
+        },
+        {
+          "title": "対応テストプラットフォームでプレイする",
+          "description": "Evolution Test は2026年7月9日 (UTC+8) に開始され、PC、iOS、Android に対応しています。本テストは無料で参加人数限定のクローズドテストであり、データはワイプ（消去）されます。",
+          "status": "クローズドベータ"
+        }
+      ]
+    },
+    "honkaiNexusAnimaBeginnerGuide": {
+      "title": "Honkai Nexus Anima 初心者ガイド：プレイの始め方",
+      "intro": "この初心者ガイドでは、公式ゲームプレイにおける主要な流れを説明します：次元を旅する旅人としてスタートし、新しいエリアを探索し、Anima の仲間を集め、絆を深め、任務や Nexus Battles で Anima のアビリティを使用します。",
+      "steps": [
+        {
+          "title": "まずはメインストーリーを進める",
+          "description": "プレイヤーは次元を旅する旅人となり、その物語は静かな町から始まり、やがて新たな領域へと広がっていきます。メイン任務では、世界観、キャラクター、基本システムが順番に紹介されます。",
+          "tip": "高度なチーム編成を追求する前に、ストーリーの進行状況を利用してシステムを解放しましょう。"
+        },
+        {
+          "title": "Nexus と Anima の意味を学ぶ",
+          "description": "Nexus は、「愛と憎しみ」や「光と闇」といった対になる概念の間の絆を表します。それらの絆が砕け散ったとき、その残滓の力が Anima として現れます。",
+          "tip": "Anima は単に収集可能なクリーチャーとしてだけでなく、仲間としても、ゲームプレイを進める手段としても扱ってください。"
+        },
+        {
+          "title": "Anima の仲間を集める",
+          "description": "Anima は本作における中心的な仲間です。それぞれが異なる個性を持ち、探索と戦闘の双方で活躍します。",
+          "tip": "序盤はお気に入りの Anima 1体だけに集中するのではなく、柔軟なコレクションを構築しましょう。"
+        },
+        {
+          "title": "Animaとの絆を深める",
+          "description": "Animaと絆を築くことで、彼らが体現する概念に基づいたアビリティが解放されます。これらのアビリティは、プレイヤーの戦闘、探索、そして遭遇する課題の解決方法を変化させます。",
+          "tip": "フィールド探索とNexus Battleの両方で役立つAnimaを優先しましょう。"
+        },
+        {
+          "title": "Nexus Battleを理解する",
+          "description": "Nexus Battleでは、Animaがプレイヤーの傍に立ち、戦略的な戦闘をサポートします。Animaのアビリティを組み合わせることは、より強力な戦術を構築する鍵となります。",
+          "tip": "単なるステータスの高さだけでなく、アビリティの組み合わせに注目しましょう。"
+        },
+        {
+          "title": "公式動画でシステムを学ぶ",
+          "description": "公式のゲームプレイ紹介やティザー映像では、正式リリースに先駆け、探索、Anima、カスタマイズ、そして戦闘の流れが公開されています。",
+          "tip": "テストに参加する前にゲームプレイ紹介動画を視聴し、UIや戦闘の流れに慣れておきましょう。"
+        }
+      ]
+    },
+    "honkaiNexusAnimaAnimaList": {
+      "title": "Honkai Nexus Anima リスト：公開済みのAnimaとコレクションの基本",
+      "intro": "このコレクションガイドでは、公式に公開または紹介されたAnimaに焦点を当て、現在のトレーラーやDevTalkの投稿から判明している内容を解説します。Animaは独自のビジュアルテーマを持ち、ゲームの絆システムと密接に関わっており、戦闘とフィールド探索の両方に影響を与えます。",
+      "cards": [
+        {
+          "name": "Umpurrella",
+          "category": "公開済みのAnima",
+          "description": "公式のNexusboundティザー「Watersong: A Sea of Flowers」に登場する、猫のような傘の仲間。広範なAnimaコレクションシステムに関連する、絆を重視した仲間として紹介されています。"
+        },
+        {
+          "name": "Seroplumanth",
+          "category": "公開済みのAnima",
+          "description": "枯れた梅の枝から生まれ、舞い散る雪と梅の花に関連付けられたAnima。クリーチャーとしてのアイデンティティと概念的なテーマを融合させたAnimaのデザインを象徴しています。"
+        },
+        {
+          "name": "Cublade",
+          "category": "公開済みのAnima",
+          "description": "グッズ報酬を含む、公式イベントやテスト関連のプロモーション資料に登場する、小さな剣をテーマにしたクリーチャー。愛らしくも戦闘に長けたラインナップの一例です。"
+        },
+        {
+          "name": "Bobabirb",
+          "category": "公開済みのAnima",
+          "description": "飲食物をモチーフにした鳥のようなAnimaで、テスト期間前後に公開された新しいAnimaの一つ。ゲームの遊び心あふれるクリーチャー収集の雰囲気に合致しています。"
+        },
+        {
+          "name": "Foalhardy",
+          "category": "公開済みのAnima",
+          "description": "クローズドβテスト期間前後に公開された新しいAnimaの一つで、仔馬のようなデザインの仲間。動物をモチーフにした多様なラインナップを彩ります。"
+        },
+        {
+          "name": "Scorscythe",
+          "category": "公開済みのAnima",
+          "description": "サソリと大鎌をモチーフにしたデザインで、テスト期間前後に公開された最新のAnimaの一つ。ラインナップの中でも、より戦闘に特化した鋭い側面を象徴しています。"
+        },
+        {
+          "name": "Puddlipup",
+          "category": "公開済みのAnima",
+          "description": "プリンのような子犬のデザインで、初期のメディア報道において、ゲームのスタイルとコレクション性を定義づける幻想的なクリーチャーデザインの一つとして紹介されました。"
+        },
+        {
+          "name": "コレクションシステム",
+          "category": "コレクションの仕組み",
+          "description": "プレイヤーはAnimaを集めて絆を深め、各Animaが体現する概念に関連したアビリティを解放します。AnimaはNexus Battleと探索の両方に影響を与えるため、コレクションの進行がゲームプレイに直結します。"
+        }
+      ]
+    },
+    "honkaiNexusAnimaTierList": {
+      "title": "Honkai Nexus Anima ロール優先度グリッド",
+      "intro": "Honkai: Nexus Animaのチームは、Anima、Aspectテーマ、そしてオートバトラー形式のNexus Battleを中心に構成されます。このグリッドを活用して、公開されたAnimaが前線のプレッシャー、後方のユーティリティ、絆重視のコレクション、進化の学習のどこに適しているかを理解しましょう。",
+      "tiers": [
+        {
+          "tier": "戦闘の主要ロール",
+          "summary": "基本的なチーム構成とNexus Battleでの配置を説明するのに最適な選択肢。",
+          "entries": [
+            {
+              "name": "Fyrklor",
+              "role": "前衛の守護者",
+              "aspect": "力",
+              "description": "力と守護に特化した、大剣を振るうAnima。",
+              "teamFit": "前方に配置することで、後方の遠距離型、ユーティリティ型、または絆重視のAnimaのためのスペースを確保します。"
+            },
+            {
+              "name": "Scorscythe",
+              "role": "近接プレッシャー",
+              "aspect": "戦争",
+              "description": "戦争のアスペクトに関連する、刃の尾を持つAnima。",
+              "teamFit": "直接的な戦闘の脅威を必要とする、攻撃的な編成で使用します。"
+            }
+          ]
+        },
+        {
+          "tier": "注目のユーティリティロール",
+          "summary": "仲間の行動、ビジュアルアイデンティティ、ロールの多様性を説明するのに適したAnima。",
+          "entries": [
+            {
+              "name": "Umpurrella",
+              "role": "コンパニオンユーティリティ",
+              "aspect": "注目のAnima",
+              "description": "Watersongのティザー映像や都市ブランディングのプレビューに登場する、傘のような姿をしたAnima。",
+              "teamFit": "プレイヤーが仲間のアイデンティティやテーマに沿ったユーティリティを学ぶための、分かりやすいAnimaカードとして使用します。"
+            },
+            {
+              "name": "Camcorgi",
+              "role": "探索コンパニオン",
+              "aspect": "記憶",
+              "description": "レンズを通して生命を捉えることに関連する、犬のような姿をしたAnima。",
+              "teamFit": "探索、記憶、写真、そして仲間を中心としたチームメモに使用します。"
+            }
+          ]
+        },
+        {
+          "tier": "コレクションと絆のロール",
+          "summary": "テーマが理解しやすいため、初心者向けのコレクションカードとして有力な選択肢となります。",
+          "entries": [
+            {
+              "name": "Vulberry",
+              "role": "食べ物テーマの絆コンパニオン",
+              "aspect": "飽食",
+              "description": "公式アップデートで公開されたクロマティック・バリアントを持つ、クリームとイチゴをテーマにしたAnima。",
+              "teamFit": "コレクション、個性、そして希少なバリアントの説明に使用します。"
+            },
+            {
+              "name": "Hoggit",
+              "role": "癒やしコンパニオン",
+              "aspect": "飽食",
+              "description": "アップルパイの香りがする、のんびりとした食べることが大好きな子豚のAnima。",
+              "teamFit": "Animaの個性や絆の魅力を説明する初心者向けカードで使用します。"
+            },
+            {
+              "name": "Dragamour",
+              "role": "絆をテーマにしたコンパニオン",
+              "aspect": "愛",
+              "description": "伝説や感情的な出会いに関連する、愛のアスペクトのAnima。",
+              "teamFit": "設定（ロア）、絆、そして仲間との関係性を示すチームの例に使用します。"
+            }
+          ]
+        },
+        {
+          "tier": "育成と進行のロール",
+          "summary": "進化、成長、そして長期的なAnimaの育成を説明するのに最適な選択肢。",
+          "entries": [
+            {
+              "name": "Inkifoalの進化ライン",
+              "role": "進行例",
+              "aspect": "進化紹介",
+              "description": "Evolution Testのアップデートで公開された、3段階のAnima進化ライン（InkifoalからInkicorn、そしてAtragasusへ）。",
+              "teamFit": "Animaの成長によって姿が変化し、時間の経過とともに個性が強化されることをプレイヤーに伝えるために使用します。"
+            },
+            {
+              "name": "Moneytree",
+              "role": "進行をテーマにしたAnima",
+              "aspect": "Prosperity",
+              "description": "富と成長のイメージに関連付けられた、Prosperity AspectのAnima。",
+              "teamFit": "資源、進行、コレクションをテーマにしたUIカードで使用します。"
+            }
+          ]
+        }
+      ]
+    },
+    "honkaiNexusAnimaBattleSystem": {
+      "title": "Honkai Nexus Animaのバトルシステムと戦略",
+      "intro": "Honkai: Nexus Animaは、オートバトラー形式の戦闘を備えたクリーチャー収集アドベンチャー戦略ゲームプレイを採用しています。プレイヤーはAnimaを収集・育成してNexus Battlesに挑み、Aspectに基づいたチーム編成を行うことで、さまざまな戦術的セットアップを作成します。",
+      "faqs": [
+        {
+          "question": "Honkai Nexus Animaはどのようなバトルシステムを採用していますか？",
+          "answer": "Honkai: Nexus Animaは、仲間であるAnimaを中心に構築されたアドベンチャー戦略バトルを採用しています。公式のゲームプレイ映像では、Animaが半自律的に戦うアリーナスタイルのバトルが紹介されており、手動でのターン制コマンドよりも、チーム編成や役割のバランスが重要になります。",
+          "keyPoints": [
+            "クリーチャー収集アドベンチャー戦略ゲーム",
+            "アリーナスタイルのNexus Battles",
+            "オートバトラースタイルのAnimaの挙動",
+            "戦闘前および戦闘中のチーム編成"
+          ]
+        },
+        {
+          "question": "初心者はHonkai Nexus Animaのチームでの役割をどのように考えるべきですか？",
+          "answer": "まずはシンプルなチーム構成から始めましょう。前衛で圧力をかけるAnimaが1体、ダメージまたはユーティリティ担当のAnimaが1体、そして絆やサポートをテーマにしたAnimaが1体です。これにより、各スロットの役割が理解しやすくなり、より多くのAnimaが公開されるにつれてAspectのシナジーを取り入れる余地が生まれます。",
+          "keyPoints": [
+            "前衛のAnimaがスペースを作り出す",
+            "ダメージ担当のAnimaが敵に圧力をかける",
+            "ユーティリティ担当のAnimaがコントロール、サポート、または探索の価値をもたらす",
+            "Aspectのアイデンティティがチームのスタイルを決定づけるのに役立つ"
+          ]
+        },
+        {
+          "question": "Honkai Nexus Animaにおいて、なぜAspectのシナジーが重要なのでしょうか？",
+          "answer": "Nexusとは、LoveとHate、LightとDark、RealityとIllusionといった、対になるAspect間の絆を指します。Animaは残存するAspectの力を宿しているため、チーム編成では見た目だけでなく、役割、テーマ、戦術的用途に基づいて仲間をグループ化する必要があります。",
+          "keyPoints": [
+            "Aspectが戦闘戦術を形成する",
+            "Animaのアイデンティティがチーム編成に影響を与える",
+            "役割のカバー範囲とAspectのカバー範囲を組み合わせる",
+            "進化ラインを利用して長期的な成長を計画する"
+          ]
+        },
+        {
+          "question": "探索はHonkai Nexus Animaの戦闘とどのように結びついていますか？",
+          "answer": "Animaは戦闘ユニットであるだけでなく、町、planes、チャレンジエリアをプレイヤーと共に旅する存在でもあります。進化、命名、写真撮影の瞬間、そしてChromatic Animaの収集はすべて、仲間との絆を深めてからNexus Battlesに挑むという、より広いゲームサイクルを支えています。",
+          "keyPoints": [
+            "仲間のAnimaと共に探索する",
+            "絆を育み、仲間に名前をつける",
+            "希少なChromatic Animaを探す",
+            "絆を結んだAnimaをNexus Battlesに連れて行く"
+          ]
+        },
+        {
+          "question": "Honkai Nexus Animaにおける最もシンプルな序盤の戦略は何ですか？",
+          "answer": "1体の明確なアンカーとなるAnimaを中心に編成を組み、その弱点をカバーするパートナーを追加します。前衛のStrengthスタイルのAnimaは、より安全な後衛またはユーティリティの仲間と組み合わせることで最も効果を発揮し、食べ物テーマや絆テーマのAnimaは、収集や個性の目標を説明するのに適しています。",
+          "keyPoints": [
+            "最初にアンカーを1体選ぶ",
+            "次に役割のカバー範囲を追加する",
+            "1つの役割だけに偏らせないでください",
+            "高度なシナジーを考える前に、シンプルな配置ロジックを活用しましょう"
+          ]
+        }
+      ]
+    },
+    "honkaiNexusAnimaCharacters": {
+      "title": "Honkai Nexus Anima キャラクター＆ストーリーガイド",
+      "intro": "物語は、幽閉から逃れ、Reality Planeにある静かな町「Iia」から旅を始める、プレーンを渡り歩く旅人を追います。プレイヤーは様々なPlanesを探索しながら、Animaと絆を深め、隠された真実を解き明かし、Nexus HallやTrue Nexus Building、そしてIiaの主要勢力に関わるキャラクターたちと出会います。",
+      "cards": [
+        {
+          "name": "旅人",
+          "category": "メインロール",
+          "tag": "プレイヤーキャラクター",
+          "description": "プレイヤーキャラクターは、幽閉から逃れ、Reality PlaneのIiaからEvolution Testの旅を始める、プレーンを渡り歩く旅人です。",
+          "hook": "彼らの過去は、世界中に隠された真実と、壊れたNexusの絆に深く関わっています。"
+        },
+        {
+          "name": "Nanafey",
+          "category": "公開済みキャラクター",
+          "tag": "キャラクター紹介PV",
+          "description": "Nanafeyはキャラクター紹介PV「隣の不思議な少女」に登場し、Evolution Test中に旅人と交差する名前付きキャラクターの一人です。",
+          "hook": "彼女の紹介セリフは町の外の世界への好奇心に焦点を当てており、物語序盤の強力なカードとなります。"
+        },
+        {
+          "name": "Bai Mei",
+          "category": "公開済みキャラクター",
+          "tag": "ストーリーキャラクター",
+          "description": "Bai Meiは、Evolution Testでストーリーと探索ルートが拡大する際、旅人と出会う新キャラクターの一人として名を連ねています。",
+          "hook": "Bai Meiを、新しいストーリーの遭遇や勢力関連のアップデートにおけるキャラクターカードとして使用してください。"
+        },
+        {
+          "name": "Olympia",
+          "category": "勢力キャラクター",
+          "tag": "True Nexus Syndicate",
+          "description": "OlympiaはTrue Nexus Syndicateと繋がりがあり、Iiaのストーリーアップデートでは代理ディレクターのような立場で登場します。",
+          "hook": "彼女の役割は、人間とAnimaがどのように関わるべきかという点において、物語に鋭い勢力争いをもたらします。"
+        },
+        {
+          "name": "Herocrates",
+          "category": "勢力キャラクター",
+          "tag": "Nexus Association",
+          "description": "Herocratesは、Animaとの共生と救助活動に焦点を当てたグループ、Nexus Associationに所属しています。",
+          "hook": "このカードを使用して、Nexus Hallや、より平和的な側面におけるAnimaと人間の関係を説明してください。"
+        },
+        {
+          "name": "Fleming Collective",
+          "category": "勢力",
+          "tag": "都市勢力",
+          "description": "Fleming Collectiveは、Fleming Towerや都市のビジネス面に関連する商業勢力です。",
+          "hook": "この勢力は、Iiaに企業の力、都市のランドマーク、そして政治的な深みを与えます。"
+        },
+        {
+          "name": "True Nexus Syndicate",
+          "category": "勢力",
+          "tag": "敵対勢力",
+          "description": "True Nexus Syndicateは、Nexus Animaは人間のために働くべきだと考える、より強硬な勢力として描かれています。",
+          "hook": "この勢力カードは、対立、権力、そして裏社会風のストーリー展開に使用してください。"
+        },
+        {
+          "name": "Iia",
+          "category": "ロケーション",
+          "tag": "開始の街",
+          "description": "IiaはReality Planeにおける開始の街であり、New Quarter、商業エリア、建築的ランドマーク、Nexus Hall、そしてTrue Nexus Buildingが存在します。",
+          "hook": "Iiaは探索、勢力、キャラクター、そしてAnimaの生活を繋ぐ場所であるため、ホームページのメインロケーションカードとして機能しています。"
+        }
+      ]
+    },
+    "honkaiNexusAnimaLatestNews": {
+      "title": "Honkai Nexus Anima 最新ニュース＆トレーラー",
+      "intro": "Honkai: Nexus Animaのアップデート情報は、公式サイト、HoYoLAB、X、YouTubeを通じて公開されます。このフィードでは、Evolution Testの募集、ゲームプレイ紹介、キャラクターPV、Anidexの投稿、勢力公開、DevTalk開発アップデートなど、主要な公式情報をまとめてお届けします。",
+      "items": [
+        {
+          "date": "2026-07-09",
+          "type": "キャラクターPV",
+          "title": "Nanafey - 隣の不思議な少女",
+          "summary": "Evolution Testの開始に合わせてNanafeyのキャラクターPVが公開され、新たにスポットライトが当てられたストーリーキャラクターの魅力をプレイヤーに詳しく紹介しています。",
+          "link": "https://www.hoyolab.com/article/45785741",
+          "tag": "最新キャラクターPV"
+        },
+        {
+          "date": "2026-07-09",
+          "type": "テストマイルストーン",
+          "title": "Evolution Test 開始",
+          "summary": "Evolution TestがPC、iOS、Androidで開始されます。本テストは参加人数限定の無料クローズドβテストであり、テスト終了後にアカウントデータは削除されます。",
+          "link": "https://hna.hoyoverse.com/",
+          "tag": "クローズドβテスト"
+        },
+        {
+          "date": "2026-06-24",
+          "type": "Animaと勢力",
+          "title": "Vulberry、Inkifoalの進化、およびIiaの勢力",
+          "summary": "公式アップデートにより、Vulberryの紹介、Inkifoalの進化ルートの公開、そしてFleming Collective、Nexus Association、True Nexus Syndicateなどの勢力の概要が明らかになりました。",
+          "link": "https://x.com/HonkaiNA",
+          "tag": "Animaアップデート"
+        },
+        {
+          "date": "2026-06-21",
+          "type": "ゲームプレイ動画",
+          "title": "Evolution Test ゲームプレイ紹介",
+          "summary": "ゲームプレイ紹介映像では、Nexus Battleの映像、探索、相棒となるAnima、新たなゲームシステムなど、拡張されたEvolution Test版の内容を紹介しています。",
+          "link": "https://www.youtube.com/watch?v=1Em1aoE1TMQ",
+          "tag": "ゲームプレイ紹介"
+        },
+        {
+          "date": "2026-06-21",
+          "type": "トレーラー",
+          "title": "Evolutionティザー - また会う日まで",
+          "summary": "Evolutionティザー映像では、7月のEvolution Testを前に、広大な冒険、Animaとの絆、そして次元を巡るプレイヤーの旅の幕開けが描かれています。",
+          "link": "https://www.youtube.com/watch?v=79czQSqYqnc",
+          "tag": "公式ティザー"
+        },
+        {
+          "date": "2026-02-26",
+          "type": "DevTalk",
+          "title": "Phase II - 環境と新たなAnima",
+          "summary": "DevTalkでは、FyrklorとHoggitが紹介されたほか、Iiaの環境改善や、Umpurrellaに関連する新たな超高層ビル街のプレビューが公開されました。",
+          "link": "https://www.hoyolab.com/article/43957101",
+          "tag": "DevTalk"
+        },
+        {
+          "date": "2025-09-18",
+          "type": "Nexusboundティザー",
+          "title": "Watersong：花の海",
+          "summary": "Umpurrellaに焦点を当てたティザーでは、Animaとのより穏やかな絆のストーリーが描かれ、ゲームの「絆」を中心としたビジュアルコンセプトを印象付けました。",
+          "link": "https://www.hoyolab.com/article/41195632",
+          "tag": "Animaティザー"
+        },
+        {
+          "date": "2025-09-18",
+          "type": "ソーシャルリンク",
+          "title": "公式ソーシャルメディア一覧",
+          "summary": "HoYoLABでは、最新のゲーム情報、動画、特典、お知らせを受け取りたいプレイヤーのために、公式SNSチャンネルをまとめています。",
+          "link": "https://www.hoyolab.com/circles/9/90002/official",
+          "tag": "公式リンク"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "Honkai Nexus Animaについて知っておくべきことすべて",
+    "questions": [
+      {
+        "question": "Honkai Nexus Animaとは何ですか？",
+        "answer": "Honkai Nexus Animaは、HoYoverseが贈る「崩壊」シリーズの仲間集めアドベンチャー戦略ゲームです。プレイヤーはAnimaを集め、絆を深め、Planesを探索し、Nexus BattlesでAnimaの能力を駆使して戦います。"
+      },
+      {
+        "question": "Honkai Nexus AnimaのEvolution Testはいつ開催されますか？",
+        "answer": "Honkai Nexus AnimaのEvolution Testは、2026年7月9日から7月27日（UTC+8）まで、PC、iOS、Androidを対象とした参加費無料のクローズドβテストとして開催されます。なお、テスト終了後にアカウントデータは削除されます。"
+      },
+      {
+        "question": "Honkai Nexus Animaはどのプラットフォームでプレイできますか？",
+        "answer": "Evolution Test期間中、Honkai Nexus AnimaはPC、iOS、Androidでプレイ可能です。正式リリース版もPCおよびモバイルプラットフォーム向けに開発が進められています。"
+      },
+      {
+        "question": "Honkai Nexus AnimaにおけるAnimaとは何ですか？",
+        "answer": "Animaは、Honkai Nexus Animaの中心となる、集めて仲間にできる存在です。各Animaは、対になるAspects間のNexusの絆から生じる残存する力を宿しており、探索とNexus Battlesの両方で活躍します。"
+      },
+      {
+        "question": "Honkai Nexus Animaのベータテストへの参加方法を教えてください。",
+        "answer": "Honkai Nexus AnimaのEvolution Testに参加するには、公式サイトでHoYoverseアカウントを使ってサインインし、事前登録を完了した上で、募集期間中にアンケートに回答してください。"
+      },
+      {
+        "question": "Honkai Nexus Animaは基本プレイ無料ですか？",
+        "answer": "Honkai Nexus AnimaのEvolution Testは無料のクローズドβテストです。正式リリース時の価格や課金システムについては未定となっています。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Honkai Nexus Animaを探索する準備はできましたか？",
+    "description": "DiscordのHonkai Nexus Animaコミュニティに参加して、攻略ガイド、最新アップデート、プレイヤー同士の交流を楽しみましょう！",
+    "joinCommunity": "Discordに参加",
+    "joinGame": "公式サイトを訪問"
+  },
+  "footer": {
+    "title": "Honkai Nexus Anima Wiki",
+    "description": "Honkai Nexus AnimaのAnima、シリアルコード、キャラクター、攻略ガイドに関するすべての情報が集まる総合リソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "X",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "about": "このサイトについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Honkai Nexus Anima Wiki. HoYoverseとは提携していません。",
+    "disclaimer": "非公式のファンによるリソースサイト。"
+  },
+  "pages": {
+    "release": {
+      "title": "Honkai Nexus Anima リリース日と対応プラットフォーム",
+      "description": "正式リリースに向けて、Honkai Nexus Animaのリリース日、Evolution Testのスケジュール、対応プラットフォーム、事前登録状況をチェックしましょう。",
+      "metaTitle": "Honkai Nexus Anima リリース日 - Evolution Test ＆ プラットフォーム",
+      "metaDescription": "Honkai Nexus Animaのリリース日、Evolution Testのスケジュール、および対応するPC、iOS、Androidプラットフォーム。正式リリースのタイムラインと事前登録状況を確認できます。",
+      "categoryLabel": "リリース情報",
+      "whatIs": "「リリース」セクションとは？",
+      "whatIsDescription": "「リリース」セクションでは、Honkai Nexus Animaが配信中か、現在のEvolution Testの実施期間、対応プラットフォーム、事前登録から正式リリースまでのロードマップなど、プレイヤーがまず知りたいタイムライン情報をまとめています。",
+      "why": "なぜリリース情報を追うのか？",
+      "whySteps": {
+        "step1Title": "テスト期間を把握する",
+        "step1Description": "Evolution Testは2026年7月9日から7月27日（UTC+8）まで無料のクローズドベータとして実施されるため、アクセスするタイミングが重要です。",
+        "step2Title": "プラットフォームを選ぶ",
+        "step2Description": "テストや正式リリースが始まる前に、お使いのPC、iOS、またはAndroidデバイスが対応しているか確認してください。",
+        "step3Title": "正式リリースに備える",
+        "step3Description": "事前登録や公式のマイルストーンをフォローして、一般公開されたらすぐにプレイできるようにしましょう。"
+      },
+      "featured": "おすすめ＆重要情報",
+      "all": "すべてのリリース記事"
+    },
+    "beta": {
+      "title": "Honkai Nexus Anima Evolution Testとベータアクセス",
+      "description": "事前登録、募集、テスター選定、PC・iOS・Androidでのクローズドベータアクセスなど、Honkai Nexus Anima Evolution Testへの参加手順を確認しましょう。",
+      "metaTitle": "Honkai Nexus Anima ベータ - Evolution Test アクセス ＆ 募集",
+      "metaDescription": "Honkai Nexus Anima Evolution Test クローズドベータへの参加方法を解説。PC、iOS、Androidでのアクセスのための事前登録、募集、テスター選定のステップを確認してください。",
+      "categoryLabel": "ベータ ＆ テスト",
+      "whatIs": "「ベータ」セクションとは？",
+      "whatIsDescription": "「ベータ」セクションでは、Honkai Nexus Animaの公式Evolution Testの流れを説明しており、募集期間、テスター選定、対応プラットフォーム、データ削除ルールなど、アクセスの仕組みを詳しく解説しています。",
+      "why": "なぜベータガイドを読むのか？",
+      "whySteps": {
+        "step1Title": "事前登録を完了する",
+        "step1Description": "事前登録を行ってHoYoverseアカウントを連携し、テスター選定の候補に入りましょう。",
+        "step2Title": "募集に応募する",
+        "step2Description": "募集期間中に、正確な連絡先情報を添えて募集アンケートに回答してください。",
+        "step3Title": "テスター権限を取得する",
+        "step3Description": "2026年7月8日以降のテスター通知を確認し、対応デバイスでクローズドベータをプレイしましょう。"
+      },
+      "featured": "おすすめ＆重要情報",
+      "all": "すべてのベータ記事"
+    },
+    "download": {
+      "title": "Honkai Nexus Anima のダウンロードとインストール",
+      "description": "PC、iOS、AndroidでのHonkai Nexus Animaのダウンロードとインストール方法。Evolution Test以降の事前登録、登録、APK、プラットフォーム設定の手順を解説。",
+      "metaTitle": "Honkai Nexus Anima ダウンロード - PC、iOS、Androidへのインストール",
+      "metaDescription": "PC、iOS、AndroidでHonkai Nexus Animaをダウンロード。Evolution Testおよび正式リリースに向けた事前登録、登録、APK、インストールの手順をご確認ください。",
+      "categoryLabel": "ダウンロード＆インストール",
+      "whatIs": "ダウンロードセクションとは？",
+      "whatIsDescription": "ダウンロードセクションでは、事前登録、公式の登録フロー、APKやストアからのインストール、PC・iOS・Android各プラットフォームの設定など、Honkai Nexus Animaをデバイスに導入する手順を説明します。",
+      "why": "なぜダウンロードガイドを確認するのか？",
+      "whySteps": {
+        "step1Title": "早期事前登録",
+        "step1Description": "公式チャンネルから登録して、アクセス権とリリース当日の特典を確保しましょう。",
+        "step2Title": "お使いのプラットフォームにインストール",
+        "step2Description": "PC、iOS App Store、またはAndroid APKの正しい手順に従って、クリーンインストールを行ってください。",
+        "step3Title": "アカウントの設定",
+        "step3Description": "HoYoverseアカウントを連携して、進行状況やテストへのアクセス権をスムーズに引き継ぎましょう。"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのダウンロード記事"
+    },
+    "guide": {
+      "title": "Honkai Nexus Anima 初心者ガイドと遊び方",
+      "description": "遊び方、主要システム、Animaとの絆、探索、ゲーム性など、初心者ガイドでHonkai Nexus Animaをスムーズに開始しましょう。",
+      "metaTitle": "Honkai Nexus Anima 初心者ガイド - 遊び方と基本",
+      "metaDescription": "Honkai Nexus Anima初心者ガイド：遊び方、Animaとの絆やNexus Battlesの理解、世界の探索など、初回プレイから基本システムをマスターしましょう。",
+      "categoryLabel": "ガイド＆遊び方",
+      "whatIs": "ガイドセクションとは？",
+      "whatIsDescription": "ガイドセクションでは、冒険の始まりやAnimaの収集から、絆の構築、探索、Nexus Battlesへの第一歩まで、初心者向けにHonkai Nexus Animaの仕組みを詳しく解説します。",
+      "why": "なぜ初心者ガイドを読むのか？",
+      "whySteps": {
+        "step1Title": "コアループを理解する",
+        "step1Description": "探索、Animaの収集、そして絆を深めることが、どのように進行に繋がるかを学びましょう。",
+        "step2Title": "序盤のミスを避ける",
+        "step2Description": "実績のある序盤の手順に従って、リソースの無駄遣いや重要なシステムの聞き逃しを防ぎましょう。",
+        "step3Title": "強固な基礎を築く",
+        "step3Description": "高度なNexus Battlesに挑む前に、チームと絆を正しく設定しましょう。"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのガイド"
+    },
+    "gameplay": {
+      "title": "Honkai Nexus Animaのゲームプレイとバトルシステム",
+      "description": "Honkai Nexus Animaのゲームプレイをマスター：Nexus Battlesの戦闘、オートバトラーの戦略、PvP、ガチャ、そして他のクリーチャー収集ゲームやオートチェス系ゲームとの比較。",
+      "metaTitle": "Honkai Nexus Anima ゲームプレイ - 戦闘、Nexus Battles、戦略",
+      "metaDescription": "Honkai Nexus Animaのゲームプレイを深掘り：Nexus Battlesの戦闘、オートバトラーの戦略、PvP、ガチャ、クリーチャー収集ゲームやオートチェス系ゲームとの比較。",
+      "categoryLabel": "ゲームプレイ＆戦闘",
+      "whatIs": "ゲームプレイセクションとは？",
+      "whatIsDescription": "ゲームプレイセクションでは、オートバトラー形式のNexus Battles、チームの配置、Aspectのシナジー、PvP、ガチャシステム、類似ゲームとの関連性など、Honkai Nexus Animaの実際の遊び方を網羅しています。",
+      "why": "なぜゲームプレイを研究するのか？",
+      "whySteps": {
+        "step1Title": "Nexus Battlesについて学ぶ",
+        "step1Description": "あなたの編成に基づいてAnimaが半自動的に戦闘を行う、アリーナスタイルのバトルについて理解しましょう。",
+        "step2Title": "よりスマートなチームを編成する",
+        "step2Description": "Animaの役割とAspectのテーマを組み合わせ、より強力な戦術的ラインナップを編成しましょう。",
+        "step3Title": "比較と適応",
+        "step3Description": "あなたがすでに知っているクリーチャー収集ゲームやオートチェス系タイトルと、本作のシステムを比較してみましょう。"
+      },
+      "featured": "おすすめ＆基本情報",
+      "all": "すべてのゲームプレイ記事"
+    },
+    "characters": {
+      "title": "Honkai Nexus Animaのキャラクターとストーリー",
+      "description": "旅人、Nanafey、Bai Mei、そしてReality PlaneやPlanesを舞台にストーリーを紡ぐ様々な勢力など、Honkai Nexus Animaの登場人物たちを紹介します。",
+      "metaTitle": "Honkai Nexus Animaのキャラクター - キャスト、勢力、ストーリー",
+      "metaDescription": "Honkai Nexus Animaのキャラクターとストーリーを紹介：旅人、Nanafey、Bai Mei、そしてPlanesを舞台に活動するNexus AssociationやTrue Nexus Syndicateなどの主要勢力について。",
+      "categoryLabel": "キャラクター＆ストーリー",
+      "whatIs": "キャラクターセクションとは？",
+      "whatIsDescription": "キャラクターセクションでは、始まりの街Iiaから広大なPlanesに至るまで、Honkai Nexus Animaに登場する人間キャラクターやストーリーにおける彼らの役割、そして対立を主導する勢力を紹介します。",
+      "why": "なぜキャラクターガイドを読むべきなのか？",
+      "whySteps": {
+        "step1Title": "登場人物を知る",
+        "step1Description": "旅人、Nanafey、Bai Mei、およびその他の名前付きキャラクターがどのような人物であるかを知りましょう。",
+        "step2Title": "勢力を理解する",
+        "step2Description": "Nexus Association、True Nexus Syndicate、および都市の各勢力がどのようにストーリーを動かしているかを見てみましょう。",
+        "step3Title": "ストーリーを追う",
+        "step3Description": "Evolution Testで物語が拡張されるにつれて、キャラクターのストーリーラインや勢力間の対立を追いましょう。"
+      },
+      "featured": "おすすめ＆基本情報",
+      "all": "すべてのキャラクター記事"
+    },
+    "anima": {
+      "title": "Honkai Nexus AnimaのAnimaリストとコレクション",
+      "description": "公開された仲間たち、彼らのAspectsやTraits、進化ルート、希少なChromaticのバリアント、およびコレクションの仕組みが掲載されたHonkai Nexus AnimaのAnimaリストをチェックしましょう。",
+      "metaTitle": "Honkai Nexus AnimaのAnimaリスト - 仲間、Aspects、進化",
+      "metaDescription": "Honkai Nexus AnimaのAnimaリスト＆コレクションガイド：チーム編成に役立つ、公開された仲間たち、Aspects、Traits、進化ルート、および希少なChromaticのバリアントについて。",
+      "categoryLabel": "ANIMAリスト",
+      "whatIs": "Animaセクションとは？",
+      "whatIsDescription": "Animaセクションは、Honkai Nexus Animaの仲間データベースです。公開されたAnima、そのAspectのテーマやTraits、進化ルート、希少なChromaticのバリアント、およびコレクションシステムがどのように戦闘や探索に連動しているかを紹介します。",
+      "why": "なぜAnimaを集めるのか？",
+      "whySteps": {
+        "step1Title": "多才なメンバーを編成する",
+        "step1Description": "より多くの戦闘における役割をカバーできるよう、様々なAspectsのAnimaを集めましょう。",
+        "step2Title": "絆アビリティをアンロックする",
+        "step2Description": "Animaと絆を深め、彼らが体現する概念に結びついたアビリティをアンロックしましょう。",
+        "step3Title": "希少なバリアントを探す",
+        "step3Description": "コレクションを完成させるために、ChromaticのAnimaや進化ルートを追いましょう。"
+      },
+      "featured": "おすすめ＆基本情報",
+      "all": "すべてのAnima記事"
+    }
   }
 }
