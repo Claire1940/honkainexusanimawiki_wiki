@@ -136,7 +136,7 @@ export default function HomePageClient({
           "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
           "https://discord.com/invite/lucidblocks",
           "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://www.youtube.com/@HonkaiNA",
         ],
       },
       {
@@ -158,13 +158,13 @@ export default function HomePageClient({
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "Honkai: Nexus Anima - Evolution Test Gameplay Showcase",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
+          "Official Honkai: Nexus Anima Evolution Test gameplay showcase video — a peek at what to expect from the upcoming creature-collector strategy adventure test.",
         uploadDate: "2026-03-12",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/1Em1aoE1TMQ",
+        url: "https://www.youtube.com/watch?v=1Em1aoE1TMQ",
       },
     ],
   };
@@ -279,8 +279,8 @@ export default function HomePageClient({
         <div className="scroll-reveal container mx-auto max-w-5xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="1Em1aoE1TMQ"
+              title="Honkai: Nexus Anima - Evolution Test Gameplay Showcase"
             />
           </div>
         </div>
