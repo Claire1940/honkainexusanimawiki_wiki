@@ -269,13 +269,15 @@
               "name": "Fyrklor",
               "role": "Frontline protector",
               "aspect": "Strength",
-              "description": "A greatsword-wielding Anima built around strength and protection. Place it forward to create space for ranged, utility, or bond-focused Anima behind it."
+              "description": "A greatsword-wielding Anima built around strength and protection.",
+              "teamFit": "Place it forward to create space for ranged, utility, or bond-focused Anima behind it."
             },
             {
               "name": "Scorscythe",
               "role": "Melee pressure",
               "aspect": "War",
-              "description": "A bladed-tail Anima tied to the War Aspect. Use it in aggressive setups that need a direct battle threat."
+              "description": "A bladed-tail Anima tied to the War Aspect.",
+              "teamFit": "Use it in aggressive setups that need a direct battle threat."
             }
           ]
         },
@@ -287,13 +289,15 @@
               "name": "Umpurrella",
               "role": "Companion utility",
               "aspect": "Featured Anima",
-              "description": "A parasol-like Anima featured in the Watersong teaser and city branding previews. A recognizable Anima card for players learning companion identity and themed utility."
+              "description": "A parasol-like Anima featured in the Watersong teaser and city branding previews.",
+              "teamFit": "Use as a recognizable Anima card for players learning companion identity and themed utility."
             },
             {
               "name": "Camcorgi",
               "role": "Exploration companion",
               "aspect": "Memory",
-              "description": "A dog-like Anima associated with capturing life through its lens. Use it for exploration, memory, photo, and companion-focused team notes."
+              "description": "A dog-like Anima associated with capturing life through its lens.",
+              "teamFit": "Use it for exploration, memory, photo, and companion-focused team notes."
             }
           ]
         },
@@ -305,19 +309,22 @@
               "name": "Vulberry",
               "role": "Food-themed bond companion",
               "aspect": "Satiation",
-              "description": "A cream-and-strawberry-themed Anima with a Chromatic variant shown in official updates. Use it for collection, personality, and rare-variant explanations."
+              "description": "A cream-and-strawberry-themed Anima with a Chromatic variant shown in official updates.",
+              "teamFit": "Use it for collection, personality, and rare-variant explanations."
             },
             {
               "name": "Hoggit",
               "role": "Comfort companion",
               "aspect": "Satiation",
-              "description": "A piglet Anima with an apple-pie scent and a relaxed, food-loving personality. A good fit for beginner cards explaining Anima personality and bond appeal."
+              "description": "A piglet Anima with an apple-pie scent and a relaxed, food-loving personality.",
+              "teamFit": "Use in beginner cards that explain Anima personality and bond appeal."
             },
             {
               "name": "Dragamour",
               "role": "Bond-themed companion",
               "aspect": "Love",
-              "description": "A Love Aspect Anima tied to legends and emotional encounters. Use it in lore, bond, and companion-relationship team examples."
+              "description": "A Love Aspect Anima tied to legends and emotional encounters.",
+              "teamFit": "Use it in lore, bond, and companion-relationship team examples."
             }
           ]
         },
@@ -329,13 +336,15 @@
               "name": "Inkifoal Line",
               "role": "Progression example",
               "aspect": "Evolution showcase",
-              "description": "A three-stage Anima evolution line (Inkifoal to Inkicorn to Atragasus) shown in Evolution Test updates. Teaches players that Anima growth can change form and strengthen identity over time."
+              "description": "A three-stage Anima evolution line (Inkifoal to Inkicorn to Atragasus) shown in Evolution Test updates.",
+              "teamFit": "Use it to teach players that Anima growth can change form and strengthen identity over time."
             },
             {
               "name": "Moneytree",
               "role": "Progression-themed Anima",
               "aspect": "Prosperity",
-              "description": "A Prosperity Aspect Anima tied to wealth and growth imagery. Use it in resource, progression, and collection-themed UI cards."
+              "description": "A Prosperity Aspect Anima tied to wealth and growth imagery.",
+              "teamFit": "Use it in resource, progression, and collection-themed UI cards."
             }
           ]
         }
@@ -405,49 +414,57 @@
           "name": "The Traveler",
           "category": "Main Role",
           "tag": "Player Character",
-          "description": "The player character is a plane-hopping traveler who escaped captivity and begins the Evolution Test journey from Iia in the Reality Plane. Their past is tied to the truths hidden across the world and the broken bonds of the Nexus."
+          "description": "The player character is a plane-hopping traveler who escaped captivity and begins the Evolution Test journey from Iia in the Reality Plane.",
+          "hook": "Their past is tied to the truths hidden across the world and the broken bonds of the Nexus."
         },
         {
           "name": "Nanafey",
           "category": "Revealed Character",
           "tag": "Character Teaser",
-          "description": "Nanafey appears in the Character Teaser: The Wonder Girl Next Door and is one of the named characters crossing paths with the traveler during the Evolution Test. Her teaser line focuses on curiosity about the world beyond town."
+          "description": "Nanafey appears in the Character Teaser: The Wonder Girl Next Door and is one of the named characters crossing paths with the traveler during the Evolution Test.",
+          "hook": "Her teaser line focuses on curiosity about the world beyond town, making her a strong early story card."
         },
         {
           "name": "Bai Mei",
           "category": "Revealed Character",
           "tag": "Story Character",
-          "description": "Bai Mei is listed among the new characters who meet the traveler as the Evolution Test expands the story and exploration path. A strong card for new story encounters and faction-connected updates."
+          "description": "Bai Mei is listed among the new characters who meet the traveler as the Evolution Test expands the story and exploration path.",
+          "hook": "Use Bai Mei as a character card for new story encounters and faction-connected updates."
         },
         {
           "name": "Olympia",
           "category": "Faction Character",
           "tag": "True Nexus Syndicate",
-          "description": "Olympia is tied to the True Nexus Syndicate and appears as an Acting Director figure in Iia story updates. Her role gives the story a sharper faction conflict around how humans and Anima should relate."
+          "description": "Olympia is tied to the True Nexus Syndicate and appears as an Acting Director figure in Iia story updates.",
+          "hook": "Her role gives the story a sharper faction conflict around how humans and Anima should relate."
         },
         {
           "name": "Herocrates",
           "category": "Faction Character",
           "tag": "Nexus Association",
-          "description": "Herocrates is connected to the Nexus Association, a group focused on coexistence with Anima and rescue activity. A useful card to explain Nexus Hall and the more peaceful side of Anima-human relations."
+          "description": "Herocrates is connected to the Nexus Association, a group focused on coexistence with Anima and rescue activity.",
+          "hook": "Use this card to explain Nexus Hall and the more peaceful side of Anima-human relations."
         },
         {
           "name": "Fleming Collective",
           "category": "Faction",
           "tag": "City Faction",
-          "description": "The Fleming Collective is a commercial faction connected to Fleming Tower and the city's business side. It adds corporate power, city landmarks, and political texture to Iia."
+          "description": "The Fleming Collective is a commercial faction connected to Fleming Tower and the city’s business side.",
+          "hook": "This faction adds corporate power, city landmarks, and political texture to Iia."
         },
         {
           "name": "True Nexus Syndicate",
           "category": "Faction",
           "tag": "Conflict Faction",
-          "description": "The True Nexus Syndicate is presented as a more forceful faction that believes Nexus Anima should work for humans. A strong faction card for conflict, authority, and underworld-style story hooks."
+          "description": "The True Nexus Syndicate is presented as a more forceful faction that believes Nexus Anima should work for humans.",
+          "hook": "Use this faction card for conflict, authority, and underworld-style story hooks."
         },
         {
           "name": "Iia",
           "category": "Location",
           "tag": "Starting Town",
-          "description": "Iia is the starting town in the Reality Plane, with the New Quarter, commercial spaces, architectural landmarks, Nexus Hall, and the True Nexus Building. It connects exploration, factions, characters, and Anima life."
+          "description": "Iia is the starting town in the Reality Plane, with the New Quarter, commercial spaces, architectural landmarks, Nexus Hall, and the True Nexus Building.",
+          "hook": "Iia works as the homepage’s main location card because it connects exploration, factions, characters, and Anima life."
         }
       ]
     },

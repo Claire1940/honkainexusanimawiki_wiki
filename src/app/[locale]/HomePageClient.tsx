@@ -11,8 +11,10 @@ import {
   FlaskConical,
   Newspaper,
   PawPrint,
+  Quote,
   Sparkles,
   Swords,
+  Target,
   Trophy,
   Users,
 } from "lucide-react";
@@ -583,6 +585,14 @@ export default function HomePageClient({
                         <p className="text-sm text-muted-foreground">
                           {entry.description}
                         </p>
+                        {entry.teamFit && (
+                          <div className="mt-3 flex items-start gap-2 rounded-lg border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.05)] p-2.5">
+                            <Target className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                            <span className="text-xs text-muted-foreground sm:text-sm">
+                              {entry.teamFit}
+                            </span>
+                          </div>
+                        )}
                       </div>
                     ))}
                   </div>
@@ -676,6 +686,14 @@ export default function HomePageClient({
                     {card.category}
                   </span>
                   <p className="text-sm text-muted-foreground">{card.description}</p>
+                  {card.hook && (
+                    <div className="mt-3 flex items-start gap-2 border-t border-border pt-3">
+                      <Quote className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      <span className="text-xs italic text-muted-foreground sm:text-sm">
+                        {card.hook}
+                      </span>
+                    </div>
+                  )}
                 </div>
               ),
             )}
