@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Honkai Nexus Anima - Codes, Anima & Beta Guide",
+      "description": "Honkai Nexus Anima Wiki covers anima companions, codes, characters, tier lists, and Evolution Test beta info for HoYoverse's creature-collector strategy RPG.",
+      "keywords": "Honkai Nexus Anima, Honkai Nexus Anima wiki, anima, codes, characters, tier list, Evolution Test, beta, HoYoverse",
+      "ogTitle": "Honkai Nexus Anima - Codes, Anima & Beta Guide",
+      "ogDescription": "Honkai Nexus Anima Wiki covers anima companions, codes, characters, tier lists, and Evolution Test beta info for HoYoverse's creature-collector strategy RPG.",
+      "twitterTitle": "Honkai Nexus Anima - Codes, Anima & Beta Guide",
+      "twitterDescription": "Honkai Nexus Anima Wiki covers anima companions, codes, characters, tier lists, and Evolution Test beta info for HoYoverse's creature-collector strategy RPG."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Evolution Test Now Live",
+    "title": "Honkai Nexus Anima Wiki",
+    "description": "Your hub for Honkai Nexus Anima anima companions, codes, characters, and strategy guides. HoYoverse's new creature-collector adventure is now in Evolution Test on PC, iOS, and Android.",
+    "getFreeCodesCTA": "Check Codes",
+    "playOnRobloxCTA": "Visit Official Site",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Jul 9–27, 2026",
+        "label": "Evolution Test"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "PC, iOS, Android",
+        "label": "Test Platforms"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "TBA",
+        "label": "Release Date"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Free Closed Beta",
+        "label": "Current Status"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Explore Honkai Nexus Anima?",
+    "description": "Join the Honkai Nexus Anima community on Discord for guides, updates, and discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Visit Official Site"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Honkai Nexus Anima Wiki",
+    "description": "Your complete resource hub for Honkai Nexus Anima anima companions, codes, characters, and strategy guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "twitter": "X",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Honkai Nexus Anima Wiki. Not affiliated with HoYoverse.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
