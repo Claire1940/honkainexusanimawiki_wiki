@@ -69,42 +69,42 @@
     "subtitle": "Evolution Test、Anima収集、キャラクター、Nexus Battlesに関する全情報",
     "cards": [
       {
-        "icon": "カレンダー",
+        "icon": "CalendarCheck",
         "title": "リリース日と対応プラットフォーム",
         "description": "テスト状況、プラットフォーム、正式リリース情報"
       },
       {
-        "icon": "フラスコ",
+        "icon": "FlaskConical",
         "title": "Evolution Testと事前登録",
         "description": "ベータアクセス、募集、テスター選定"
       },
       {
-        "icon": "ブック",
+        "icon": "BookOpen",
         "title": "初心者ガイド",
         "description": "Anima、探索、絆、Nexus Battlesの基礎"
       },
       {
-        "icon": "足跡",
+        "icon": "PawPrint",
         "title": "Anima一覧とコレクション",
         "description": "公開済みのAnima、テーマ、収集の仕組み"
       },
       {
-        "icon": "トロフィー",
+        "icon": "Trophy",
         "title": "最強ランキングとチーム内役割",
         "description": "Animaの役割、Aspects、チーム編成"
       },
       {
-        "icon": "ソード",
+        "icon": "Swords",
         "title": "バトルシステムと戦略",
         "description": "Nexus Battles、チーム編成、戦闘タクティクス"
       },
       {
-        "icon": "ユーザー",
+        "icon": "Users",
         "title": "キャラクターとストーリー",
         "description": "公開済みのキャラクター、陣営、ストーリー設定"
       },
       {
-        "icon": "ニュース",
+        "icon": "Newspaper",
         "title": "最新ニュースとトレーラー",
         "description": "テストアップデート、DevTalk、トレーラー"
       }
@@ -598,8 +598,8 @@
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Honkai Nexus Anima Wiki. HoYoverseとは提携していません。",
-    "disclaimer": "非公式のファンによるリソースサイト。"
+    "copyright": "© 2026 Honkai Nexus Anima Wiki. miHoYo、HoYoverse、COGNOSPHEREとは提携していません。",
+    "disclaimer": "非公式のファンWiki。すべての権利はそれぞれの所有者に帰属します。"
   },
   "pages": {
     "release": {

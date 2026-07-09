@@ -91,7 +91,9 @@ export default function Copyright() {
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>HoYoverse (miHoYo)</strong> - Developer and publisher of Honkai Nexus Anima</li>
+              <li><strong>COGNOSPHERE PTE. LTD.</strong> - Global publisher and miHoYo's overseas operating entity</li>
+              <li><strong>miHoYo Co., Ltd.</strong> - Developer of Honkai Nexus Anima and owner of the Honkai franchise</li>
+              <li><strong>HoYoverse</strong> - International publishing brand under which Honkai Nexus Anima is released</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -151,7 +153,8 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>Honkai Nexus Anima</strong> - Trademark of HoYoverse</li>
+              <li><strong>Honkai Nexus Anima</strong> - Trademark of miHoYo Co., Ltd. / HoYoverse</li>
+              <li><strong>Honkai</strong> and all related names are trademarks of miHoYo Co., Ltd.</li>
               <li><strong>Honkai Nexus Anima Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>
             <p>
