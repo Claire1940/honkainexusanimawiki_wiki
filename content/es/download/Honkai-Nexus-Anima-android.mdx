@@ -1,0 +1,161 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Honkai Nexus Anima Android: Guía de Instalación y Consejos de Rendimiento Móvil",
+  description: "Prepárate para jugar a Honkai Nexus Anima en Android. Aprende a registrarte para la Prueba de Evolución, descargar el cliente y optimizar la configuración de tu móvil.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/fff?text=Android+Setup+Guide",
+  date: "2026-07-09",
+  author: "Equipo de Wiki de Honkai Nexus Anima"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La versión de **Honkai Nexus Anima para Android** está oficialmente admitida en la actual **Prueba de Evolución** a partir del 9 de julio de 2026.
+- El **acceso a la beta** requiere completar el prerregistro y enviar el cuestionario de reclutamiento oficial.
+- Los **requisitos del sistema** exigen un procesador moderno de gama media-alta para un juego estable a 60 FPS.
+- El **borrado de datos** está activo para este período de prueba, lo que significa que el progreso no se transferirá al lanzamiento oficial.
+</Callout>
+
+<Section icon={Map} title="Información General de Honkai Nexus Anima en Android">
+
+La llegada de las pruebas de **Honkai Nexus Anima para Android** marca un hito importante para el próximo juego de estrategia y recolección de criaturas de HoYoverse [1]. La Prueba de Evolución, que se llevará a cabo del **9 al 27 de julio de 2026**, permite a los jugadores de dispositivos móviles experimentar de primera mano la exploración entre planos, la creación de vínculos y las Batallas de Nexus tácticas [1]. 
+
+Debido a que se trata de una beta cerrada, los jugadores deben navegar por el portal oficial de HoYoverse para asegurar su lugar y configurar sus dispositivos móviles para un rendimiento óptimo [1, 2].
+
+| Característica | Detalles de la Prueba de Evolución | Notas del Jugador |
+| :--- | :--- | :--- |
+| **Período de Prueba** | Del 9 al 27 de julio de 2026 | Prueba beta cerrada gratuita [1] |
+| **Estado de Datos** | Datos de cuenta borrados tras la prueba | El progreso no se transfiere [1] |
+| **Plataformas** | Android, iOS y PC | Detalles de guardado cruzado por anunciar [1] |
+| **Bucle Principal** | Coleccionar Anima, explorar planos, luchar | Combate centrado en la estrategia [1] |
+
+<Callout type="tip" title="Aviso de la Beta">
+Asegúrate de usar la misma cuenta de HoYoverse para el registro y para iniciar sesión en el cliente del juego para evitar errores de activación [2].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Requisitos del Sistema para Android">
+
+Para ejecutar el juego sin problemas, tu dispositivo móvil debe cumplir con ciertos umbrales de hardware. El juego cuenta con ricos entornos 3D, modelos complejos de Anima y combates dinámicos en arenas que pueden exigir bastante a los procesadores móviles más antiguos [1, 2].
+
+| Nivel de Requisito | Procesador (CPU) | RAM | Sistema Operativo |
+| :--- | :--- | :--- | :--- |
+| **Mínimo** | Snapdragon 778G / Dimensity 900 | 6 GB | Android 10.0 o superior |
+| **Recomendado** | Snapdragon 8 Gen 1 / Dimensity 8100 | 8 GB+ | Android 12.0 o superior |
+
+<CardGrid cols={2}>
+  <Card title="Rendimiento con Especificaciones Mínimas">
+    - Objetivo: **30 FPS** en calidad Baja
+    - Escalado de resolución dinámico activado
+    - Consumo de batería y calentamiento moderados
+  </Card>
+  <Card title="Rendimiento con Especificaciones Recomendadas">
+    - Objetivo: **60 FPS** en calidad Media/Alta
+    - Texturas nítidas y efectos de alta fidelidad
+    - Rendimiento estable durante Batallas de Nexus intensas
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Espacio de Almacenamiento">
+Asegúrate de tener al menos **15 GB de espacio de almacenamiento libre** en tu dispositivo antes de descargar el paquete de instalación para evitar fallos en la instalación.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guía de Instalación Paso a Paso en Android">
+
+Asegurar tu acceso y configurar el cliente de **Honkai Nexus Anima para Android** requiere seguir el flujo de reclutamiento oficial [2]. Sigue estos pasos para preparar tu dispositivo para la Prueba de Evolución [2].
+
+<Steps>
+  <Step num="1" title="Registrar una Cuenta de HoYoverse">
+    Visita el sitio web oficial e inicia sesión. Si no tienes una cuenta, crea una utilizando una dirección de correo electrónico válida [2].
+  </Step>
+  <Step num="2" title="Enviar el Cuestionario de Reclutamiento">
+    Completa el cuestionario de reclutamiento oficial antes de la fecha límite [2]. Verifica dos veces tus datos de contacto, ya que las invitaciones de prueba se envían directamente a tu correo electrónico registrado [2].
+  </Step>
+  <Step num="3" title="Revisar tu Correo para la Invitación">
+    A partir del 8 de julio de 2026, HoYoverse comenzó a enviar correos electrónicos de confirmación que contienen enlaces de descarga y códigos de activación únicos [2].
+  </Step>
+  <Step num="4" title="Descargar e Instalar la APK">
+    Usa el enlace oficial proporcionado en tu correo de invitación para descargar el archivo APK de Android. Activa "Instalar desde fuentes desconocidas" en los ajustes de tu dispositivo si se te solicita.
+  </Step>
+  <Step num="5" title="Iniciar y Parchear el Cliente">
+    Abre la aplicación, inicia sesión con tu cuenta de HoYoverse seleccionada y permite que el juego descargue los recursos de alta resolución restantes [2].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Resolución de Problemas de Activación">
+Si recibes un error que indica que tu cuenta no está autorizada, verifica que la región de tu cuenta de HoYoverse coincida con la región de la invitación a la prueba beta que recibiste [2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimización del Rendimiento Móvil">
+
+Para asegurarte de que tu teléfono ejecute el juego de manera eficiente sin sobrecalentarse ni perder fotogramas durante las secuencias intensas del auto-battler, ajusta la configuración del juego siguiendo esta guía [2].
+
+| Categoría de Ajuste | Valor Recomendado | Impacto en el Rendimiento |
+| :--- | :--- | :--- |
+| **Frecuencia de Fotogramas** | 60 FPS (Recomendado) / 30 FPS (Ahorro de Batería) | Alto impacto en la fluidez |
+| **Calidad de Sombras** | Baja o Media | Alto impacto en la CPU y calentamiento |
+| **Calidad de Efectos (SFX)** | Media | Impacto moderado durante el combate |
+| **Resolución de Renderizado** | Media | Alto impacto en la GPU y batería |
+| **Anti-Aliasing** | TAA o Desactivado | Impacto en la GPU de bajo a moderado |
+
+<Callout type="info" title="Consejo sobre Estrangulamiento Técnico">
+Si tu dispositivo comienza a experimentar lag después de 20-30 minutos de juego continuo, cierra las aplicaciones en segundo plano y reduce la Resolución de Renderizado para reducir el estrangulamiento térmico.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Hitos de la Prueba de Evolución">
+
+Lleva un registro de tus objetivos de progresión a lo largo del período limitado de la prueba. Concéntrate en explorar el Plano de la Realidad y construir un equipo inicial confiable [1, 2].
+
+<Checklist
+  id="android-test-goals"
+  title="Lista de Verificación de Progresión de la Beta:"
+  items={[
+    "Completa la historia de introducción en la ciudad de Iia",
+    "Colecciona y crea un vínculo con tus primeros 3 compañeros Anima",
+    "Desbloquea y experimenta con la línea evolutiva de Inkifoal",
+    "Participa en Batallas de Nexus de estilo arena",
+    "Envía comentarios oficiales a través de la herramienta de encuestas del juego"
+  ]}
+/>
+
+<Callout type="tip" title="Recompensas por Comentarios">
+Completar las encuestas de comentarios dentro del juego durante la Prueba de Evolución puede otorgar recompensas exclusivas de la comunidad o participaciones en sorteos de mercancía oficial [2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar a la versión de Android de Honkai Nexus Anima sin una clave beta?",
+    answer: "No. La actual Prueba de Evolución es una beta cerrada. Debes tener una cuenta de HoYoverse registrada que haya sido seleccionada y autorizada oficialmente para iniciar sesión en los servidores."
+  },
+  {
+    question: "¿Se transferirá mi progreso de la prueba de Android al lanzamiento global?",
+    answer: "No. Esta es una prueba con borrado de datos. Todos los perfiles de jugador, Animas coleccionados y el progreso de la historia se restablecerán una vez que concluya la prueba el 27 de julio de 2026."
+  },
+  {
+    question: "¿Está disponible el soporte para mando en el cliente de Android?",
+    answer: "El soporte básico para mando está implementado en la Prueba de Evolución, pero la personalización de la distribución de botones es limitada. Los controles táctiles siguen siendo el método de entrada principal recomendado para móviles."
+  },
+  {
+    question: "¿Dónde puedo descargar la APK oficial de forma segura?",
+    answer: "Descarga la APK únicamente desde el enlace de descarga oficial proporcionado en tu correo de selección como probador. Evita descargar archivos de sitios de intercambio de terceros para proteger la seguridad de tu cuenta."
+  }
+]} />
+
+</Section>

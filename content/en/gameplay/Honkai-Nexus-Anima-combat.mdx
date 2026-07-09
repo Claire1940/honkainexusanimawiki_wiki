@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Honkai Nexus Anima Combat: Ultimate Nexus Battles Strategy Guide",
+  description: "Master Honkai Nexus Anima combat mechanics. Learn arena placement, Aspect synergies, team roles, and strategies for the 2026 Evolution Test.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/124e54/fff?text=Nexus+Battles+Combat+Guide",
+  date: "2026-07-09",
+  author: "Honkai Nexus Anima Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Honkai Nexus Anima combat** centers on strategic, semi-autonomous arena-style encounters known as **Nexus Battles**.
+- **Team composition** dictates success, requiring a balanced mix of frontline pressure, backline damage, and utility companions.
+- **Aspect synergy** functions as the primary tactical layer, pairing concepts like Strength, War, and Satiation to unlock power.
+- **Evolution lines** significantly alter battle utility, shifting companion roles as they grow from basic forms to mature stages.
+- **Positioning and preparation** before the battle begins carry far more weight than manual turn-by-turn inputs during combat.
+</Callout>
+
+<Section icon={Swords} title="Understanding Honkai Nexus Anima Combat and Nexus Battles">
+
+The core gameplay loop of HoYoverse's creature-collector adventure strategy game relies heavily on preparation, tactical positioning, and companion synergy. In **Honkai Nexus Anima combat**, players do not issue direct, turn-by-turn manual commands during active engagements. Instead, combat plays out as an arena-style auto-battler where your collected Anima companions fight semi-autonomously based on their pre-set roles, behaviors, and active bonds.
+
+Success in these Nexus Battles is determined before the timer even starts ticking. Players must analyze enemy lineups, understand the field layout, and position their companions to maximize their natural combat patterns.
+
+| Combat Feature | Mechanic Type | Player Influence |
+| :--- | :--- | :--- |
+| **Arena Battles** | Semi-autonomous | High (Pre-battle placement) |
+| **Anima Behavior** | AI-driven combat | Medium (Role-based targeting) |
+| **Active Abilities** | Auto-triggered | Low (Cooldown & bond-dependent) |
+| **Synergy System** | Aspect-based | High (Team building choices) |
+
+<Callout type="tip" title="Strategy Tip">
+Because you cannot manually redirect attacks mid-fight, your opening placement determines whether your fragile backline utility companions survive the initial enemy rush. Always place your high-durability companions in the front row.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Team Roles and Aspect Synergies">
+
+Building a viable team requires a deep understanding of individual Anima roles and how they interact on the battlefield. Stacking a team with nothing but high-damage units will leave you vulnerable to crowd control and swift counter-attacks, while over-investing in defensive units will cause you to lose battles due to strict time limits.
+
+### Primary Combat Roles
+
+To build a balanced team, you must allocate your limited slots to cover three essential combat functions:
+
+<CardGrid cols={3}>
+  <Card title="Frontline Pressure">
+    - **Primary Focus**: Absorb damage, disrupt enemy lines, and draw aggression.
+    - **Key Examples**: Fyrklor, Scorscythe.
+    - **Positioning**: Always placed in the forward-most hexes.
+  </Card>
+  <Card title="Backline Utility">
+    - **Primary Focus**: Deal sustained damage, apply debuffs, or heal allies.
+    - **Key Examples**: Umpurrella, Camcorgi.
+    - **Positioning**: Kept safely behind the front row.
+  </Card>
+  <Card title="Bond & Support">
+    - **Primary Focus**: Enhance team stats, trigger synergy bonuses, and manipulate energy.
+    - **Key Examples**: Vulberry, Hoggit, Dragamour.
+    - **Positioning**: Placed centrally to cover both front and back rows.
+  </Card>
+</CardGrid>
+
+### Aspect Synergies and Combat Value
+
+In the lore of Honkai: Nexus Anima, a "Nexus" represents the bond between paired concepts such as Love and Hate, Light and Dark, or Reality and Illusion. In gameplay, Anima carry remnant Aspect power that directly influences their performance when paired with matching or complementary companions.
+
+| Aspect Type | Combat Specialty | Best Synergy Partner | Tactical Value |
+| :--- | :--- | :--- | :--- |
+| **Strength** | High durability, shields | Satiation | Excellent frontline anchor |
+| **War** | Melee pressure, execution | Strength | High physical DPS |
+| **Satiation** | HP regeneration, buffs | Strength | Sustained team healing |
+| **Love** | Crowd control, protection | Memory | Disruption and survival |
+| **Memory** | Skill cooldown reduction | Love | Rapid ability cycling |
+
+<Callout type="warning" title="Synergy Warning">
+Avoid pairing conflicting Aspects that do not offer shared bonuses. Always check the active synergy tracker on the team-building screen before locking in your line-up for difficult challenges.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Battle Preparation Guide">
+
+To help you secure consistent victories during the 2026 Evolution Test, follow this structured approach to setting up your squad before entering the arena.
+
+<Steps>
+  <Step num="1" title="Analyze the Enemy Lineup">
+    Examine the enemy's composition, looking specifically for high-threat melee attackers or backline crowd-controllers. Identify their Aspect vulnerabilities to determine which of your companions will deal bonus damage.
+  </Step>
+  <Step num="2" title="Select Your Anchor Companion">
+    Choose a primary anchor unit to build your strategy around. For a defensive approach, start with a high-durability Strength unit like Fyrklor. For an aggressive approach, anchor with a War Aspect unit like Scorscythe.
+  </Step>
+  <Step num="3" title="Fill the Support and Utility Slots">
+    Add partners that cover your anchor's weaknesses. If your main attacker is slow, add a Memory Aspect companion to speed up their skill triggers. If your frontline needs healing, slot in a Satiation companion like Hoggit.
+  </Step>
+  <Step num="4" title="Adjust Grid Placement">
+    Place your frontline units directly in the path of incoming threats to intercept them. Tuck your fragile support units into the back corners, ensuring they are outside the range of enemy area-of-effect (AoE) skills.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Success Tip">
+If a stage feels too difficult, try shifting your units laterally on the grid. Changing which frontline unit draws the initial enemy aggro can completely alter the flow of the battle.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Anima Evolution and Progression Impact">
+
+As your companions grow, their combat utility undergoes significant shifts. Evolution does not simply increase raw numbers; it can fundamentally change how an Anima behaves in combat, sometimes unlocking entirely new roles within your team.
+
+During the Evolution Test, players can experience multi-stage evolution lines that showcase this progression system.
+
+### Evolution Line Case Study: Inkifoal
+
+| Evolution Stage | Name | Combat Role | Primary Aspect | Key Battle Utility |
+| :--- | :--- | :--- | :--- | :--- |
+| **Stage 1** | Inkifoal | Light Skirmisher | Evolution Showcase | Fast single-target poke |
+| **Stage 2** | Inkicorn | Mobile Utility | Evolution Showcase | Debuff application, high speed |
+| **Stage 3** | Atragasus | Elite Frontline | Evolution Showcase | AoE crowd control, team shield |
+
+As shown above, raising your companion through its evolution line transforms it from a minor skirmisher into a high-tier frontline protector capable of anchoring your entire team strategy.
+
+<Callout type="info" title="Evolution Note">
+Keep resources focused on evolving a core team of three companions first rather than spreading your leveling materials too thinly across your entire collection.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Evolution Test Combat Checklist">
+
+Use this checklist to ensure your roster is fully optimized and ready to take on the toughest challenges available in the current beta phase.
+
+<Checklist
+  id="combat-readiness"
+  title="Combat Readiness Milestones:"
+  items={[
+    "Unlock at least one fully evolved Stage 3 companion (e.g., Atragasus)",
+    "Establish a reliable 3-unit core team with active Aspect synergy",
+    "Equip and level up combat bonds for your primary frontliner",
+    "Clear the main story encounters in Iia to unlock advanced tactical grids",
+    "Identify and capture at least one rare Chromatic variant for specialized utility"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I trigger ultimate abilities in Honkai Nexus Anima combat?",
+    answer: "Ultimate abilities trigger automatically once an Anima builds up enough energy during a Nexus Battle. Energy is generated by landing basic attacks, taking damage, or through specific support skills from companions with the Memory Aspect."
+  },
+  {
+    question: "Can I manually control my companions during a battle?",
+    answer: "No, the combat in Honkai: Nexus Anima is designed as an adventure strategy auto-battler. Your control is limited to pre-battle team composition, grid placement, and choosing which active bonds to equip before the fight starts."
+  },
+  {
+    question: "What is a Chromatic Anima, and does it affect combat performance?",
+    answer: "Chromatic Anima are rare visual variants of standard companions. While they share the same base skill kits as their standard counterparts, they often feature unique stat distributions or minor passive adjustments that can optimize highly specific team setups."
+  },
+  {
+    question: "Why is my backline companion dying so quickly at the start of a fight?",
+    answer: "This is usually caused by poor grid placement. If there is an open lane with no frontline companion blocking it, enemy melee units will run straight past your empty spaces and attack your backline. Make sure your front row fully covers all potential approach lanes."
+  }
+]} />
+
+</Section>

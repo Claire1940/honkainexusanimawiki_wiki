@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "release": "Release",
+    "beta": "Beta",
+    "download": "Download",
+    "guide": "Guide",
+    "gameplay": "Gameplay",
+    "characters": "Characters",
+    "anima": "Anima"
+  }
+}

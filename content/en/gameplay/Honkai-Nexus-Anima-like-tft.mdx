@@ -1,0 +1,134 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Honkai Nexus Anima Like TFT: Auto-Battler Mechanics & Team Strategy",
+  description: "Explore Honkai Nexus Anima's auto-battler strategy. Learn how Nexus Battles compare to TFT, manage board placement, and build high-synergy team comps.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0c4a6e/fff?text=TFT+Style+Strategy+Guide",
+  date: "2026-07-09",
+  author: "Honkai Nexus Anima Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Honkai Nexus Anima like TFT**: The game features semi-autonomous arena combat resembling popular auto-battlers like Teamfight Tactics.
+- **Strategic Placement**: Board positioning is crucial, as frontline tanks protect high-value backline utility units.
+- **Aspect Synergy**: Team composition relies on pairing complementary concept-driven Aspects rather than raw individual power.
+- **Companion Bond**: Anima act as both exploration partners and tactical battle units with distinct evolution lines.
+</Callout>
+
+<Section icon={Swords} title="Honkai Nexus Anima Like TFT: Combat System Comparison">
+
+The tactical core of Honkai: Nexus Anima centers on **Nexus Battles**, a strategic arena system that draws immediate comparisons to Teamfight Tactics (TFT). While the game incorporates open-world exploration and creature collection, the combat phases shift to a tactical grid where your collected Anima companions fight semi-autonomously. 
+
+Understanding how **Honkai Nexus Anima like TFT** mechanics operate is the key to mastering both early-game challenges and late-game progression. Unlike traditional turn-based RPGs, you do not input direct commands during a Nexus Battle. Instead, your success depends entirely on pre-combat preparation, roster synergy, and precise unit placement on the board.
+
+| Gameplay Feature | Teamfight Tactics (TFT) | Honkai: Nexus Anima | Player Strategy Impact |
+| :--- | :--- | :--- | :--- |
+| **Combat Control** | Fully autonomous auto-battle | Semi-autonomous strategy | Focus shifts to prep and placement |
+| **Synergy System** | Origin and Class traits | Aspect-based paired concepts | Pair opposing or aligned concepts |
+| **Unit Progression** | 3-star combination pooling | Evolution lines (e.g., Inkifoal) | Long-term growth over temporary stars |
+| **Overworld Role** | None (lobby-only interface) | Active exploration partners | Companions assist in both modes |
+
+<Callout type="tip" title="Synergy Priority">
+Do not simply stack your team with your highest-rarity Anima. Just like in TFT, a balanced team of lower-tier units with active Aspect synergies will easily defeat a disorganized group of high-tier units.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Mechanics of Nexus Battles">
+
+To excel in Nexus Battles, you must master the fundamental rules of the arena board. Combat begins after you deploy your Anima units onto the grid. Once the round starts, units target enemies based on proximity, attack range, and specific behavior AI.
+
+### Understanding Aspect Synergy
+In TFT, you build around traits like Chrono or Portal. In Honkai: Nexus Anima, you build around **Aspects**—remnant conceptual powers left behind by broken universal bonds. These Aspects dictate how units interact, share buffs, and counter opposing elements.
+
+### Board Placement Rules
+Your board setup dictates the flow of battle. Putting fragile utility units in harm's way leads to swift defeat, whereas proper front-to-back layering ensures your damage dealers can execute their abilities.
+
+| Unit Role | Ideal Board Position | Primary Objective | Example Unit |
+| :--- | :--- | :--- | :--- |
+| **Frontline Protector** | Front row center | Absorb damage, draw aggro, create space | Fyrklor (Strength Aspect) |
+| **Melee Striker** | Front row flank | Pressure enemy backline, deal physical damage | Scorscythe (War Aspect) |
+| **Backline Support** | Back row corners | Provide healing, crowd control, or shields | Umpurrella (Featured Utility) |
+| **Growth Anchor** | Middle row protected | Survive to scale up power over time | Inkifoal (Evolution Line) |
+
+<Callout type="warning" title="Flanking Hazards">
+Be mindful of high-mobility enemy strike units. If you leave your backline entirely unprotected, fast melee threats will bypass your frontline protector and eliminate your utility units instantly.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Team Building Guide">
+
+Building a competitive team in Honkai: Nexus Anima follows a structured process. Use these steps to transition from a basic starter setup to a highly synchronized, TFT-style composition.
+
+<Steps>
+  <Step num="1" title="Select Your Anchor Unit">
+    Choose a primary frontline protector to serve as the anchor of your team. A unit like **Fyrklor** is ideal because its Strength Aspect provides high survivability, creating a safe zone for your backline.
+  </Step>
+  <Step num="2" title="Add Role Coverage">
+    Introduce a secondary damage dealer or utility unit. If you need aggressive pressure, pair your anchor with **Scorscythe** (War Aspect). If you need defensive utility, opt for a companion like **Umpurrella**.
+  </Step>
+  <Step num="3" title="Activate Aspect Synergies">
+    Look at the concept bonds of your chosen units. Match paired concept Aspects (such as Love and Hate, or Strength and Satiation) to unlock team-wide combat bonuses that increase attack speed, defense, or energy generation.
+  </Step>
+  <Step num="4" title="Position Your Grid">
+    Place your protector in the front row, your melee strikers on the outer flanks, and your squishy utility or evolution units safely in the rear. Double-check that your backline is not exposed to direct paths.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Evolution Advantage">
+When using progression-focused units like the **Inkifoal → Inkicorn → Atragasus** line, prioritize keeping them alive. These units grow exponentially stronger mid-battle as their evolution triggers, mimicking the power spike of hitting a 3-star unit in TFT.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Daily Progression & Combat Checklist">
+
+To keep your Anima competitive in the arena, you must balance active combat testing with overworld progression. Ensure you complete these daily milestones to maximize your team's tactical strength.
+
+<Checklist
+  id="nexus-battle-goals"
+  title="Daily Tactical Milestones:"
+  items={[
+    "Complete main story missions to unlock advanced Aspect nodes",
+    "Bond with active Anima to unlock character-specific tactical abilities",
+    "Test new grid placements in the Evolution Test arena",
+    "Monitor official channels for new Chromatic Anima variants and updates"
+  ]}
+/>
+
+<Callout type="info" title="Test Phase Data">
+The game is currently in its Evolution Test phase (running from July 9 to July 27, 2026). Keep in mind that balance changes occur frequently, and player account data will be wiped at the end of the test period.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tactical FAQ">
+
+<FAQ items={[
+  {
+    question: "Is Honkai Nexus Anima actually an auto-battler like TFT?",
+    answer: "Yes, its Nexus Battles utilize a semi-autonomous auto-battler system where team positioning, Aspect synergy, and unit roles determine the outcome of combat rather than manual turn-by-turn inputs."
+  },
+  {
+    question: "How do Aspects work compared to TFT traits?",
+    answer: "Aspects represent paired conceptual powers (such as Strength, War, Satiation, or Memory). Deploying units with matching or complementary Aspects activates powerful arena-wide buffs, similar to finishing a trait tier in TFT."
+  },
+  {
+    question: "Can I evolve my Anima units mid-combat?",
+    answer: "Certain specialized progression units, such as the Inkifoal evolution line, are designed to evolve and shift forms as the battle goes on, significantly increasing their stats and altering their combat roles."
+  },
+  {
+    question: "What is the best starting team composition for beginners?",
+    answer: "A highly effective starter composition consists of Fyrklor in the front row to absorb damage, Scorscythe on the flank for melee pressure, and a utility companion like Umpurrella in the backline for support."
+  }
+]} />
+
+</Section>

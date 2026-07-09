@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gacha de Honkai Nexus Anima: Guía de Mecánicas, Monedas y Mejores Tiradas",
+  description: "Domina el sistema gacha de Honkai Nexus Anima. Aprende cómo obtener personajes Kardia, invocar compañeros Anima, optimizar las Gemas de Aspecto y crear el equipo definitivo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/06b6d4?text=Gacha+and+Currencies+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Honkai Nexus Anima"
+}
+
+<Callout type="info" title="Guía rápida">
+- **El gacha de Honkai Nexus Anima** se centra en invocar **personajes Kardia**, quienes proporcionan poderosas mejoras pasivas para todo el equipo y Talismanes equipables.
+- **Los compañeros Anima** (las unidades de batalla principales) se pueden comprar directamente en la tienda usando Gemas de Aspecto u obtenerse a través de Encuentros de Vínculo en el mundo abierto.
+- **Las reservas de invocación doble** permiten a los jugadores gastar Gemas de Aspecto para intentar obtener líderes de combate de primer nivel y desbloquear variantes raras de Anima Cromáticos.
+- **Los hitos amigables para F2P** recompensan el progreso activo, otorgando a los jugadores personajes Kardia de cinco estrellas y compañeros Anima gratis en niveles específicos.
+</Callout>
+
+<Section icon={Sparkles} title="Cómo funciona el gacha de Honkai Nexus Anima">
+
+Honkai: Nexus Anima introduce una mezcla única de colección de criaturas y jugabilidad de batallas automáticas tácticas, cambiando el funcionamiento de las mecánicas tradicionales de gacha. A diferencia de otros títulos de HoYoverse donde los jugadores tiran directamente por combatientes en el campo, el **gacha de Honkai Nexus Anima** divide su enfoque entre líderes humanos (**Kardia**) y compañeros de batalla coleccionables (**Anima**). 
+
+Comprender esta división es esencial para gestionar tus recursos durante la Prueba de Evolución (que se llevará a cabo del 9 al 27 de julio de 2026) [00基础信息.md].
+
+### La división entre Kardia y Anima
+En combate, tu equipo consta de unidades Anima activas que luchan en el campo. Los personajes humanos, obtenidos a través del gacha de Kardia, funcionan como comandantes tácticos. No luchan directamente; en su lugar, proporcionan poderosas mejoras pasivas, generan "Leyes" únicas en el campo de batalla y equipan "Talismanes" para maximizar el rendimiento de tus Anima.
+
+| Categoría de Invocación | Rol Principal en el Equipo | Cómo Adquirir | Sistema de Duplicados |
+| :--- | :--- | :--- | :--- |
+| **Personajes Kardia** | Proporcionan mejoras de equipo, ranuras de Talismán y Leyes activas | Reservas de gacha limitadas de Kardia e hitos de nivel | Desbloquea pasivas avanzadas y aumenta los porcentajes de mejora |
+| **Compañeros Anima** | Unidades de combate activas en el campo de batalla | Tienda de Gemas de Aspecto, Encuentros de Vínculo y recompensas de eventos | Evoluciona al Anima hasta 6 veces para aumentar las estadísticas base |
+
+<Callout type="tip" title="Mecánica de Líder">
+Puedes llevar hasta tres personajes Kardia en una sola batalla. Sin embargo, solo tu **Líder** designado aparecerá en forma chibi en el campo y activará sus "Leyes" exclusivas. Los otros dos personajes funcionan únicamente como ranuras de apoyo para aumentar estadísticas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tasas de Invocación, Banners y Monedas">
+
+La moneda principal utilizada tanto para el sistema gacha como para la tienda de compra directa son las **Gemas de Aspecto**. Estas se obtienen al completar misiones de la historia principal, terminar misiones diarias, superar desafíos de Planos y participar en eventos de tiempo limitado. 
+
+### Estructura de las Reservas de Gacha
+El sistema gacha cuenta con banners rotativos de tiempo limitado con personajes populares de colaboraciones (como Blade de *Honkai: Star Rail*) y personajes originales muy esperados como Nanafey y Bai Mei.
+
+| Tipo de Banner | Enfoque Principal | Tasa Base (5 Estrellas) | Activación del Sistema de Piedad |
+| :--- | :--- | :--- | :--- |
+| **Banner Limitado de Kardia** | Personaje destacado de 5 estrellas (ej. Blade) | 1.6% (incluyendo piedad suave) | 5 estrellas garantizado a las 80 invocaciones |
+| **Banner de Sinergia Anima** | Anima de alto nivel y variantes Cromáticas raras | 2.5% (tasa más alta para criaturas) | Anima destacado garantizado a las 50 invocaciones |
+| **Reserva Estándar de Novarca** | Personajes permanentes y Talismanes básicos | 1.2% (tasas estándar) | Selector a elegir a las 150 invocaciones totales |
+
+<Callout type="warning" title="Límites de Duplicados">
+Adquirir duplicados de Anima tanto del gacha como de los encuentros en el mundo abierto te permite evolucionarlos. La evolución de Anima tiene un límite de **6 veces**. Cualquier duplicado obtenido después de alcanzar el nivel máximo de evolución se convertirá en fichas universales de la tienda.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso: Desbloqueo y Tiradas">
+
+Para aprovechar al máximo tus Gemas de Aspecto, debes seguir una ruta de progresión estructurada. Esto asegura que no desperdicies valiosos recursos de invocación en artículos que el juego eventualmente te dará gratis.
+
+<Steps>
+  <Step num="1" title="Alcanza el Nivel de Cuenta 14">
+    Concéntrate por completo en la campaña principal en la ciudad de Iia [00首页信息-2.md]. No te preocupes por la formación de equipos al principio; simplemente progresa hasta alcanzar el Nivel 14 para desbloquear oficialmente la interfaz de la Tienda.
+  </Step>
+  <Step num="2" title="Reclama Personajes Kardia Gratis">
+    Antes de gastar Gemas de Aspecto, revisa tus recompensas de nivel. Los personajes exclusivos de Kardia como Maple, Cassio Rollex y Jalily se pueden reclamar completamente gratis al alcanzar el Nivel 21.
+  </Step>
+  <Step num="3" title="Compra Anima de Cinco Estrellas en la Tienda">
+    Navega a la sección de Anima de la tienda. Los compañeros de cinco estrellas de alto nivel como Hamburgoof, Pomparrot, Lumehart y Mesmerith estarán disponibles para compra directa por **800 Gemas de Aspecto** en los niveles 18, 21 y 24.
+  </Step>
+  <Step num="4" title="Invierte en Banners Limitados de Kardia">
+    Una vez que asegures tu elenco principal de Anima a través de la tienda, invierte las Gemas de Aspecto restantes en los banners de tiempo limitado de Kardia. Obtener un comandante de primer nivel como Blade proporciona los enormes multiplicadores de estadísticas necesarios para los Planos de alta dificultad.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Prioridades de Tiradas para Principiantes">
+
+Para los jugadores que buscan optimizar su poder de combate durante la Prueba de Evolución, es crucial priorizar la combinación correcta de líderes Kardia y compañeros Anima.
+
+<CardGrid cols={3}>
+  <Card title="Tier S: Blade (Kardia)">
+    - **Sinergia de Aspecto**: Guerra y Fuerza
+    - **Mejor Rol**: Líder Principal
+    - Proporciona enormes multiplicadores de daño físico y otorga Leyes de robo de vida activas a protectores de primera línea como Fyrklor [00首页信息-2.md].
+  </Card>
+  <Card title="Tier A: Pomparrot (Anima)">
+    - **Sinergia de Aspecto**: Saciación y Viento
+    - **Mejor Rol**: Soporte de Retaguardia
+    - Un compañero de cinco estrellas muy flexible disponible en la tienda. Ofrece una excelente curación en área y regeneración de energía.
+  </Card>
+  <Card title="Tier A: Nanafey (Kardia)">
+    - **Sinergia de Aspecto**: Memoria e Ilusión
+    - **Mejor Rol**: Comandante de Soporte
+    - Aumenta la velocidad de ataque y las tasas de activación de habilidades de los compañeros enfocados en la utilidad como Camcorgi [00首页信息-2.md].
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recomendación F2P">
+Prioriza siempre comprar el **Anima de cinco estrellas de 800 Gemas de Aspecto** en la tienda antes de arriesgarte en los banners. Estas compras garantizadas proporcionan una base estable para tu equipo sin depender de la suerte del gacha.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hitos F2P y Lista de Verificación de Progresión">
+
+Lleva un registro de tus objetivos de progresión para asegurarte de recolectar todas las recompensas garantizadas y maximizar tus ingresos diarios de Gemas de Aspecto.
+
+<Checklist
+  id="gacha-progression"
+  title="Hitos F2P Esenciales:"
+  items={[
+    "Alcanzar el Nivel 14 para desbloquear los sistemas de Tienda y Gacha",
+    "Comprar tu primer Anima de 5 estrellas en la tienda por 800 Gemas de Aspecto",
+    "Alcanzar el Nivel 21 para reclamar personajes Kardia gratis (Maple, Cassio y Jalily)",
+    "Completar todos los desafíos diarios de Planos para asegurar más de 150 Gemas de Aspecto gratis al día",
+    "Superar los Encuentros de Vínculo del Abismo de Pesadilla para obtener duplicados garantizados de Anima de 4 estrellas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es el gacha de Honkai Nexus Anima muy exigente en comparación con Star Rail?",
+    answer: "No, es significativamente más amigable para F2P. Aunque los personajes Kardia están vinculados al gacha de Honkai Nexus Anima, las unidades de batalla principales (Anima) se pueden comprar directamente en la tienda usando la moneda del juego o capturarse en el mundo abierto."
+  },
+  {
+    question: "¿Cuántas veces puedo evolucionar a mis compañeros Anima?",
+    answer: "Puedes evolucionar cada Anima hasta 6 veces. Los duplicados se pueden obtener a través del gacha, Encuentros de Vínculo en el mundo abierto, Desafíos de Gimnasio y eventos de tiempo limitado."
+  },
+  {
+    question: "¿Qué pasa con mi progreso del gacha después de la Prueba de Evolución?",
+    answer: "La Prueba de Evolución que se lleva a cabo del 9 de julio al 27 de julio de 2026 es una beta cerrada con restablecimiento de datos. Todos los personajes, Anima y Gemas de Aspecto no utilizadas se restablecerán antes del lanzamiento público oficial."
+  },
+  {
+    question: "¿Puedo jugar sin tirar en los banners de Kardia?",
+    answer: "Sí. El juego proporciona varios personajes Kardia gratuitos en el Nivel 21 que son totalmente capaces de completar la historia principal y los desafíos básicos de exploración de Planos."
+  }
+]} />
+
+</Section>

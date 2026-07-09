@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Honkai Nexus Anima cuántos GB: Guía de requisitos del sistema y almacenamiento",
+  description: "Consulta el espacio de almacenamiento oficial en GB y los requisitos de hardware para Honkai: Nexus Anima en PC, iOS y Android antes de descargar.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/121b2d/06b6d4?text=Storage+and+System+Requirements",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Honkai Nexus Anima"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Honkai Nexus Anima cuántos GB**: PC requiere **15 GB** de almacenamiento reservado, mientras que iOS y Android requieren **10 GB** de espacio libre.
+- **Estado de la CBT**: El Evolution Test se llevará a cabo del **9 al 27 de julio de 2026** en PC, iOS y Android.
+- **RAM mínima**: Los dispositivos necesitan al menos **12 GB de RAM** para PC y **6 GB de RAM** para plataformas móviles.
+- **Regla de red**: Se requiere una **conexión a internet constante** para jugar y sincronizar tu progreso.
+</Callout>
+
+<Section icon={Shield} title="Honkai Nexus Anima cuántos GB: Requisitos de almacenamiento">
+
+Al preparar tu dispositivo para la aventura de estrategia y recolección de criaturas de HoYoverse, la primera pregunta en la mente de todos los jugadores es **cuántos GB requiere Honkai Nexus Anima** de espacio de almacenamiento. Debido a que el juego cuenta con una exploración detallada del mundo abierto, modelos 3D detallados de Anima y arenas de batalla dinámicas, el cliente requiere una cantidad decente de espacio de almacenamiento en todas las plataformas compatibles. 
+
+Los requisitos de almacenamiento varían según la plataforma, siendo la PC la que requiere el mayor espacio debido a los recursos de mayor resolución y detalles ambientales.
+
+| Plataforma | Espacio libre recomendado | Espacio mínimo requerido | Tipo de instalación |
+| :--- | :--- | :--- | :--- |
+| **PC (Windows)** | **15 GB o más** | 12 GB | Lanzador de descarga directa |
+| **iOS (iPhone/iPad)** | **10 GB o más** | 8 GB | Descarga de App Store |
+| **Android** | **10 GB o más** | 8 GB | Descarga de Google Play |
+
+<Callout type="warning" title="Nota sobre el margen de almacenamiento">
+Reserva siempre de **3 a 5 GB de espacio adicional** más allá de los requisitos mínimos. Este margen es crucial para descargar parches de actualización temporales, descomprimir archivos durante la instalación y almacenar archivos de caché locales del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Requisitos del sistema para PC en el Evolution Test">
+
+Para disfrutar de los vibrantes efectos visuales de la ciudad inicial de Iia y la profundidad táctica de las Batallas de Nexos, tu PC debe cumplir con ciertos límites de hardware. La versión para PC de Honkai: Nexus Anima ofrece la mayor fidelidad gráfica, admitiendo sombras avanzadas, suavizado de contornos (anti-aliasing) y tasas de fotogramas más altas. 
+
+La siguiente tabla detalla las configuraciones de sistema mínimas y recomendadas para los jugadores de PC que se unan al actual Evolution Test a partir del 9 de julio de 2026.
+
+| Componente de hardware | Requisitos mínimos de PC | Especificaciones recomendadas de PC |
+| :--- | :--- | :--- |
+| **Sistema operativo** | Windows 10 (64 bits) | Windows 10/11 (64 bits) |
+| **Procesador (CPU)** | Intel Core i5-11300F / AMD Ryzen 5 3600x | Intel Core i5 (11.ª gen) / AMD Ryzen 5 serie 5000 |
+| **Tarjeta gráfica (GPU)** | NVIDIA GeForce RTX 2060 / AMD RX 5600 XT | NVIDIA GeForce RTX 3060 / AMD RX 6700 XT |
+| **Memoria del sistema (RAM)** | **12 GB de RAM** | **16 GB de RAM** |
+| **Versión de DirectX** | Versión 11 | Versión 12 |
+| **Espacio de almacenamiento** | **15 GB de espacio disponible** | **20 GB de espacio en SSD** |
+
+<Callout type="tip" title="Consejo de rendimiento">
+Instalar Honkai: Nexus Anima en una unidad de estado sólido (SSD) en lugar de un disco duro tradicional (HDD) reduce significativamente los tiempos de carga del mapa al viajar entre diferentes Planos de Realidad e Ilusión.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Requisitos del sistema móvil: iOS y Android">
+
+Los jugadores de dispositivos móviles pueden llevar a sus compañeros Anima a cualquier parte. Sin embargo, debido al estilo artístico de anime de alta fidelidad del juego y a las interacciones basadas en la física, los requisitos del sistema móvil son bastante exigentes. 
+
+A continuación se presentan las especificaciones de hardware requeridas para ejecutar el juego sin problemas en dispositivos iOS y Android durante las pruebas de juego de 2026.
+
+<CardGrid cols={2}>
+  <Card title="Requisitos de iOS">
+    - **Modelos de dispositivo**: iPhone 12 Pro, 13 Pro, 14 series o posterior
+    - **Modelos de iPad**: Chip M1 o más reciente (iPad Pro de 5.ª gen, Air de 5.ª gen, Mini 7)
+    - **Versión del sistema**: iOS 15.0 o superior
+    - **Memoria**: Mínimo de **6 GB de RAM**
+    - **Almacenamiento**: **10 GB de espacio libre**
+  </Card>
+  <Card title="Requisitos de Android">
+    - **Procesador**: Snapdragon 8+ Gen 1, Kirin 9020, Dimensity 9000+ o equivalente
+    - **Versión del sistema**: Android 6.0 o superior
+    - **Memoria**: **6 GB de RAM** o más
+    - **Almacenamiento**: **10 GB de espacio libre**
+    - **API gráfica**: Se recomienda soporte para Vulkan
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Nota de compatibilidad de dispositivos">
+Los modelos base estándar como el iPhone 13 o el iPhone 13 Mini están excluidos oficialmente de la lista recomendada debido a limitaciones de memoria. Se requiere estrictamente un mínimo de 6 GB de RAM para evitar que el cliente se cierre inesperadamente durante las intensas Batallas de Nexos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a paso: Cómo descargar e instalar el juego">
+
+Si has sido seleccionado para la beta cerrada o quieres prepararte para el lanzador público, sigue estos pasos para asegurar los archivos de tu juego de forma segura.
+
+<Steps>
+  <Step num="1" title="Comprobar el estado de selección">
+    Inicia sesión en tu cuenta oficial de HoYoverse en el sitio web de Honkai: Nexus Anima para comprobar si tu cuestionario del Evolution Test fue aceptado.
+  </Step>
+  <Step num="2" title="Verificar tu correo electrónico">
+    Revisa la bandeja de entrada del correo electrónico asociado a tu registro para obtener un enlace de descarga oficial e instrucciones de activación únicas.
+  </Step>
+  <Step num="3" title="Liberar espacio de almacenamiento">
+    Asegúrate de que tu unidad de destino tenga al menos **15 GB (PC)** o **10 GB (Móvil)** de espacio libre antes de comenzar la descarga.
+  </Step>
+  <Step num="4" title="Ejecutar el instalador oficial">
+    Descarga el lanzador del cliente, selecciona tu ruta de instalación y permite que el lanzador descargue los recursos del juego. Mantén tu conexión estable durante todo el proceso.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Listo para la batalla">
+Una vez instalado, inicia sesión con tu cuenta autorizada de HoYoverse. Recuerda que compartir la cuenta está estrictamente prohibido y que iniciar sesión en varios dispositivos de la misma plataforma puede resultar en una suspensión inmediata.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación previa a la descarga">
+
+Antes de hacer clic en descargar y comenzar tu viaje por el Plano de la Realidad de Iia, repasa esta rápida lista de verificación previa a la descarga para garantizar una experiencia de configuración sin problemas.
+
+<Checklist
+  id="predownload-checklist"
+  title="Requisitos previos a la instalación:"
+  items={[
+    "Verifica que la unidad de destino tenga 15 GB (PC) o 10 GB (Móvil) de espacio libre",
+    "Asegúrate de que tu PC o dispositivo móvil cumpla con el requisito de 12 GB (PC) o 6 GB (Móvil) de RAM",
+    "Confirma que tu conexión a internet sea estable y no utilice VPN restrictivas",
+    "Revisa tu correo electrónico registrado para ver la invitación e instrucciones oficiales del Evolution Test",
+    "Actualiza los controladores de tu tarjeta gráfica (NVIDIA/AMD) a las últimas versiones de 2026"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos GB necesito en PC para Honkai Nexus Anima?",
+    answer: "Necesitas un mínimo de 15 GB de espacio de almacenamiento reservado en tu PC para descargar e instalar el cliente del juego para la fase de prueba actual."
+  },
+  {
+    question: "¿Puedo jugar a Honkai: Nexus Anima en un teléfono antiguo?",
+    answer: "Los dispositivos móviles deben tener al menos 6 GB de RAM y ejecutar iOS 15.0 o Android 6.0 o superior. Los dispositivos más antiguos con menos de 6 GB de RAM pueden experimentar graves problemas de rendimiento o cierres inesperados frecuentes."
+  },
+  {
+    question: "¿Hay una opción de predescarga para el Evolution Test?",
+    answer: "Sí, los probadores seleccionados reciben instrucciones de descarga por correo electrónico poco antes de que comience la prueba el 9 de julio de 2026, lo que les permite predescargar los recursos."
+  },
+  {
+    question: "¿Se conservará mi progreso después de la prueba?",
+    answer: "No, el Evolution Test es una beta cerrada limitada con un restablecimiento completo de datos. Todo el progreso de la cuenta se eliminará una vez que concluya la prueba el 27 de julio de 2026."
+  }
+]} />
+
+</Section>

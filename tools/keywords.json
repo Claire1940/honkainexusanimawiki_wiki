@@ -1,46 +1,78 @@
 {
   "categories": [
     {
-      "category": "Guides",
+      "category": "release",
       "keywords": [
-        "lucid blocks guide"
+        "Honkai Nexus Anima release date",
+        "Honkai Nexus Anima global release date",
+        "Honkai Nexus Anima launch date",
+        "Honkai Nexus Anima when release",
+        "Honkai Nexus Anima official release date"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "beta",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "Honkai Nexus Anima beta",
+        "Honkai Nexus Anima beta test",
+        "Honkai Nexus Anima closed beta",
+        "Honkai Nexus Anima playtest",
+        "Honkai Nexus Anima evolution test",
+        "Honkai Nexus Anima test access",
+        "Honkai Nexus Anima recruitment"
       ]
     },
     {
-      "category": "Items",
+      "category": "download",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "Honkai Nexus Anima download",
+        "Honkai Nexus Anima pre register",
+        "Honkai Nexus Anima registration",
+        "Honkai Nexus Anima android",
+        "Honkai Nexus Anima ios",
+        "Honkai Nexus Anima apk"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "guide",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "Honkai Nexus Anima guide",
+        "Honkai Nexus Anima beginner guide",
+        "Honkai Nexus Anima how to play",
+        "Honkai Nexus Anima what type of game",
+        "Honkai Nexus Anima system requirements",
+        "Honkai Nexus Anima how many gb"
       ]
     },
     {
-      "category": "Building",
+      "category": "gameplay",
       "keywords": [
-        "lucid blocks qualia"
+        "Honkai Nexus Anima gameplay",
+        "Honkai Nexus Anima combat",
+        "Honkai Nexus Anima pvp",
+        "Honkai Nexus Anima gacha",
+        "Honkai Nexus Anima like pokemon",
+        "Honkai Nexus Anima like tft",
+        "Honkai Nexus Anima vs Honkai Star Rail"
       ]
     },
     {
-      "category": "Support",
+      "category": "characters",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "Honkai Nexus Anima characters",
+        "Honkai Nexus Anima all characters",
+        "Honkai Nexus Anima Bai Mei",
+        "Honkai Nexus Anima Blade",
+        "Honkai Nexus Anima Otto",
+        "Honkai Nexus Anima Kiana",
+        "Honkai Nexus Anima Nanafey",
+        "Honkai Nexus Anima main character"
+      ]
+    },
+    {
+      "category": "anima",
+      "keywords": [
+        "Honkai Nexus Anima all anima"
       ]
     }
   ]

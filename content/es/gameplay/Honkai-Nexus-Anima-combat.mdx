@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Combate en Honkai Nexus Anima: Guía de estrategia definitiva para las Batallas del Nexus",
+  description: "Domina las mecánicas de combate de Honkai Nexus Anima. Aprende sobre el posicionamiento en la arena, sinergias de Aspectos, roles de equipo y estrategias para la Prueba de Evolución de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/124e54/fff?text=Nexus+Battles+Combat+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Honkai Nexus Anima"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **combate de Honkai Nexus Anima** se centra en enfrentamientos estratégicos y semiautónomos en arenas conocidos como **Batallas de Nexus**.
+- La **composición del equipo** dicta el éxito, requiriendo una mezcla equilibrada de presión en la vanguardia, daño en la retaguardia y acompañantes de utilidad.
+- La **sinergia de Aspectos** funciona como la capa táctica principal, emparejando conceptos como Fuerza, Guerra y Saciedad para desbloquear poder.
+- Las **líneas de evolución** alteran significativamente la utilidad en batalla, cambiando los roles de los acompañantes a medida que crecen desde formas básicas hasta etapas maduras.
+- El **posicionamiento y la preparación** antes de que comience la batalla tienen mucho más peso que las acciones manuales turno por turno durante el combate.
+</Callout>
+
+<Section icon={Swords} title="Comprendiendo el combate de Honkai Nexus Anima y las Batallas de Nexus">
+
+El bucle de juego principal de este juego de estrategia y aventura de coleccionismo de criaturas de HoYoverse depende en gran medida de la preparación, el posicionamiento táctico y la sinergia de los acompañantes. En el **combate de Honkai Nexus Anima**, los jugadores no emiten comandos manuales directos turno por turno durante los enfrentamientos activos. En su lugar, el combate se desarrolla como un auto-battler estilo arena donde tus acompañantes Anima recolectados luchan de forma semiautónoma según sus roles preestablecidos, comportamientos y vínculos activos.
+
+El éxito en estas Batallas de Nexus se determina antes de que el temporizador comience a correr. Los jugadores deben analizar las alineaciones enemigas, comprender la distribución del campo y posicionar a sus acompañantes para maximizar sus patrones de combate naturales.
+
+| Característica de combate | Tipo de mecánica | Influencia del jugador |
+| :--- | :--- | :--- |
+| **Batallas de arena** | Semiautónoma | Alta (Colocación previa a la batalla) |
+| **Comportamiento de Anima** | Combate guiado por IA | Media (Objetivo basado en el rol) |
+| **Habilidades activas** | Activación automática | Baja (Dependiente de enfriamiento y vínculos) |
+| **Sistema de sinergia** | Basado en Aspectos | Alta (Elecciones de creación de equipo) |
+
+<Callout type="tip" title="Consejo de estrategia">
+Dado que no puedes redirigir manualmente los ataques a mitad de la pelea, tu colocación inicial determina si tus frágiles acompañantes de utilidad en la retaguardia sobreviven a la embestida enemiga inicial. Coloca siempre a tus acompañantes de alta durabilidad en la fila delantera.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Roles principales del equipo y sinergias de Aspectos">
+
+Crear un equipo viable requiere una comprensión profunda de los roles individuales de los Anima y cómo interactúan en el campo de batalla. Llenar un equipo únicamente con unidades de alto daño te dejará vulnerable al control de masas y a contraataques rápidos, mientras que invertir demasiado en unidades defensivas hará que pierdas batallas debido a los estrictos límites de tiempo.
+
+### Roles de combate principales
+
+Para construir un equipo equilibrado, debes asignar tus espacios limitados para cubrir tres funciones de combate esenciales:
+
+<CardGrid cols={3}>
+  <Card title="Presión en la vanguardia">
+    - **Enfoque principal**: Absorber daño, desbaratar las líneas enemigas y atraer la agresión.
+    - **Ejemplos clave**: Fyrklor, Scorscythe.
+    - **Posicionamiento**: Siempre colocados en los hexágonos más avanzados.
+  </Card>
+  <Card title="Utilidad en la retaguardia">
+    - **Enfoque principal**: Infligir daño sostenido, aplicar desventajas (debuffs) o curar aliados.
+    - **Ejemplos clave**: Umpurrella, Camcorgi.
+    - **Posicionamiento**: Mantenerse a salvo detrás de la fila delantera.
+  </Card>
+  <Card title="Vínculo y soporte">
+    - **Enfoque principal**: Mejorar las estadísticas del equipo, activar bonificaciones de sinergia y manipular la energía.
+    - **Ejemplos clave**: Vulberry, Hoggit, Dragamour.
+    - **Posicionamiento**: Colocados en el centro para cubrir tanto la fila delantera como la trasera.
+  </Card>
+</CardGrid>
+
+### Sinergias de Aspectos y valor en combate
+
+En la historia de Honkai: Nexus Anima, un "Nexus" representa el vínculo entre conceptos emparejados como Amor y Odio, Luz y Oscuridad, o Realidad e Ilusión. En el juego, los Anima portan un poder de Aspecto remanente que influye directamente en su rendimiento cuando se emparejan con acompañantes compatibles o complementarios.
+
+| Tipo de Aspecto | Especialidad en combate | Mejor socio de sinergia | Valor táctico |
+| :--- | :--- | :--- | :--- |
+| **Fuerza** | Alta durabilidad, escudos | Saciedad | Excelente ancla de vanguardia |
+| **Guerra** | Presión cuerpo a cuerpo, ejecución | Fuerza | Alto DPS físico |
+| **Saciedad** | Regeneración de PV, mejoras | Fuerza | Curación de equipo sostenida |
+| **Amor** | Control de masas, protección | Memoria | Disrupción y supervivencia |
+| **Memoria** | Reducción de enfriamiento de habilidades | Amor | Ciclo rápido de habilidades |
+
+<Callout type="warning" title="Advertencia de sinergia">
+Evita emparejar Aspectos en conflicto que no ofrezcan bonificaciones compartidas. Revisa siempre el rastreador de sinergia activo en la pantalla de creación de equipo antes de confirmar tu alineación para desafíos difíciles.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía de preparación de batalla paso a paso">
+
+Para ayudarte a asegurar victorias constantes durante la Prueba de Evolución de 2026, sigue este enfoque estructurado para configurar tu escuadrón antes de ingresar a la arena.
+
+<Steps>
+  <Step num="1" title="Analizar la alineación enemiga">
+    Examina la composición del enemigo, buscando específicamente atacantes cuerpo a cuerpo de alta amenaza o controladores de masas en la retaguardia. Identifica sus vulnerabilidades de Aspecto para determinar cuáles de tus acompañantes infligirán daño adicional.
+  </Step>
+  <Step num="2" title="Seleccionar a tu acompañante ancla">
+    Elige una unidad de anclaje principal sobre la cual construir tu estrategia. Para un enfoque defensivo, comienza con una unidad de Fuerza de alta durabilidad como Fyrklor. Para un enfoque agresivo, usa como ancla una unidad de Aspecto de Guerra como Scorscythe.
+  </Step>
+  <Step num="3" title="Completar las ranuras de soporte y utilidad">
+    Añade compañeros que cubran las debilidades de tu ancla. Si tu atacante principal es lento, añade un acompañante de Aspecto de Memoria para acelerar la activación de sus habilidades. Si tu vanguardia necesita curación, incluye a un acompañante de Saciedad como Hoggit.
+  </Step>
+  <Step num="4" title="Ajustar la colocación en la cuadrícula">
+    Coloca tus unidades de vanguardia directamente en el camino de las amenazas entrantes para interceptarlas. Resguarda a tus frágiles unidades de soporte en las esquinas traseras, asegurándote de que estén fuera del alcance de las habilidades de área de efecto (AoE) del enemigo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de éxito">
+Si una fase parece demasiado difícil, intenta mover tus unidades lateralmente en la cuadrícula. Cambiar qué unidad de vanguardia atrae la agresión enemiga inicial puede alterar por completo el flujo de la batalla.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Impacto de la evolución y progresión de Anima">
+
+A medida que tus acompañantes crecen, su utilidad en combate experimenta cambios significativos. La evolución no solo aumenta los números brutos; puede cambiar fundamentalmente la forma en que un Anima se comporta en el combate, a veces desbloqueando roles completamente nuevos dentro de tu equipo.
+
+Durante la Prueba de Evolución, los jugadores pueden experimentar líneas de evolución de múltiples etapas que muestran este sistema de progresión.
+
+### Estudio de caso de línea de evolución: Inkifoal
+
+| Etapa de evolución | Nombre | Rol de combate | Aspecto principal | Utilidad clave en batalla |
+| :--- | :--- | :--- | :--- | :--- |
+| **Etapa 1** | Inkifoal | Escaramuzador ligero | Exhibición de evolución | Hostigamiento rápido a un solo objetivo |
+| **Etapa 2** | Inkicorn | Utilidad móvil | Exhibición de evolución | Aplicación de desventajas, alta velocidad |
+| **Etapa 3** | Atragasus | Vanguardia de élite | Exhibición de evolución | Control de masas en área (AoE), escudo de equipo |
+
+Como se muestra arriba, criar a tu acompañante a lo largo de su línea de evolución lo transforma de un escaramuzador menor a un protector de vanguardia de alto nivel capaz de anclar toda la estrategia de tu equipo.
+
+<Callout type="info" title="Nota de evolución">
+Mantén los recursos enfocados primero en evolucionar un equipo principal de tres acompañantes, en lugar de dispersar demasiado tus materiales de nivelación en toda tu colección.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación de combate de la Prueba de Evolución">
+
+Usa esta lista de verificación para asegurarte de que tu alineación esté completamente optimizada y lista para enfrentar los desafíos más difíciles disponibles en la fase beta actual.
+
+<Checklist
+  id="combat-readiness"
+  title="Hitos de preparación para el combate:"
+  items={[
+    "Desbloquear al menos un acompañante de Etapa 3 completamente evolucionado (por ejemplo, Atragasus)",
+    "Establecer un equipo principal confiable de 3 unidades con sinergia de Aspecto activa",
+    "Equipar y subir de nivel los vínculos de combate para tu vanguardia principal",
+    "Completar los encuentros de la historia principal en Iia para desbloquear cuadrículas tácticas avanzadas",
+    "Identificar y capturar al menos una variante Cromática rara para una utilidad especializada"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo activo las habilidades definitivas en el combate de Honkai Nexus Anima?",
+    answer: "Las habilidades definitivas se activan automáticamente una vez que un Anima acumula suficiente energía durante una Batalla de Nexus. La energía se genera al asestar ataques básicos, recibir daño o mediante habilidades de soporte específicas de acompañantes con el Aspecto de Memoria."
+  },
+  {
+    question: "¿Puedo controlar manualmente a mis acompañantes durante una batalla?",
+    answer: "No, el combate en Honkai: Nexus Anima está diseñado como un auto-battler de estrategia y aventura. Tu control se limita a la composición del equipo antes de la batalla, la colocación en la cuadrícula y la elección de qué vínculos activos equipar antes de que comience la pelea."
+  },
+  {
+    question: "¿Qué es un Anima Cromático y afecta al rendimiento en combate?",
+    answer: "Los Anima Cromáticos son variantes visuales raras de los acompañantes estándar. Aunque comparten los mismos conjuntos de habilidades básicas que sus contrapartes estándar, a menudo presentan distribuciones de estadísticas únicas o pequeños ajustes pasivos que pueden optimizar configuraciones de equipo muy específicas."
+  },
+  {
+    question: "¿Por qué mi acompañante de la retaguardia muere tan rápido al comienzo de una pelea?",
+    answer: "Esto suele deberse a un mal posicionamiento en la cuadrícula. Si hay un carril abierto sin ningún acompañante en la vanguardia que lo bloquee, las unidades enemigas cuerpo a cuerpo correrán directamente a través de tus espacios vacíos y atacarán tu retaguardia. Asegúrate de que tu fila delantera cubra por completo todos los carriles de aproximación potenciales."
+  }
+]} />
+
+</Section>

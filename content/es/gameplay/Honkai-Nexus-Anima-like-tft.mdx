@@ -1,0 +1,134 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Honkai Nexus Anima al estilo TFT: Mecánicas de Auto-Battler y Estrategia de Equipo",
+  description: "Explora la estrategia de auto-battler de Honkai Nexus Anima. Aprende cómo se comparan las Batallas Nexus con TFT, gestiona la colocación en el tablero y crea composiciones de equipo de alta sinergia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0c4a6e/fff?text=TFT+Style+Strategy+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Honkai Nexus Anima"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Honkai Nexus Anima al estilo TFT**: El juego cuenta con un combate de arena semiautónomo que se asemeja a los auto-battlers populares como Teamfight Tactics.
+- **Colocación Estratégica**: La posición en el tablero es crucial, ya que los tanques de la vanguardia protegen a las unidades de utilidad de alto valor de la retaguardia.
+- **Sinergia de Aspectos**: La composición del equipo se basa en emparejar Aspectos complementarios basados en conceptos, en lugar del poder individual bruto.
+- **Vínculo de Acompañante**: Los Anima actúan tanto como compañeros de exploración como unidades de batalla tácticas con distintas líneas de evolución.
+</Callout>
+
+<Section icon={Swords} title="Honkai Nexus Anima al estilo TFT: Comparación del Sistema de Combate">
+
+El núcleo táctico de Honkai: Nexus Anima se centra en las **Batallas Nexus**, un sistema de arena estratégico que genera comparaciones inmediatas con Teamfight Tactics (TFT). Aunque el juego incorpora exploración de mundo abierto y colección de criaturas, las fases de combate se trasladan a una cuadrícula táctica donde tus compañeros Anima recolectados luchan de forma semiautónoma. 
+
+Comprender cómo funcionan las mecánicas de **Honkai Nexus Anima al estilo TFT** es la clave para dominar tanto los desafíos del juego temprano como la progresión del juego tardío. A diferencia de los RPG por turnos tradicionales, no introduces comandos directos durante una Batalla Nexus. En su lugar, tu éxito depende por completo de la preparación previa al combate, la sinergia de la alineación y la colocación precisa de las unidades en el tablero.
+
+| Característica de Juego | Teamfight Tactics (TFT) | Honkai: Nexus Anima | Impacto en la Estrategia del Jugador |
+| :--- | :--- | :--- | :--- |
+| **Control de Combate** | Auto-battle completamente autónomo | Estrategia semiautónoma | El enfoque cambia a la preparación y colocación |
+| **Sistema de Sinergia** | Rasgos de Origen y Clase | Conceptos emparejados basados en Aspectos | Emparejar conceptos opuestos o alineados |
+| **Progresión de Unidades** | Reserva de combinación de 3 estrellas | Líneas de evolución (ej., Inkifoal) | Crecimiento a largo plazo sobre estrellas temporales |
+| **Rol en el Mundo Abierto** | Ninguno (interfaz solo de sala) | Compañeros de exploración activos | Los compañeros ayudan en ambos modos |
+
+<Callout type="tip" title="Prioridad de Sinergia">
+No te limites a llenar tu equipo con tus Anima de mayor rareza. Al igual que en TFT, un equipo equilibrado de unidades de nivel inferior con sinergias de Aspecto activas derrotará fácilmente a un grupo desorganizado de unidades de nivel alto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecánicas Clave de las Batallas Nexus">
+
+Para destacar en las Batallas Nexus, debes dominar las reglas fundamentales del tablero de arena. El combate comienza después de desplegar tus unidades Anima en la cuadrícula. Una vez que empieza la ronda, las unidades atacan a los enemigos según la proximidad, el rango de ataque y la IA de comportamiento específica.
+
+### Comprender la Sinergia de Aspectos
+En TFT, construyes alrededor de rasgos como Crono o Portal. En Honkai: Nexus Anima, construyes alrededor de **Aspectos**: poderes conceptuales remanentes dejados por vínculos universales rotos. Estos Aspectos dictan cómo interactúan las unidades, comparten mejoras y contrarrestan elementos opuestos.
+
+### Reglas de Colocación en el Tablero
+La configuración de tu tablero dicta el flujo de la batalla. Colocar unidades de utilidad frágiles en peligro conduce a una rápida derrota, mientras que una distribución adecuada de adelante hacia atrás asegura que tus atacantes puedan ejecutar sus habilidades.
+
+| Rol de la Unidad | Posición Ideal en el Tablero | Objetivo Principal | Unidad de Ejemplo |
+| :--- | :--- | :--- | :--- |
+| **Protector de Vanguardia** | Centro de la fila delantera | Absorber daño, atraer hostilidad (aggro), crear espacio | Fyrklor (Aspecto de Fuerza) |
+| **Atacante de Melé** | Flanco de la fila delantera | Presionar la retaguardia enemiga, infligir daño físico | Scorscythe (Aspecto de Guerra) |
+| **Soporte de Retaguardia** | Esquinas de la fila trasera | Proporcionar curación, control de masas o escudos | Umpurrella (Utilidad Destacada) |
+| **Ancla de Crecimiento** | Fila central protegida | Sobrevivir para aumentar el poder con el tiempo | Inkifoal (Línea de Evolución) |
+
+<Callout type="warning" title="Peligros de Flanqueo">
+Ten cuidado con las unidades de ataque enemigas de alta movilidad. Si dejas tu retaguardia completamente desprotegida, las amenazas cuerpo a cuerpo rápidas esquivarán a tu protector de vanguardia y eliminarán a tus unidades de utilidad al instante.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía Paso a Paso para la Creación de Equipos">
+
+Crear un equipo competitivo en Honkai: Nexus Anima sigue un proceso estructurado. Usa estos pasos para pasar de una configuración inicial básica a una composición altamente sincronizada al estilo TFT.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Unidad Ancla">
+    Elige un protector de vanguardia principal para que sirva como el ancla de tu equipo. Una unidad como **Fyrklor** es ideal porque su Aspecto de Fuerza proporciona una alta supervivencia, creando una zona segura para tu retaguardia.
+  </Step>
+  <Step num="2" title="Añade Cobertura de Roles">
+    Introduce un atacante secundario o una unidad de utilidad. Si necesitas presión agresiva, empareja tu ancla con **Scorscythe** (Aspecto de Guerra). Si necesitas utilidad defensiva, opta por un compañero como **Umpurrella**.
+  </Step>
+  <Step num="3" title="Activa las Sinergias de Aspectos">
+    Observa los vínculos conceptuales de las unidades elegidas. Empareja Aspectos de conceptos asociados (como Amor y Odio, o Fuerza y Saciación) para desbloquear bonificaciones de combate para todo el equipo que aumenten la velocidad de ataque, la defensa o la generación de energía.
+  </Step>
+  <Step num="4" title="Posiciona tu Cuadrícula">
+    Coloca a tu protector en la fila delantera, a tus atacantes de cuerpo a cuerpo en los flancos exteriores y a tus frágiles unidades de utilidad o evolución a salvo en la parte trasera. Asegúrate de que tu retaguardia no quede expuesta a caminos directos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ventaja de Evolución">
+Cuando uses unidades enfocadas en la progresión como la línea **Inkifoal → Inkicorn → Atragasus**, prioriza mantenerlas con vida. Estas unidades se vuelven exponencialmente más fuertes a mitad de la batalla a medida que se activa su evolución, imitando el aumento de poder al conseguir una unidad de 3 estrellas en TFT.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación Diaria de Progresión y Combate">
+
+Para mantener a tus Anima competitivos en la arena, debes equilibrar las pruebas de combate activas con la progresión en el mundo abierto. Asegúrate de completar estos hitos diarios para maximizar la fuerza táctica de tu equipo.
+
+<Checklist
+  id="nexus-battle-goals"
+  title="Hitos Tácticos Diarios:"
+  items={[
+    "Completa las misiones de la historia principal para desbloquear nodos de Aspectos avanzados",
+    "Crea vínculos con Anima activos para desbloquear habilidades tácticas específicas del personaje",
+    "Prueba nuevas colocaciones en la cuadrícula en la arena de Prueba de Evolución",
+    "Monitorea los canales oficiales para conocer nuevas variantes de Anima Cromáticos y actualizaciones"
+  ]}
+/>
+
+<Callout type="info" title="Datos de la Fase de Prueba">
+El juego se encuentra actualmente en su fase de Prueba de Evolución (del 9 al 27 de julio de 2026). Ten en cuenta que los cambios de equilibrio ocurren con frecuencia y los datos de las cuentas de los jugadores se borrarán al final del período de prueba.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes Tácticas">
+
+<FAQ items={[
+  {
+    question: "¿Es Honkai Nexus Anima realmente un auto-battler como TFT?",
+    answer: "Sí, sus Batallas Nexus utilizan un sistema de auto-battler semiautónomo donde la colocación del equipo, la sinergia de Aspectos y los roles de las unidades determinan el resultado del combate, en lugar de entradas manuales turno por turno."
+  },
+  {
+    question: "¿Cómo funcionan los Aspectos en comparación con los rasgos de TFT?",
+    answer: "Los Aspectos representan poderes conceptuales emparejados (como Fuerza, Guerra, Saciación o Memoria). Desplegar unidades con Aspectos coincidentes o complementarios activa poderosas mejoras en toda la arena, similar a completar un nivel de rasgo en TFT."
+  },
+  {
+    question: "¿Puedo evolucionar mis unidades Anima a mitad del combate?",
+    answer: "Ciertas unidades de progresión especializadas, como la línea de evolución de Inkifoal, están diseñadas para evolucionar y cambiar de forma a medida que avanza la batalla, aumentando significativamente sus estadísticas y alterando sus roles de combate."
+  },
+  {
+    question: "¿Cuál es la mejor composición de equipo inicial para principiantes?",
+    answer: "Una composición inicial muy efectiva consiste en Fyrklor en la fila delantera para absorber daño, Scorscythe en el flanco para presión cuerpo a cuerpo y un compañero de utilidad como Umpurrella en la retaguardia para soporte."
+  }
+]} />
+
+</Section>

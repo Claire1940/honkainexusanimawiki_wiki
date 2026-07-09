@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Requisitos del sistema de Honkai Nexus Anima: Especificaciones para PC y móviles",
+  description: "Consulta los requisitos oficiales del sistema para PC, Android e iOS de Honkai: Nexus Anima. Averigua si tu dispositivo puede ejecutar la beta de la Prueba de Evolución.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/122b30/fff?text=System+Requirements",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Honkai Nexus Anima"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **requisitos del sistema de Honkai Nexus Anima** están optimizados oficialmente para PC, Android e iOS.
+- Las **especificaciones recomendadas para PC** requieren un procesador Intel i5 de 11.ª generación o AMD Ryzen serie 5000 con una tarjeta gráfica RTX 2060.
+- El **rendimiento en móviles** está orientado a chips de gama alta como el Snapdragon 8+ Gen 1 y Apple M1 o superior.
+- El **almacenamiento para la Prueba de Evolución** requiere aproximadamente 35 GB de espacio disponible en PC y 15 GB en dispositivos móviles.
+- La **configuración de la beta cerrada** significa que la optimización del rendimiento seguirá mejorando de cara al lanzamiento global.
+</Callout>
+
+<Section icon={Shield} title="Requisitos del sistema de Honkai Nexus Anima para PC">
+
+Para garantizar una experiencia de juego fluida durante la Prueba de Evolución que comienza el 9 de julio de 2026, HoYoverse ha publicado las especificaciones oficiales de hardware. Estas especificaciones se aplican a la fase actual de beta cerrada y están sujetas a cambios a medida que continúe la optimización de cara al lanzamiento global oficial.
+
+**Puntos destacados del video:**
+- Desglose detallado de las especificaciones recomendadas para PC y los requisitos de hardware para móviles.
+- Guía de instalación paso a paso para el instalador de la Prueba de Evolución.
+- Consejos de resolución de problemas para errores comunes de instalación en PC.
+
+La siguiente tabla detalla las configuraciones de hardware mínimas y recomendadas necesarias para ejecutar la versión para PC del juego.
+
+| Componente de hardware | Requisitos mínimos | Especificaciones recomendadas |
+| :--- | :--- | :--- |
+| **Sistema operativo** | Windows 10 (64 bits) | Windows 10 / 11 (64 bits) |
+| **Procesador (CPU)** | Intel Core i5-11300F / AMD Ryzen 5 3600X | Intel i5 11.ª gen / equivalente a AMD Ryzen 5000 |
+| **Tarjeta gráfica (GPU)** | NVIDIA GTX 1060 / AMD RX 580 | NVIDIA RTX 2060 / AMD RX 5600 XT |
+| **Memoria del sistema (RAM)** | 12 GB de RAM | 16 GB de RAM |
+| **Espacio de almacenamiento en disco** | 35 GB de espacio disponible | 35 GB de espacio disponible en SSD |
+
+<Callout type="warning" title="Aviso de optimización de la beta">
+Ejecutar el juego en un hardware inferior a las especificaciones mínimas puede provocar caídas graves de fotogramas, fallos visuales o bloqueos del instalador. Se recomienda encarecidamente un SSD para reducir los tiempos de carga al viajar entre diferentes planos en el supramundo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Requisitos del sistema para móviles: Android e iOS">
+
+Honkai: Nexus Anima está diseñado para ofrecer una aventura de recolección de criaturas de alta calidad tanto en plataformas de escritorio como móviles. Las versiones móviles exigen procesadores capaces de gestionar el renderizado en tiempo real del supramundo y las mecánicas tácticas de batallas automáticas de las Batallas Nexus.
+
+A continuación se detallan los criterios de compatibilidad de dispositivos para los sistemas Android e iOS durante la fase de prueba.
+
+### Especificaciones del sistema Android
+
+Los jugadores de Android necesitan un procesador moderno de gama media-alta para mantener tasas de fotogramas estables durante el combate.
+
+| Componente de hardware | Requisitos mínimos de Android | Especificaciones recomendadas de Android |
+| :--- | :--- | :--- |
+| **Procesador (CPU)** | Snapdragon 845 / Dimensity 1000 | Snapdragon 8+ Gen 1 / Dimensity 9000+ |
+| **Memoria del sistema (RAM)** | 4 GB de RAM | 6 GB de RAM o superior |
+| **Sistema operativo** | Android 6.0 o superior | Android 10.0 o superior |
+| **Espacio de almacenamiento** | 15 GB de espacio disponible | 15 GB de espacio disponible |
+
+### Especificaciones del sistema iOS
+
+Los dispositivos Apple requieren arquitecturas de silicio más recientes para procesar los elementos visuales de los entornos estilizados del juego.
+
+| Componente de hardware | Requisitos mínimos de iOS | Especificaciones recomendadas de iOS |
+| :--- | :--- | :--- |
+| **Modelo de dispositivo** | iPhone 11 Pro / iPad Air de 3.ª gen | iPhone 12 Pro o posterior / iPad M1 o posterior |
+| **Memoria del sistema (RAM)** | 4 GB de RAM | 6 GB de RAM |
+| **Sistema operativo** | iOS 15.0 o superior | iOS 16.0 o superior |
+| **Espacio de almacenamiento** | 15 GB de espacio disponible | 15 GB de espacio disponible |
+
+<Callout type="tip" title="Consejo de rendimiento del dispositivo">
+Si tu dispositivo móvil se calienta o experimenta un consumo rápido de batería durante las Batallas Nexus, reduce la calidad de las sombras y desactiva el desenfoque de movimiento en el menú de ajustes del juego para estabilizar el rendimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de instalación y resolución de problemas del instalador de PC">
+
+Configurar el instalador para la Prueba de Evolución a veces puede presentar obstáculos técnicos debido a permisos del sistema o conflictos de escalado. Sigue estos pasos estructurados para instalar el cliente del juego y resolver errores comunes del instalador.
+
+<Steps>
+  <Step num="1" title="Descarga el cliente oficial">
+    Inicia sesión en tu cuenta autorizada de HoYoverse en el sitio web oficial y descarga el instalador del juego. Asegúrate de tener al menos 35 GB de espacio libre en la unidad de destino.
+  </Step>
+  <Step num="2" title="Configura el escalado de PPP alto">
+    Si la interfaz del instalador se escala de forma anormal fuera de los límites de tu monitor, haz clic derecho en el icono del escritorio, ve a **Propiedades** > **Compatibilidad** > **Cambiar configuración de PPP alto**, marca **Invalidar el comportamiento de ajuste de escala de PPP alto** y haz clic en **Aplicar**.
+  </Step>
+  <Step num="3" title="Habilita los servicios de Windows Update">
+    Si recibes el código de error 1058 relacionado con complementos faltantes, abre la ventana Ejecutar de Windows (Win + R), escribe `services.msc`, busca **Windows Update**, establece el tipo de inicio en **Manual**, aplica los cambios y reinicia el instalador.
+  </Step>
+  <Step num="4" title="Verifica la red y los permisos">
+    Para bucles de fallo de actualización, desactiva los proxys activos, comprueba tu archivo hosts para asegurarte de que las conexiones no estén bloqueadas y ejecuta el archivo ejecutable del instalador como Administrador.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="Error: Escalado de interfaz">
+    - **Síntoma**: Instalador cortado o demasiado grande.
+    - **Solución**: Invalida el comportamiento de ajuste de escala de PPP alto en las propiedades de compatibilidad.
+    - **Resultado**: Se adapta perfectamente a cualquier resolución.
+  </Card>
+  <Card title="Error: Fallo de complemento (1058)">
+    - **Síntoma**: El instalador no puede instalar los parches necesarios.
+    - **Solución**: Establece el servicio de Windows Update en inicio manual.
+    - **Resultado**: Los complementos principales se descargan automáticamente.
+  </Card>
+  <Card title="Error: Bucle de actualización">
+    - **Síntoma**: La barra de progreso se queda en 0% o no se puede conectar.
+    - **Solución**: Desactiva los proxys de red local y ejecútalo como administrador.
+    - **Resultado**: El instalador descarga al máximo ancho de banda.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Instalación verificada">
+Una vez que todos los pasos se hayan completado con éxito, el instalador del juego mostrará un botón brillante de "Iniciar", lo que indica que tus archivos locales están verificados y listos para los servidores de la Prueba de Evolución.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de preparación para la beta">
+
+Antes de adentrarte en la Prueba de Evolución el 9 de julio de 2026, revisa esta lista para asegurarte de que tu entorno de juego esté completamente optimizado para la aventura.
+
+<Checklist
+  id="beta-prep"
+  title="Lista de verificación previa al lanzamiento:"
+  items={[
+    "Verifica que tu PC o dispositivo móvil cumpla con los requisitos recomendados de hardware [1.1.1]",
+    "Libera 35 GB de espacio en SSD en PC o 15 GB en dispositivos móviles",
+    "Actualiza los controladores de tu tarjeta gráfica a la última versión",
+    "Revisa tu correo electrónico registrado para ver el pase de acceso oficial a la beta",
+    "Configura los ajustes de compatibilidad del instalador para evitar errores de inicio"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las especificaciones recomendadas para PC de Honkai Nexus Anima?",
+    answer: "Las especificaciones recomendadas para PC incluyen un procesador Intel i5 de 11.ª generación o AMD Ryzen serie 5000, una tarjeta gráfica NVIDIA GeForce RTX 2060 o AMD Radeon RX 5600 XT, 16 GB de RAM y 35 GB de espacio de almacenamiento disponible en un SSD."
+  },
+  {
+    question: "¿Puedo jugar la Prueba de Evolución en un dispositivo Android antiguo?",
+    answer: "Los requisitos mínimos para Android exigen al menos un procesador Snapdragon 845 o Dimensity 1000 con 4 GB de RAM y Android 6.0. Los dispositivos que estén por debajo de estas especificaciones pueden experimentar caídas graves de rendimiento o bloqueos del juego."
+  },
+  {
+    question: "¿Cuánto espacio de almacenamiento requiere Honkai: Nexus Anima?",
+    answer: "La versión beta actual de la Prueba de Evolución requiere aproximadamente 35 GB de espacio de almacenamiento disponible en PC y 15 GB de espacio de almacenamiento en dispositivos móviles Android e iOS."
+  },
+  {
+    question: "¿Se transferirá mi progreso de la beta al lanzamiento final?",
+    answer: "No. La Prueba de Evolución es una prueba beta cerrada y limitada con eliminación de datos de cuenta. Todo el progreso de los jugadores, las Animas recolectadas y los logros desbloqueados se eliminarán una vez que concluya el período de prueba."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "PvP de Honkai Nexus Anima: Guía de sistema de combate y estrategia",
+  description: "Domina las mecánicas PvP de Honkai Nexus Anima. Aprende la configuración de equipos, la sinergia de Aspectos y las estrategias de posicionamiento para la Prueba de Evolución de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PvP+Combat+Strategy",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Honkai Nexus Anima"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Enfoque principal**: Aprende las mecánicas del sistema de combate PvP de Honkai Nexus Anima durante la Prueba de Evolución de 2026.
+- **Estilo de combate**: Batallas de arena semiautónomas que requieren una planificación táctica precisa antes del combate.
+- **Composición del equipo**: Equilibra tu alineación con roles dedicados de Vanguardia, Daño y Soporte.
+- **Clave de sinergia**: Agrupa a los compañeros Anima según temas de Aspectos emparejados para desbloquear poderosos vínculos de combate.
+- **Consejo principal**: Prioriza el posicionamiento y las combinaciones de habilidades por encima del poder bruto.
+</Callout>
+
+<Section icon={Swords} title="PvP de Honkai Nexus Anima: Fundamentos del combate">
+
+Comprender el entorno **PvP de Honkai Nexus Anima** es esencial para subir en los rangos tácticos durante la Prueba de Evolución de 2026 [1]. El combate en este juego de estrategia y aventura de recolección de criaturas se basa en enfrentamientos de arena semiautónomos al estilo auto-battler [1]. En lugar de introducir comandos manuales turno por turno, tu éxito se determina por tu configuración previa al combate, la colocación y la sinergia de Aspectos [1]. 
+
+Para tener éxito en estos encuentros estratégicos, los jugadores deben comprender cómo se comportan sus compañeros Anima una vez que comienza el combate. Tu rol es el de un comandante táctico, dirigiendo a tus unidades compañeras para explotar las debilidades del enemigo.
+
+| Fase de combate | Objetivo principal | Enfoque estratégico |
+|---|---|---|
+| Preparación | Construir un equipo equilibrado de tres unidades | Sinergia de Aspectos y cobertura de roles |
+| Colocación | Posicionar unidades en la cuadrícula de la arena | Protección de la vanguardia y seguridad de la retaguardia |
+| Enfrentamiento | Observar cómo se desarrolla el combate semiautónomo | Combinaciones de habilidades y activadores pasivos |
+
+<Callout type="tip" title="Consejo del comandante">
+Analiza siempre la alineación del oponente antes de confirmar tu equipo. En el sistema PvP de Honkai Nexus Anima, una unidad de contraataque bien posicionada puede anular fácilmente a un equipo de fuerza bruta de mayor nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Roles principales y clasificación de Anima">
+
+Construir un equipo competitivo requiere una comprensión profunda de los roles individuales de los Anima [1]. Cada compañero que coleccionas destaca en un nicho táctico específico [1]. Llenar tu equipo solo con atacantes dejará tu retaguardia expuesta, mientras que llevar demasiadas unidades defensivas resultará en una falta de presión ofensiva [1].
+
+Para ayudarte a reclutar la alineación definitiva, hemos clasificado a los principales compañeros Anima revelados en distintas categorías de combate según su rendimiento en la Prueba de Evolución [1].
+
+<CardGrid cols={3}>
+  <Card title="Protectores de vanguardia">
+    - **Fyrklor**: Un luchador con espadón que crea espacio [1].
+    - **Scorscythe**: Utiliza una presión cuerpo a cuerpo agresiva para desbaratar las formaciones enemigas [1].
+    - Alta supervivencia y capacidades de control de masas.
+  </Card>
+  <Card title="Utilidad de retaguardia">
+    - **Umpurrella**: Proporciona utilidad temática y soporte defensivo [1].
+    - **Camcorgi**: Ofrece bonificaciones de exploración y visión táctica del campo [1].
+    - Enfocado en curación, mejoras y debilitación de oponentes.
+  </Card>
+  <Card title="Crecimiento y progresión">
+    - **Línea de Inkifoal**: Evoluciona en Inkicorn y Atragasus para obtener aumentos masivos de estadísticas [1].
+    - **Vulberry**: Una opción cromática rara con rasgos de batalla impredecibles [1].
+    - Alto potencial de escalado para encuentros de combate a largo plazo.
+  </Card>
+</CardGrid>
+
+| Nombre del Anima | Aspecto principal | Rol de combate | Mejor compañero de sinergia |
+|---|---|---|---|
+| **Fyrklor** | Fuerza | Protector de vanguardia | Umpurrella (Soporte) |
+| **Scorscythe** | Guerra | Presión cuerpo a cuerpo | Dragamour (Utilidad) |
+| **Hoggit** | Saciación | Comodidad/Sustento | Vulberry (Variante rara) |
+| **Atragasus** | Evolución | Polivalente | Fyrklor (Luchador) |
+
+<Callout type="warning" title="Aviso de evolución">
+Recuerda que la Prueba de Evolución que se lleva a cabo del 9 de julio al 27 de julio de 2026 es una beta cerrada [1]. Las estadísticas de las unidades, las habilidades y las reglas de emparejamiento de PvP están sujetas a cambios en futuras actualizaciones de desarrollo [1].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía de configuración de equipos PvP paso a paso">
+
+Crear un escuadrón dominante para el **PvP de Honkai Nexus Anima** implica un enfoque sistemático para la construcción de equipos. Sigue estos pasos para preparar a tus compañeros para batallas de arena de alto riesgo.
+
+<Steps>
+  <Step num="1" title="Selecciona tu unidad ancla">
+    Elige una unidad de vanguardia de alta durabilidad como Fyrklor para que actúe como el ancla de tu equipo [1]. Esta unidad absorbe el daño inicial y protege a tus atacantes más frágiles [1].
+  </Step>
+  <Step num="2" title="Añade cobertura de roles">
+    Selecciona una unidad secundaria que cubra las debilidades de tu ancla [1]. Si tu unidad de vanguardia carece de presión ofensiva, emparéjala con una unidad de Aspecto de Guerra como Scorscythe [1].
+  </Step>
+  <Step num="3" title="Incorpora utilidad o soporte">
+    Llena tu tercer espacio con un compañero de utilidad [1]. Unidades como Umpurrella o Hoggit proporcionan curaciones, mejoras o control de masas para mantener activos a tus combatientes principales por más tiempo [1].
+  </Step>
+  <Step num="4" title="Optimiza las sinergias de Aspectos">
+    Asegúrate de que los compañeros elegidos compartan Aspectos complementarios (como Amor/Odio o Luz/Oscuridad) para activar bonificaciones de combate pasivas durante el encuentro [1].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bonificación de sinergia activa">
+Combinar Aspectos complementarios puede aumentar la velocidad de generación de la habilidad definitiva de tu equipo hasta en un 15%, lo que permite a tus Anima desatar sus habilidades distintivas más rápido que tu oponente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sinergia de Aspectos y posicionamiento en la arena">
+
+En Honkai: Nexus Anima, el concepto de "Nexus" representa los vínculos entre fuerzas opuestas y emparejadas [1]. Estas relaciones se reflejan en el sistema de Aspectos del juego, que dicta ventajas elementales y temáticas en el combate PvP [1]. Posicionar tus unidades para maximizar estas bonificaciones de Aspectos y minimizar las amenazas enemigas es la clave para dominar la arena [1].
+
+| Pareja de Aspectos | Tema | Ventaja táctica | Posición recomendada |
+|---|---|---|---|
+| **Fuerza y Saciación** | Poder físico | Alta defensa física y regeneración de salud | Cuadrícula de la fila delantera |
+| **Guerra y Memoria** | Agresión | Mayor tasa de impacto crítico y movimiento rápido | Cuadrícula de la fila intermedia |
+| **Amor e Ilusión** | Control | Control de masas, efectos de estado y mejoras de evasión | Cuadrícula de la fila trasera |
+
+<Checklist
+  id="pvp-readiness"
+  title="Lista de verificación para combates PvP:"
+  items={[
+    "Verifica que tu unidad de vanguardia esté colocada en la casilla defensiva óptima",
+    "Comprueba que tus sinergias de Aspectos estén activas y se utilicen por completo",
+    "Asegúrate de que tus unidades de línea de evolución como Atragasus tengan el nivel máximo",
+    "Revisa el historial de composición del equipo del oponente antes de comenzar"
+  ]}
+/>
+
+<Callout type="info" title="Regla de posicionamiento">
+Nunca coloques a tu Anima de utilidad o soporte en la fila delantera. Carecen de las estadísticas defensivas de los compañeros de Aspecto de Fuerza y serán eliminados rápidamente, dejando a tu equipo sin mejoras cruciales [1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo funciona el sistema de combate en el PvP de Honkai Nexus Anima?",
+    answer: "El combate es semiautónomo y se desarrolla como un auto-battler. Tu éxito depende por completo de la composición de tu equipo antes del combate, las sinergias de Aspectos y la colocación en la cuadrícula [1]."
+  },
+  {
+    question: "¿Puedo usar Anima de la línea de evolución en combates competitivos?",
+    answer: "Sí. Evolucionar por completo unidades como Inkifoal a Atragasus desbloquea estadísticas superiores y habilidades de combate mejoradas, lo que las hace muy efectivas en el PvP competitivo [1]."
+  },
+  {
+    question: "¿Cuál es la mejor estrategia de equipo inicial para principiantes?",
+    answer: "Construye alrededor de una unidad ancla clara (como Fyrklor), añade una unidad de presión cuerpo a cuerpo (como Scorscythe) y apóyalas con un compañero de utilidad (como Umpurrella) [1]."
+  },
+  {
+    question: "¿Existen ventajas elementales en el sistema de combate del juego?",
+    answer: "Sí. El juego utiliza parejas de Aspectos (como Fuerza, Guerra y Amor) que interactúan entre sí para otorgar aumentos de estadísticas y ventajas tácticas durante el combate [1]."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,161 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Honkai Nexus Anima Android: Setup Guide & Mobile Performance Tips",
+  description: "Get ready for Honkai Nexus Anima android gameplay. Learn how to sign up for the Evolution Test, download the client, and optimize your mobile settings.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/fff?text=Android+Setup+Guide",
+  date: "2026-07-09",
+  author: "Honkai Nexus Anima Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Honkai Nexus Anima android** version is officially supported in the current **Evolution Test** starting July 9, 2026.
+- **Beta access** requires completing pre-registration and submitting the official recruitment questionnaire.
+- **System requirements** demand a modern mid-to-high-end processor for stable 60 FPS gameplay.
+- **Data wipe** is active for this test period, meaning progress will not carry over to the official launch.
+</Callout>
+
+<Section icon={Map} title="Honkai Nexus Anima Android Overview">
+
+The arrival of **Honkai Nexus Anima android** testing marks a major milestone for HoYoverse's upcoming creature-collector strategy game [1]. Running from **July 9 to July 27, 2026**, the Evolution Test allows mobile players to experience plane-hopping exploration, bond building, and tactical Nexus Battles firsthand [1]. 
+
+Because this is a closed beta, players must navigate the official HoYoverse portal to secure their spot and configure their mobile devices for optimal performance [1, 2].
+
+| Feature | Evolution Test Details | Player Notes |
+| :--- | :--- | :--- |
+| **Test Period** | July 9 to July 27, 2026 | Free closed beta test [1] |
+| **Data Status** | Account data wiped after test | No progress carries over [1] |
+| **Platforms** | Android, iOS, and PC | Cross-save details TBA [1] |
+| **Core Loop** | Collect Anima, explore Planes, fight | Strategy-focused combat [1] |
+
+<Callout type="tip" title="Beta Notice">
+Make sure you use the same HoYoverse account for registration and logging into the game client to avoid activation errors [2].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Android System Requirements">
+
+To run the game smoothly, your mobile device needs to meet specific hardware thresholds. The game features rich 3D environments, complex Anima models, and dynamic arena-style combat that can strain older mobile processors [1, 2].
+
+| Requirement Level | Processor (CPU) | RAM | Operating System |
+| :--- | :--- | :--- | :--- |
+| **Minimum** | Snapdragon 778G / Dimensity 900 | 6 GB | Android 10.0 or higher |
+| **Recommended** | Snapdragon 8 Gen 1 / Dimensity 8100 | 8 GB+ | Android 12.0 or higher |
+
+<CardGrid cols={2}>
+  <Card title="Minimum Spec Performance">
+    - Target: **30 FPS** on Low settings
+    - Dynamic resolution scaling enabled
+    - Moderate battery drain and heat
+  </Card>
+  <Card title="Recommended Spec Performance">
+    - Target: **60 FPS** on Medium/High settings
+    - Crisp textures and high-fidelity effects
+    - Stable performance during intense Nexus Battles
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Storage Space">
+Ensure you have at least **15 GB of free storage space** on your device before downloading the installation package to prevent installation failures.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Step-by-Step Android Setup Guide">
+
+Securing your access and setting up the **Honkai Nexus Anima android** client requires following the official recruitment flow [2]. Follow these steps to prepare your device for the Evolution Test [2].
+
+<Steps>
+  <Step num="1" title="Register a HoYoverse Account">
+    Visit the official website and sign in. If you do not have an account, create one using a valid email address [2].
+  </Step>
+  <Step num="2" title="Submit the Recruitment Questionnaire">
+    Complete the official recruitment questionnaire before the deadline [2]. Double-check your contact details, as test invitations are sent directly to your registered email [2].
+  </Step>
+  <Step num="3" title="Check Your Email for Invitation">
+    Starting July 8, 2026, HoYoverse began sending out confirmation emails containing download links and unique activation codes [2].
+  </Step>
+  <Step num="4" title="Download and Install the APK">
+    Use the official link provided in your invitation email to download the Android APK file. Enable "Install from Unknown Sources" in your device settings if prompted.
+  </Step>
+  <Step num="5" title="Launch and Patch the Client">
+    Open the app, log in with your selected HoYoverse account, and allow the game to download the remaining high-resolution game assets [2].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Activation Troubleshooting">
+If you receive an error stating your account is not authorized, verify that the region of your HoYoverse account matches the region of the beta test invitation you received [2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mobile Performance Optimization">
+
+To ensure your phone runs the game efficiently without overheating or dropping frames during heavy auto-battler sequences, adjust your in-game settings using the following blueprint [2].
+
+| Setting Category | Recommended Value | Performance Impact |
+| :--- | :--- | :--- |
+| **Frame Rate** | 60 FPS (Recommended) / 30 FPS (Battery Save) | High impact on smoothness |
+| **Shadow Quality** | Low or Medium | High impact on CPU and heat |
+| **SFX Quality** | Medium | Moderate impact during combat |
+| **Render Resolution** | Medium | High impact on GPU and battery |
+| **Anti-Aliasing** | TAA or Off | Low-to-moderate GPU impact |
+
+<Callout type="info" title="Thermal Throttling Tip">
+If your device begins to lag after 20-30 minutes of continuous play, turn off background applications and lower the Render Resolution to reduce thermal throttling.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Evolution Test Milestones">
+
+Keep track of your progression goals throughout the limited-time test window. Focus on exploring the Reality Plane and building a reliable starter roster [1, 2].
+
+<Checklist
+  id="android-test-goals"
+  title="Beta Progression Checklist:"
+  items={[
+    "Complete the introduction story in the town of Iia",
+    "Collect and bond with your first 3 Anima companions",
+    "Unlock and experiment with the Inkifoal evolution line",
+    "Participate in arena-style Nexus Battles",
+    "Submit official feedback via the in-game survey tool"
+  ]}
+/>
+
+<Callout type="tip" title="Feedback Rewards">
+Completing the in-game feedback surveys during the Evolution Test may grant exclusive community rewards or merchandise raffle entries [2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I play the Honkai Nexus Anima android version without a beta key?",
+    answer: "No. The current Evolution Test is a closed beta. You must have a registered HoYoverse account that has been officially selected and authorized to log into the servers."
+  },
+  {
+    question: "Will my progress carry over from the android test to the global release?",
+    answer: "No. This is a data-wipe test. All player profiles, collected Anima, and story progress will be reset once the test concludes on July 27, 2026."
+  },
+  {
+    question: "Is controller support available for the Android client?",
+    answer: "Basic controller support is implemented in the Evolution Test, but layout customization is limited. Touch controls remain the primary recommended input method for mobile."
+  },
+  {
+    question: "Where can I download the official APK safely?",
+    answer: "Only download the APK from the official download link provided in your tester selection email. Avoid downloading files from third-party sharing sites to protect your account security."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Honkai Nexus Anima System Requirements: PC and Mobile Specifications",
+  description: "Check the official PC, Android, and iOS system requirements for Honkai: Nexus Anima. Learn if your device can run the Evolution Test beta.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/122b30/fff?text=System+Requirements",
+  date: "2026-07-09",
+  author: "Honkai Nexus Anima Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Honkai Nexus Anima system requirements** are officially optimized for PC, Android, and iOS.
+- **PC Recommended Specs** require an Intel i5 11th Gen or AMD Ryzen 5000 series with an RTX 2060.
+- **Mobile performance** targets high-end chips like the Snapdragon 8+ Gen 1 and Apple M1 or newer.
+- **Evolution Test storage** requires approximately 35GB of available space on PC and 15GB on mobile devices.
+- **Closed Beta settings** mean performance optimization will continue to improve leading up to the global release.
+</Callout>
+
+<Section icon={Shield} title="Honkai Nexus Anima System Requirements for PC">
+
+To ensure a smooth gameplay experience during the Evolution Test starting July 9, 2026, HoYoverse has released the official hardware specifications. These specifications apply to the current closed beta phase and are subject to change as optimization continues toward the official global launch.
+
+**Video Highlights:**
+- Detailed breakdown of recommended PC specs and mobile hardware requirements.
+- Step-by-step setup guide for the Evolution Test launcher.
+- Troubleshooting tips for common PC installation errors.
+
+The table below outlines the minimum and recommended hardware configurations required to run the PC version of the game.
+
+| Hardware Component | Minimum Requirements | Recommended Specifications |
+| :--- | :--- | :--- |
+| **Operating System** | Windows 10 (64-bit) | Windows 10 / 11 (64-bit) |
+| **Processor (CPU)** | Intel Core i5-11300F / AMD Ryzen 5 3600X | Intel i5 11th Gen / AMD Ryzen 5000 equivalent |
+| **Graphics Card (GPU)** | NVIDIA GTX 1060 / AMD RX 580 | NVIDIA RTX 2060 / AMD RX 5600 XT |
+| **System Memory (RAM)** | 12GB RAM | 16GB RAM |
+| **Disk Storage Space** | 35GB available space | 35GB SSD available space |
+
+<Callout type="warning" title="Beta Optimization Notice">
+Running the game on hardware below the minimum specifications may result in severe frame drops, visual glitches, or launcher crashes. An SSD is highly recommended to reduce loading times while traveling between different Planes in the overworld.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mobile System Requirements: Android and iOS">
+
+Honkai: Nexus Anima is designed to deliver a high-quality creature-collecting adventure across both desktop and mobile platforms. The mobile versions demand capable processors to handle real-time rendering of the overworld and the tactical auto-battler mechanics of Nexus Battles.
+
+The device compatibility criteria for Android and iOS systems during the testing phase are detailed below.
+
+### Android System Specifications
+
+Android players need a modern mid-to-high-tier processor to maintain stable frame rates during combat.
+
+| Hardware Component | Android Minimum Specs | Android Recommended Specs |
+| :--- | :--- | :--- |
+| **Processor (CPU)** | Snapdragon 845 / Dimensity 1000 | Snapdragon 8+ Gen 1 / Dimensity 9000+ |
+| **System Memory (RAM)** | 4GB RAM | 6GB RAM or higher |
+| **Operating System** | Android 6.0 or above | Android 10.0 or above |
+| **Storage Space** | 15GB available space | 15GB available space |
+
+### iOS System Specifications
+
+Apple devices require newer silicon architectures to process the visual assets of the game's stylized environments.
+
+| Hardware Component | iOS Minimum Specs | iOS Recommended Specs |
+| :--- | :--- | :--- |
+| **Device Model** | iPhone 11 Pro / iPad Air 3rd Gen | iPhone 12 Pro or later / iPad M1 or newer |
+| **System Memory (RAM)** | 4GB RAM | 6GB RAM |
+| **Operating System** | iOS 15.0 or above | iOS 16.0 or above |
+| **Storage Space** | 15GB available space | 15GB available space |
+
+<Callout type="tip" title="Device Performance Tip">
+If your mobile device runs hot or experiences battery drain during Nexus Battles, lower the shadow quality and turn off motion blur in the in-game settings menu to stabilize performance.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="PC Launcher Installation and Troubleshooting Guide">
+
+Setting up the launcher for the Evolution Test can occasionally present technical hurdles due to system permissions or scaling conflicts. Follow these structured steps to install the game client and resolve common launcher bugs.
+
+<Steps>
+  <Step num="1" title="Download the Official Client">
+    Log into your authorized HoYoverse account on the official website and download the game installer. Ensure you have at least 35GB of free space on your targeted drive.
+  </Step>
+  <Step num="2" title="Configure High DPI Scaling">
+    If the launcher interface scales abnormally beyond your monitor bounds, right-click the desktop icon, go to **Properties** > **Compatibility** > **Change high DPI settings**, check **Override high DPI scaling behavior**, and click **Apply**.
+  </Step>
+  <Step num="3" title="Enable Windows Update Services">
+    If you receive error code 1058 regarding missing plugins, open the Windows Run window (Win + R), type `services.msc`, locate **Windows Update**, set the startup type to **Manual**, apply changes, and restart the launcher.
+  </Step>
+  <Step num="4" title="Verify Network and Permissions">
+    For update failure loops, disable active proxies, check your hosts file to ensure connections are not blocked, and run the launcher executable as an Administrator.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="Error: Interface Scaling">
+    - **Symptom**: Launcher cut off or oversized.
+    - **Fix**: Override high DPI scaling behavior in compatibility properties.
+    - **Result**: Fits perfectly on any resolution.
+  </Card>
+  <Card title="Error: Plugin Failure (1058)">
+    - **Symptom**: Launcher fails to install required patches.
+    - **Fix**: Set Windows Update service to manual startup.
+    - **Result**: Core plugins download automatically.
+  </Card>
+  <Card title="Error: Update Loop">
+    - **Symptom**: Progress bar stuck at 0% or failing to connect.
+    - **Fix**: Disable local network proxies and run as admin.
+    - **Result**: Launcher downloads at maximum bandwidth.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Installation Verified">
+Once all steps are completed successfully, the game launcher will show a bright "Launch" button, indicating that your local files are verified and ready for the Evolution Test servers.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Beta Preparation Checklist">
+
+Before diving into the Evolution Test on July 9, 2026, run through this checklist to ensure your gaming environment is fully optimized for adventure.
+
+<Checklist
+  id="beta-prep"
+  title="Pre-Launch Checklist:"
+  items={[
+    "Verify your PC or mobile device meets the recommended hardware requirements [1.1.1]",
+    "Free up 35GB of SSD space on PC or 15GB on mobile devices",
+    "Update your graphics card drivers to the latest version",
+    "Check your registered email for the official beta access ticket",
+    "Configure launcher compatibility settings to prevent start-up errors"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What are the recommended PC specs for Honkai Nexus Anima?",
+    answer: "The recommended specs for PC include an Intel i5 11th Gen or AMD Ryzen 5000 series processor, an NVIDIA GeForce RTX 2060 or AMD Radeon RX 5600 XT graphics card, 16GB of RAM, and 35GB of available storage space on an SSD."
+  },
+  {
+    question: "Can I play the Evolution Test on an older Android device?",
+    answer: "The minimum requirements for Android demand at least a Snapdragon 845 or Dimensity 1000 processor with 4GB of RAM and Android 6.0. Devices below these specifications may experience severe performance drops or game crashes."
+  },
+  {
+    question: "How much storage space does Honkai: Nexus Anima require?",
+    answer: "The current Evolution Test beta version requires approximately 35GB of available storage space on PC and 15GB of storage space on Android and iOS mobile devices."
+  },
+  {
+    question: "Will my progress from the beta carry over to the final release?",
+    answer: "No. The Evolution Test is a limited, closed beta test with account data wipes. All player progress, collected Anima, and unlocked achievements will be deleted after the test period concludes."
+  }
+]} />
+
+</Section>

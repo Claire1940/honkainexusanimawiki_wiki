@@ -1,1 +1,530 @@
-{}
+{
+  "en": {
+    "anima": [
+      {
+        "slug": "Honkai-Nexus-Anima-all-anima",
+        "file": "Honkai-Nexus-Anima-all-anima"
+      }
+    ],
+    "beta": [
+      {
+        "slug": "Honkai-Nexus-Anima-beta-test",
+        "file": "Honkai-Nexus-Anima-beta-test"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-beta",
+        "file": "Honkai-Nexus-Anima-beta"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-closed-beta",
+        "file": "Honkai-Nexus-Anima-closed-beta"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-evolution-test",
+        "file": "Honkai-Nexus-Anima-evolution-test"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-playtest",
+        "file": "Honkai-Nexus-Anima-playtest"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-recruitment",
+        "file": "Honkai-Nexus-Anima-recruitment"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-test-access",
+        "file": "Honkai-Nexus-Anima-test-access"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "Honkai-Nexus-Anima-Bai-Mei",
+        "file": "Honkai-Nexus-Anima-Bai-Mei"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-Blade",
+        "file": "Honkai-Nexus-Anima-Blade"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-Kiana",
+        "file": "Honkai-Nexus-Anima-Kiana"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-Nanafey",
+        "file": "Honkai-Nexus-Anima-Nanafey"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-Otto",
+        "file": "Honkai-Nexus-Anima-Otto"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-all-characters",
+        "file": "Honkai-Nexus-Anima-all-characters"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-characters",
+        "file": "Honkai-Nexus-Anima-characters"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-main-character",
+        "file": "Honkai-Nexus-Anima-main-character"
+      }
+    ],
+    "download": [
+      {
+        "slug": "Honkai-Nexus-Anima-android",
+        "file": "Honkai-Nexus-Anima-android"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-apk",
+        "file": "Honkai-Nexus-Anima-apk"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-download",
+        "file": "Honkai-Nexus-Anima-download"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-ios",
+        "file": "Honkai-Nexus-Anima-ios"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-pre-register",
+        "file": "Honkai-Nexus-Anima-pre-register"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-registration",
+        "file": "Honkai-Nexus-Anima-registration"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "Honkai-Nexus-Anima-combat",
+        "file": "Honkai-Nexus-Anima-combat"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-gacha",
+        "file": "Honkai-Nexus-Anima-gacha"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-gameplay",
+        "file": "Honkai-Nexus-Anima-gameplay"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-like-pokemon",
+        "file": "Honkai-Nexus-Anima-like-pokemon"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-like-tft",
+        "file": "Honkai-Nexus-Anima-like-tft"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-pvp",
+        "file": "Honkai-Nexus-Anima-pvp"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-vs-Honkai-Star-Rail",
+        "file": "Honkai-Nexus-Anima-vs-Honkai-Star-Rail"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Honkai-Nexus-Anima-beginner-guide",
+        "file": "Honkai-Nexus-Anima-beginner-guide"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-guide",
+        "file": "Honkai-Nexus-Anima-guide"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-how-many-gb",
+        "file": "Honkai-Nexus-Anima-how-many-gb"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-how-to-play",
+        "file": "Honkai-Nexus-Anima-how-to-play"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-system-requirements",
+        "file": "Honkai-Nexus-Anima-system-requirements"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-what-type-of-game",
+        "file": "Honkai-Nexus-Anima-what-type-of-game"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Honkai-Nexus-Anima-global-release-date",
+        "file": "Honkai-Nexus-Anima-global-release-date"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-launch-date",
+        "file": "Honkai-Nexus-Anima-launch-date"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-official-release-date",
+        "file": "Honkai-Nexus-Anima-official-release-date"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-release-date",
+        "file": "Honkai-Nexus-Anima-release-date"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-when-release",
+        "file": "Honkai-Nexus-Anima-when-release"
+      }
+    ]
+  },
+  "es": {
+    "anima": [
+      {
+        "slug": "Honkai-Nexus-Anima-all-anima",
+        "file": "Honkai-Nexus-Anima-all-anima"
+      }
+    ],
+    "beta": [
+      {
+        "slug": "Honkai-Nexus-Anima-beta-test",
+        "file": "Honkai-Nexus-Anima-beta-test"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-beta",
+        "file": "Honkai-Nexus-Anima-beta"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-closed-beta",
+        "file": "Honkai-Nexus-Anima-closed-beta"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-evolution-test",
+        "file": "Honkai-Nexus-Anima-evolution-test"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-playtest",
+        "file": "Honkai-Nexus-Anima-playtest"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-recruitment",
+        "file": "Honkai-Nexus-Anima-recruitment"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-test-access",
+        "file": "Honkai-Nexus-Anima-test-access"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "Honkai-Nexus-Anima-Bai-Mei",
+        "file": "Honkai-Nexus-Anima-Bai-Mei"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-Blade",
+        "file": "Honkai-Nexus-Anima-Blade"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-Kiana",
+        "file": "Honkai-Nexus-Anima-Kiana"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-Nanafey",
+        "file": "Honkai-Nexus-Anima-Nanafey"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-Otto",
+        "file": "Honkai-Nexus-Anima-Otto"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-all-characters",
+        "file": "Honkai-Nexus-Anima-all-characters"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-characters",
+        "file": "Honkai-Nexus-Anima-characters"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-main-character",
+        "file": "Honkai-Nexus-Anima-main-character"
+      }
+    ],
+    "download": [
+      {
+        "slug": "Honkai-Nexus-Anima-android",
+        "file": "Honkai-Nexus-Anima-android"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-apk",
+        "file": "Honkai-Nexus-Anima-apk"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-download",
+        "file": "Honkai-Nexus-Anima-download"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-ios",
+        "file": "Honkai-Nexus-Anima-ios"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-pre-register",
+        "file": "Honkai-Nexus-Anima-pre-register"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-registration",
+        "file": "Honkai-Nexus-Anima-registration"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "Honkai-Nexus-Anima-combat",
+        "file": "Honkai-Nexus-Anima-combat"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-gacha",
+        "file": "Honkai-Nexus-Anima-gacha"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-gameplay",
+        "file": "Honkai-Nexus-Anima-gameplay"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-like-pokemon",
+        "file": "Honkai-Nexus-Anima-like-pokemon"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-like-tft",
+        "file": "Honkai-Nexus-Anima-like-tft"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-pvp",
+        "file": "Honkai-Nexus-Anima-pvp"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-vs-Honkai-Star-Rail",
+        "file": "Honkai-Nexus-Anima-vs-Honkai-Star-Rail"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Honkai-Nexus-Anima-beginner-guide",
+        "file": "Honkai-Nexus-Anima-beginner-guide"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-guide",
+        "file": "Honkai-Nexus-Anima-guide"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-how-many-gb",
+        "file": "Honkai-Nexus-Anima-how-many-gb"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-how-to-play",
+        "file": "Honkai-Nexus-Anima-how-to-play"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-system-requirements",
+        "file": "Honkai-Nexus-Anima-system-requirements"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-what-type-of-game",
+        "file": "Honkai-Nexus-Anima-what-type-of-game"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Honkai-Nexus-Anima-global-release-date",
+        "file": "Honkai-Nexus-Anima-global-release-date"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-launch-date",
+        "file": "Honkai-Nexus-Anima-launch-date"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-official-release-date",
+        "file": "Honkai-Nexus-Anima-official-release-date"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-release-date",
+        "file": "Honkai-Nexus-Anima-release-date"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-when-release",
+        "file": "Honkai-Nexus-Anima-when-release"
+      }
+    ]
+  },
+  "ja": {
+    "anima": [
+      {
+        "slug": "Honkai-Nexus-Anima-all-anima",
+        "file": "Honkai-Nexus-Anima-all-anima"
+      }
+    ],
+    "beta": [
+      {
+        "slug": "Honkai-Nexus-Anima-beta-test",
+        "file": "Honkai-Nexus-Anima-beta-test"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-beta",
+        "file": "Honkai-Nexus-Anima-beta"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-closed-beta",
+        "file": "Honkai-Nexus-Anima-closed-beta"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-evolution-test",
+        "file": "Honkai-Nexus-Anima-evolution-test"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-playtest",
+        "file": "Honkai-Nexus-Anima-playtest"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-recruitment",
+        "file": "Honkai-Nexus-Anima-recruitment"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-test-access",
+        "file": "Honkai-Nexus-Anima-test-access"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "Honkai-Nexus-Anima-Bai-Mei",
+        "file": "Honkai-Nexus-Anima-Bai-Mei"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-Blade",
+        "file": "Honkai-Nexus-Anima-Blade"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-Kiana",
+        "file": "Honkai-Nexus-Anima-Kiana"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-Nanafey",
+        "file": "Honkai-Nexus-Anima-Nanafey"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-Otto",
+        "file": "Honkai-Nexus-Anima-Otto"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-all-characters",
+        "file": "Honkai-Nexus-Anima-all-characters"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-characters",
+        "file": "Honkai-Nexus-Anima-characters"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-main-character",
+        "file": "Honkai-Nexus-Anima-main-character"
+      }
+    ],
+    "download": [
+      {
+        "slug": "Honkai-Nexus-Anima-android",
+        "file": "Honkai-Nexus-Anima-android"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-apk",
+        "file": "Honkai-Nexus-Anima-apk"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-download",
+        "file": "Honkai-Nexus-Anima-download"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-ios",
+        "file": "Honkai-Nexus-Anima-ios"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-pre-register",
+        "file": "Honkai-Nexus-Anima-pre-register"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-registration",
+        "file": "Honkai-Nexus-Anima-registration"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "Honkai-Nexus-Anima-combat",
+        "file": "Honkai-Nexus-Anima-combat"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-gacha",
+        "file": "Honkai-Nexus-Anima-gacha"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-gameplay",
+        "file": "Honkai-Nexus-Anima-gameplay"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-like-pokemon",
+        "file": "Honkai-Nexus-Anima-like-pokemon"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-like-tft",
+        "file": "Honkai-Nexus-Anima-like-tft"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-pvp",
+        "file": "Honkai-Nexus-Anima-pvp"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-vs-Honkai-Star-Rail",
+        "file": "Honkai-Nexus-Anima-vs-Honkai-Star-Rail"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Honkai-Nexus-Anima-beginner-guide",
+        "file": "Honkai-Nexus-Anima-beginner-guide"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-guide",
+        "file": "Honkai-Nexus-Anima-guide"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-how-many-gb",
+        "file": "Honkai-Nexus-Anima-how-many-gb"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-how-to-play",
+        "file": "Honkai-Nexus-Anima-how-to-play"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-system-requirements",
+        "file": "Honkai-Nexus-Anima-system-requirements"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-what-type-of-game",
+        "file": "Honkai-Nexus-Anima-what-type-of-game"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Honkai-Nexus-Anima-global-release-date",
+        "file": "Honkai-Nexus-Anima-global-release-date"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-launch-date",
+        "file": "Honkai-Nexus-Anima-launch-date"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-official-release-date",
+        "file": "Honkai-Nexus-Anima-official-release-date"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-release-date",
+        "file": "Honkai-Nexus-Anima-release-date"
+      },
+      {
+        "slug": "Honkai-Nexus-Anima-when-release",
+        "file": "Honkai-Nexus-Anima-when-release"
+      }
+    ]
+  }
+}

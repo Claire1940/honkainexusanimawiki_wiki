@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Honkai Nexus Anima Gameplay: Battle System & Core Mechanics Guide",
+  description: "Master the Honkai Nexus Anima gameplay loop. Learn about the strategic auto-battler combat, Anima evolution lines, and starting town exploration.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/125b5c/fff?text=Gameplay+Guide",
+  date: "2026-07-09",
+  author: "Honkai Nexus Anima Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Honkai Nexus Anima gameplay** centers on a unique blend of **creature collection**, overworld exploration, and tactical auto-battler combat.
+- **Nexus Battles** require strategic pre-placement of your Anima companions rather than real-time manual control.
+- **Aspect Synergy** dictates team strength, grouping companions by core concepts like Love, Hate, Strength, and War.
+- **Evolution Lines** allow several Anima to undergo three-stage growth, drastically changing their appearance and combat roles.
+</Callout>
+
+<Section icon={Map} title="Core Gameplay Loop and Progression Overview">
+
+The core loop of **Honkai Nexus Anima gameplay** places you in the shoes of a plane-hopping traveler who has recently escaped captivity. Starting your journey in Iia, a quiet town in the Reality Plane, you will venture across multiple planes of existence. Along the way, you collect remnant powers known as Anima, which manifest as companion creatures born from shattered conceptual bonds.
+
+To make progress efficiently, you must balance active overworld exploration with passive tactical combat preparation. The gameplay loop is structured around four interconnected activities.
+
+| Activity | Core Purpose | Primary Reward |
+|---|---|---|
+| **Plane Exploration** | Navigating towns, planes, and dungeons | Quest progression, resources |
+| **Anima Collection** | Finding and bonding with new creatures | Expanded combat roster, traits |
+| **Nexus Battles** | Engaging in strategic arena-style combat | Evolution materials, EXP |
+| **Bond Cultivation** | Strengthening relationships with Anima | Unique exploration and battle skills |
+
+<Callout type="tip" title="Progression Tip">
+Prioritize main story missions in Iia early on. Unlocking system features through the main campaign is much faster than grinding side activities with a limited starter roster.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Nexus Battles: Combat Mechanics and Placement Strategy">
+
+Combat in Honkai: Nexus Anima takes the form of Nexus Battles. These are arena-style, semi-autonomous tactical engagements. Once a battle begins, your Anima fight on their own, meaning your victory depends almost entirely on team placement, role balance, and Aspect synergy before the match starts.
+
+To build an effective squad, you must understand the basic combat roles of your companions.
+
+| Role | Primary Function | Ideal Placement | Example Anima |
+|---|---|---|---|
+| **Frontline Protector** | Absorbs damage, creates space | Front Row | Fyrklor (Strength) |
+| **Melee Pressure** | Deals heavy physical damage | Front/Middle Row | Scorscythe (War) |
+| **Utility/Support** | Buffs allies, controls enemies | Back Row | Umpurrella (Featured) |
+| **Exploration/Bond** | Specialized buffs, resource gain | Back Row | Camcorgi (Memory) |
+
+Choosing the right combination of roles ensures your team can withstand enemy pressure while delivering sufficient damage.
+
+<CardGrid cols={3}>
+  <Card title="Balanced Setup">
+    - **1 Frontline Protector**
+    - 1 Melee Pressure unit
+    - 1 Utility/Support unit
+    - Best for general progression
+  </Card>
+  <Card title="Aggressive Setup">
+    - **2 Melee Pressure units**
+    - 1 Frontline Protector
+    - No dedicated support
+    - Best for fast farming
+  </Card>
+  <Card title="Utility Focus">
+    - **1 Frontline Protector**
+    - 1 Utility/Support unit
+    - 1 Bond/Exploration companion
+    - Best for resource gathering
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Placement Warning">
+Never place fragile utility or bond-focused Anima in the front row. They lack the defensive stats of Strength-type companions and will be defeated quickly, leaving your backline exposed.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="How to Bond and Evolve Your Anima">
+
+Anima are not merely tools for combat; they are your partners across the planes. Strengthening your bond with them is essential to unlocking their true potential, including stat boosts, new traits, and powerful evolution forms.
+
+The evolution process is a key milestone for several companion lines, transforming their combat viability and overworld utility.
+
+<Steps>
+  <Step num="1" title="Form the Initial Bond">
+    Acquire an Anima through exploration, story events, or collection mechanics. Name your companion and begin traveling together.
+  </Step>
+  <Step num="2" title="Increase Bond Levels">
+    Raise bond levels by completing quests, taking photos, and utilizing companions in exploration. This unlocks conceptual abilities.
+  </Step>
+  <Step num="3" title="Gather Evolution Materials">
+    Collect plane-specific resources and evolution catalysts from successful Nexus Battles.
+  </Step>
+  <Step num="4" title="Trigger Evolution">
+    Initiate the transformation when your Anima reaches the required bond and level thresholds. A prime example is the three-stage line: **Inkifoal → Inkicorn → Atragasus**.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Evolution Benefit">
+Evolved Anima like Atragasus gain completely redesigned skill sets and higher base stats, allowing them to anchor end-game team builds.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Anima Roster and Aspect Synergy">
+
+Every Anima is associated with a specific Aspect—a remnant power of paired concepts such as Strength, War, Satiation, or Memory. Grouping companions with matching or complementary Aspects activates powerful team-wide synergies.
+
+| Anima Name | Aspect | Combat Role | Key Gameplay Context |
+|---|---|---|---|
+| **Fyrklor** | Strength | Frontline Bruiser | Wields a greatsword; protects allies |
+| **Scorscythe** | War | Melee Pressure | Sharp bladed-tail; high offensive threat |
+| **Umpurrella** | Featured | Utility Support | Parasol-like companion; provides crowd control |
+| **Camcorgi** | Memory | Exploration Support | Camera-themed; captures moments and buffs rewards |
+| **Vulberry** | Satiation | Food-themed Utility | Strawberry-themed; has rare Chromatic variants |
+| **Hoggit** | Satiation | Comfort Companion | Piglet companion; provides defensive sustain |
+| **Dragamour** | Love | Bond Companion | High utility; excels in bond-based synergies |
+
+Using Aspect synergy effectively is the difference between struggling in Nexus Battles and clearing them with ease.
+
+<Callout type="info" title="Aspect Synergy Tip">
+Pairing Satiation-type Anima like Vulberry and Hoggit provides excellent team sustain, making your squad incredibly resilient during long, multi-wave plane challenges.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Beginner Goals and Progression Checklist">
+
+To establish a strong foundation during your initial hours of play, focus on completing regional milestones in Iia and securing a balanced roster of companions.
+
+<Checklist
+  id="beginner-progression"
+  title="Early Game Milestones:"
+  items={[
+    "Complete the introductory story chapter in the starting town of Iia",
+    "Collect at least three distinct Anima companions to fill your combat rows",
+    "Reach Bond Level 5 with your starter Anima to unlock their first passive trait",
+    "Successfully clear five Nexus Battles using pre-placement positioning",
+    "Gather materials to initiate the first evolution stage of your growth-line companion"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the core combat style of Honkai Nexus Anima gameplay?",
+    answer: "The gameplay utilizes a tactical auto-battler combat system called Nexus Battles. Players focus on strategic pre-placement, role distribution, and Aspect synergy, while the Anima companions execute attacks autonomously."
+  },
+  {
+    question: "How do I evolve my Anima companions?",
+    answer: "You can evolve certain Anima by raising their Bond Levels through exploration and quests, and then spending specific evolution materials gathered from Nexus Battles to trigger their transformation."
+  },
+  {
+    question: "What are Chromatic Anima?",
+    answer: "Chromatic Anima are rare visual variants of standard companions, such as the Chromatic Vulberry. They feature unique color schemes and serve as highly sought-after collection goals."
+  },
+  {
+    question: "Can I manual control my companions during Nexus Battles?",
+    answer: "No, combat is semi-autonomous. Your direct control is limited to preparing the team, choosing their row placements, and setting up conceptual synergies before the battle begins."
+  }
+]} />
+
+</Section>

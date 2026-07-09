@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jugabilidad de Honkai Nexus Anima: Guía del sistema de batalla y mecánicas básicas",
+  description: "Domina el bucle de juego de Honkai Nexus Anima. Conoce el combate táctico auto-battler, las líneas de evolución de las Animas y la exploración de la ciudad inicial.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/125b5c/fff?text=Gameplay+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Honkai Nexus Anima"
+}
+
+<Callout type="info" title="Guía rápida">
+- **La jugabilidad de Honkai Nexus Anima** se centra en una combinación única de **colección de criaturas**, exploración del supramundo y combate táctico auto-battler.
+- Las **Batallas de Nexus** requieren la colocación estratégica previa de tus compañeros Anima en lugar de un control manual en tiempo real.
+- La **Sinergia de Aspecto** determina la fuerza del equipo, agrupando a los compañeros por conceptos clave como Amor, Odio, Fuerza y Guerra.
+- Las **Líneas de evolución** permiten que varios Anima experimenten un crecimiento de tres etapas, cambiando drásticamente su apariencia y roles de combate.
+</Callout>
+
+<Section icon={Map} title="Bucle de juego principal y descripción general de la progresión">
+
+El bucle principal de la **jugabilidad de Honkai Nexus Anima** te pone en la piel de un viajero interdimensional que acaba de escapar del cautiverio. Comenzando tu viaje en Iia, un pueblo tranquilo en el Plano de la Realidad, te aventurarás a través de múltiples planos de existencia. En el camino, recolectarás poderes residuales conocidos como Anima, que se manifiestan como criaturas compañeras nacidas de vínculos conceptuales rotos.
+
+Para progresar de manera eficiente, debes equilibrar la exploración activa del supramundo con la preparación pasiva del combate táctico. El bucle de juego se estructura en torno a cuatro actividades interconectadas.
+
+| Actividad | Propósito principal | Recompensa primaria |
+|---|---|---|
+| **Exploración de planos** | Navegar por pueblos, planos y mazmorras | Progresión de misiones, recursos |
+| **Colección de Anima** | Encontrar y vincularse con nuevas criaturas | Catálogo de combate ampliado, rasgos |
+| **Batallas de Nexus** | Participar en combates tácticos estilo arena | Materiales de evolución, EXP |
+| **Cultivo del vínculo** | Fortalecer las relaciones con los Anima | Habilidades únicas de exploración y batalla |
+
+<Callout type="tip" title="Consejo de progresión">
+Prioriza las misiones de la historia principal en Iia desde el principio. Desbloquear las funciones del sistema a través de la campaña principal es mucho más rápido que farmear actividades secundarias con un catálogo inicial limitado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Batallas de Nexus: Mecánicas de combate y estrategia de colocación">
+
+El combate en Honkai: Nexus Anima toma la forma de Batallas de Nexus. Estos son enfrentamientos tácticos semiautónomos estilo arena. Una vez que comienza la batalla, tus Anima luchan por su cuenta, lo que significa que tu victoria depende casi por completo de la colocación del equipo, el equilibrio de roles y la sinergia de Aspecto antes de que comience la partida.
+
+Para construir un escuadrón efectivo, debes comprender los roles de combate básicos de tus compañeros.
+
+| Rol | Función principal | Colocación ideal | Anima de ejemplo |
+|---|---|---|---|
+| **Protector de vanguardia** | Absorbe daño, crea espacio | Fila delantera | Fyrklor (Fuerza) |
+| **Presión cuerpo a cuerpo** | Inflige gran daño físico | Fila delantera/media | Scorscythe (Guerra) |
+| **Utilidad/Soporte** | Potencia aliados, controla enemigos | Fila trasera | Umpurrella (Destacado) |
+| **Exploración/Vínculo** | Mejoras especializadas, obtención de recursos | Fila trasera | Camcorgi (Memoria) |
+
+Elegir la combinación correcta de roles asegura que tu equipo pueda soportar la presión enemiga mientras inflige suficiente daño.
+
+<CardGrid cols={3}>
+  <Card title="Configuración equilibrada">
+    - **1 Protector de vanguardia**
+    - 1 Unidad de presión cuerpo a cuerpo
+    - 1 Unidad de utilidad/soporte
+    - Ideal para la progresión general
+  </Card>
+  <Card title="Configuración agresiva">
+    - **2 Unidades de presión cuerpo a cuerpo**
+    - 1 Protector de vanguardia
+    - Sin soporte dedicado
+    - Ideal para farmear rápido
+  </Card>
+  <Card title="Enfoque de utilidad">
+    - **1 Protector de vanguardia**
+    - 1 Unidad de utilidad/soporte
+    - 1 Compañero de vínculo/exploración
+    - Ideal para la recolección de recursos
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de colocación">
+Nunca coloques Anima frágiles de utilidad o enfocados en el vínculo en la fila delantera. Carecen de las estadísticas defensivas de los compañeros de tipo Fuerza y serán derrotados rápidamente, dejando expuesta tu línea trasera.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cómo vincularse y evolucionar a tus Anima">
+
+Los Anima no son meras herramientas para el combate; son tus compañeros a través de los planos. Fortalecer tu vínculo con ellos es esencial para desbloquear su verdadero potencial, incluyendo mejoras de estadísticas, nuevos rasgos y poderosas formas de evolución.
+
+El proceso de evolución es un hito clave para varias líneas de compañeros, transformando su viabilidad en combate y su utilidad en el supramundo.
+
+<Steps>
+  <Step num="1" title="Formar el vínculo inicial">
+    Adquiere un Anima a través de la exploración, eventos de la historia o mecánicas de colección. Ponle nombre a tu compañero y comiencen a viajar juntos.
+  </Step>
+  <Step num="2" title="Aumentar los niveles de vínculo">
+    Sube los niveles de vínculo completando misiones, tomando fotos y utilizando a tus compañeros en la exploración. Esto desbloquea habilidades conceptuales.
+  </Step>
+  <Step num="3" title="Reunir materiales de evolución">
+    Recolecta recursos específicos de cada plano y catalizadores de evolución de las Batallas de Nexus exitosas.
+  </Step>
+  <Step num="4" title="Activar la evolución">
+    Inicia la transformación cuando tu Anima alcance los umbrales de nivel y vínculo requeridos. Un excelente ejemplo es la línea de tres etapas: **Inkifoal → Inkicorn → Atragasus**.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Beneficio de la evolución">
+Los Anima evolucionados como Atragasus obtienen conjuntos de habilidades completamente rediseñados y estadísticas base más altas, lo que les permite liderar configuraciones de equipo para el juego tardío.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Catálogo de Anima y sinergia de Aspecto">
+
+Cada Anima está asociado con un Aspecto específico: un poder residual de conceptos emparejados como Fuerza, Guerra, Saciación o Memoria. Agrupar compañeros con Aspectos iguales o complementarios activa poderosas sinergias para todo el equipo.
+
+| Nombre del Anima | Aspecto | Rol de combate | Contexto clave de juego |
+|---|---|---|---|
+| **Fyrklor** | Fuerza | Luchador de vanguardia | Empuña un espadón; protege a los aliados |
+| **Scorscythe** | Guerra | Presión cuerpo a cuerpo | Cola afilada con cuchilla; alta amenaza ofensiva |
+| **Umpurrella** | Destacado | Soporte de utilidad | Compañero con forma de paraguas; proporciona control de masas |
+| **Camcorgi** | Memoria | Soporte de exploración | Temática de cámara; captura momentos y mejora las recompensas |
+| **Vulberry** | Saciación | Utilidad temática de comida | Temática de fresa; tiene variantes cromáticas raras |
+| **Hoggit** | Saciación | Compañero de confort | Compañero cerdito; proporciona sustento defensivo |
+| **Dragamour** | Amor | Compañero de vínculo | Gran utilidad; destaca en sinergias basadas en el vínculo |
+
+Usar la sinergia de Aspecto de manera efectiva es la diferencia entre tener dificultades en las Batallas de Nexus y superarlas con facilidad.
+
+<Callout type="info" title="Consejo de sinergia de Aspecto">
+Emparejar Anima de tipo Saciación como Vulberry y Hoggit proporciona un excelente sustento para el equipo, haciendo que tu escuadrón sea increíblemente resistente durante los desafíos largos de planos de múltiples oleadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos para principiantes y lista de verificación de progresión">
+
+Para establecer una base sólida durante tus primeras horas de juego, concéntrate en completar los hitos regionales en Iia y asegurar un catálogo equilibrado de compañeros.
+
+<Checklist
+  id="beginner-progression"
+  title="Hitos del juego temprano:"
+  items={[
+    "Completa el capítulo introductorio de la historia en el pueblo inicial de Iia",
+    "Colecciona al menos tres compañeros Anima distintos para llenar tus filas de combate",
+    "Alcanza el nivel de vínculo 5 con tu Anima inicial para desbloquear su primer rasgo pasivo",
+    "Supera con éxito cinco Batallas de Nexus utilizando el posicionamiento de colocación previa",
+    "Reúne materiales para iniciar la primera etapa de evolución de tu compañero de línea de crecimiento"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el estilo de combate principal de la jugabilidad de Honkai Nexus Anima?",
+    answer: "La jugabilidad utiliza un sistema de combate táctico auto-battler llamado Batallas de Nexus. Los jugadores se concentran en la colocación estratégica previa, la distribución de roles y la sinergia de Aspecto, mientras que los compañeros Anima ejecutan los ataques de forma autónoma."
+  },
+  {
+    question: "¿Cómo evoluciono a mis compañeros Anima?",
+    answer: "Puedes evolucionar a ciertos Anima aumentando sus niveles de vínculo a través de la exploración y las misiones, y luego gastando materiales de evolución específicos recolectados en las Batallas de Nexus para activar su transformación."
+  },
+  {
+    question: "¿Qué son los Anima cromáticos?",
+    answer: "Los Anima cromáticos son variantes visuales raras de los compañeros estándar, como el Vulberry cromático. Presentan combinaciones de colores únicas y sirven como objetivos de colección muy codiciados."
+  },
+  {
+    question: "¿Puedo controlar manualmente a mis compañeros durante las Batallas de Nexus?",
+    answer: "No, el combate es semiautónomo. Tu control directo se limita a preparar el equipo, elegir sus ubicaciones en las filas y establecer sinergias conceptuales antes de que comience la batalla."
+  }
+]} />
+
+</Section>

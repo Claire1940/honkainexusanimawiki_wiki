@@ -10,7 +10,15 @@
       "twitterDescription": "Honkai Nexus Anima Wiki covers anima companions, codes, characters, tier lists, and Evolution Test beta info for HoYoverse's creature-collector strategy RPG."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "beta": "Beta",
+    "download": "Download",
+    "guide": "Guide",
+    "gameplay": "Gameplay",
+    "characters": "Characters",
+    "anima": "Anima"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -594,125 +602,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Honkai Nexus Anima Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Nexus Battles strategies. Master Anima collecting, bonding, and combat.",
-      "metaTitle": "Honkai Nexus Anima Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Honkai Nexus Anima guides covering beginner tips, Anima collection, Nexus Battles strategies, and expert tactics for mastering the creature-collector adventure.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, Anima collection, and Nexus Battles. Learn everything from first steps to advanced team strategies.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Honkai Nexus Anima Release Date and Platforms",
+      "description": "Track the Honkai Nexus Anima release date, Evolution Test schedule, supported platforms, and pre-registration status as the game moves toward full launch.",
+      "metaTitle": "Honkai Nexus Anima Release Date - Evolution Test & Platforms",
+      "metaDescription": "Honkai Nexus Anima release date, Evolution Test beta schedule, and supported PC, iOS, and Android platforms. Track the full launch timeline and pre-registration status.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release section?",
+      "whatIsDescription": "The Release section collects the timeline information players search for first: whether Honkai Nexus Anima is out yet, when the current Evolution Test runs, which platforms are supported, and how pre-registration fits into the full launch roadmap.",
+      "why": "Why follow release info?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Anima and Nexus bond system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to collect Anima and grow your team",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and Nexus Battles"
+        "step1Title": "Know the Test Window",
+        "step1Description": "The Evolution Test runs from July 9 to July 27, 2026 (UTC+8) as a free closed beta, so timing your access matters.",
+        "step2Title": "Pick Your Platform",
+        "step2Description": "Confirm whether your PC, iOS, or Android device is supported before the test or full launch begins.",
+        "step3Title": "Plan for Full Launch",
+        "step3Description": "Follow pre-registration and official milestones to catch the public release as soon as it goes live."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Articles"
+    },
+    "beta": {
+      "title": "Honkai Nexus Anima Evolution Test and Beta Access",
+      "description": "Get into the Honkai Nexus Anima Evolution Test with clear steps for pre-registration, recruitment, tester selection, and closed beta access on PC, iOS, and Android.",
+      "metaTitle": "Honkai Nexus Anima Beta - Evolution Test Access & Recruitment",
+      "metaDescription": "Learn how to join the Honkai Nexus Anima Evolution Test closed beta. Follow pre-registration, recruitment, and tester selection steps for PC, iOS, and Android access.",
+      "categoryLabel": "BETA & TEST",
+      "whatIs": "What is the Beta section?",
+      "whatIsDescription": "The Beta section explains the official Evolution Test flow for Honkai Nexus Anima, covering the recruitment period, tester selection, supported platforms, and data wipe rules so you know exactly how access works.",
+      "why": "Why read beta guides?",
+      "whySteps": {
+        "step1Title": "Complete Pre-Registration",
+        "step1Description": "Link your HoYoverse account through pre-registration to enter the tester selection pool.",
+        "step2Title": "Submit Recruitment",
+        "step2Description": "Fill out the recruitment questionnaire during the selection window with accurate contact details.",
+        "step3Title": "Get Tester Access",
+        "step3Description": "Watch for tester notifications from July 8, 2026 onward and play the closed beta on supported devices."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Beta Articles"
+    },
+    "download": {
+      "title": "Honkai Nexus Anima Download and Installation",
+      "description": "Download and install Honkai Nexus Anima on PC, iOS, and Android, with pre-registration, registration, APK, and platform setup steps for the Evolution Test and beyond.",
+      "metaTitle": "Honkai Nexus Anima Download - PC, iOS & Android Install",
+      "metaDescription": "Download Honkai Nexus Anima on PC, iOS, and Android. Find pre-registration, registration, APK, and installation steps for the Evolution Test and full release.",
+      "categoryLabel": "DOWNLOAD & INSTALL",
+      "whatIs": "What is the Download section?",
+      "whatIsDescription": "The Download section walks through getting Honkai Nexus Anima onto your device, including pre-registration, the official registration flow, APK and store install options, and platform-specific setup for PC, iOS, and Android.",
+      "why": "Why check download guides?",
+      "whySteps": {
+        "step1Title": "Pre-Register Early",
+        "step1Description": "Sign up through official channels to secure access and launch-day benefits.",
+        "step2Title": "Install on Your Platform",
+        "step2Description": "Follow the correct PC, iOS App Store, or Android APK path for a clean install.",
+        "step3Title": "Set Up Your Account",
+        "step3Description": "Connect your HoYoverse account so progress and test access carry over smoothly."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Download Articles"
+    },
+    "guide": {
+      "title": "Honkai Nexus Anima Beginner Guide and How to Play",
+      "description": "Start strong in Honkai Nexus Anima with beginner guides covering how to play, core systems, Anima bonds, exploration, and what type of game it is.",
+      "metaTitle": "Honkai Nexus Anima Beginner Guide - How to Play & Basics",
+      "metaDescription": "Beginner guide for Honkai Nexus Anima: learn how to play, understand Anima bonds and Nexus Battles, explore the world, and master the core systems from your first session.",
+      "categoryLabel": "GUIDES & HOW TO PLAY",
+      "whatIs": "What is the Guide section?",
+      "whatIsDescription": "The Guide section breaks down how Honkai Nexus Anima works for new players, from the opening journey and Anima collection to bond building, exploration, and the first steps into Nexus Battles.",
+      "why": "Why read beginner guides?",
+      "whySteps": {
+        "step1Title": "Understand the Core Loop",
+        "step1Description": "Learn how exploring, collecting Anima, and bonding feed into your progression.",
+        "step2Title": "Avoid Early Mistakes",
+        "step2Description": "Follow proven first steps so you do not waste resources or miss key systems.",
+        "step3Title": "Build a Strong Foundation",
+        "step3Description": "Set up your team and bonds correctly before moving into advanced Nexus Battles."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Honkai Nexus Anima Anima Collection",
-      "description": "Master Anima collecting, bonding, evolution, and Chromatic variants with detailed companion guides and collection strategies.",
-      "metaTitle": "Honkai Nexus Anima Anima Collection - Companions & Evolution",
-      "metaDescription": "Master Honkai Nexus Anima Anima collection. Learn companion roles, evolution lines, Chromatic variants, and strategies for building a strong Anima roster.",
-      "categoryLabel": "ANIMA COLLECTION",
-      "whatIs": "What is Anima Collection?",
-      "whatIsDescription": "Anima are the collectible companions at the center of Honkai Nexus Anima. Collect them, form bonds, unlock abilities, and evolve them to strengthen your team.",
+    "gameplay": {
+      "title": "Honkai Nexus Anima Gameplay and Battle Systems",
+      "description": "Master Honkai Nexus Anima gameplay: Nexus Battles combat, auto-battler strategy, PvP, gacha, and how it compares to creature-collectors and auto-chess games.",
+      "metaTitle": "Honkai Nexus Anima Gameplay - Combat, Nexus Battles & Strategy",
+      "metaDescription": "Deep dive into Honkai Nexus Anima gameplay: Nexus Battles combat, auto-battler strategy, PvP, gacha pulls, and comparisons to creature-collector and auto-chess games.",
+      "categoryLabel": "GAMEPLAY & COMBAT",
+      "whatIs": "What is the Gameplay section?",
+      "whatIsDescription": "The Gameplay section covers how Honkai Nexus Anima actually plays, including the auto-battler-style Nexus Battles, team positioning, Aspect synergy, PvP, the gacha system, and how it relates to similar games.",
+      "why": "Why study gameplay?",
+      "whySteps": {
+        "step1Title": "Learn Nexus Battles",
+        "step1Description": "Understand arena-style combat where Anima fight semi-autonomously based on your setup.",
+        "step2Title": "Build Smarter Teams",
+        "step2Description": "Combine Anima roles and Aspect themes to create stronger tactical lineups.",
+        "step3Title": "Compare and Adapt",
+        "step3Description": "See how the game stacks up against creature-collectors and auto-chess titles you already know."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Gameplay Articles"
+    },
+    "characters": {
+      "title": "Honkai Nexus Anima Characters and Story",
+      "description": "Meet the Honkai Nexus Anima cast, including the traveler, Nanafey, Bai Mei, and the factions shaping the story across the Reality Plane and the Planes.",
+      "metaTitle": "Honkai Nexus Anima Characters - Cast, Factions & Story",
+      "metaDescription": "Explore Honkai Nexus Anima characters and story: the traveler, Nanafey, Bai Mei, and key factions like the Nexus Association and True Nexus Syndicate across the Planes.",
+      "categoryLabel": "CHARACTERS & STORY",
+      "whatIs": "What is the Characters section?",
+      "whatIsDescription": "The Characters section introduces the human cast of Honkai Nexus Anima, their roles in the story, and the factions driving the conflict, from the starting town of Iia to the wider Planes.",
+      "why": "Why read character guides?",
+      "whySteps": {
+        "step1Title": "Know the Cast",
+        "step1Description": "Learn who the traveler, Nanafey, Bai Mei, and other named characters are.",
+        "step2Title": "Understand the Factions",
+        "step2Description": "See how the Nexus Association, True Nexus Syndicate, and city factions shape the story.",
+        "step3Title": "Follow the Story",
+        "step3Description": "Track character arcs and faction conflicts as the Evolution Test expands the narrative."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Character Articles"
+    },
+    "anima": {
+      "title": "Honkai Nexus Anima Anima List and Collection",
+      "description": "Browse the Honkai Nexus Anima Anima list with revealed companions, their Aspects and Traits, evolution lines, Chromatic variants, and how collection works.",
+      "metaTitle": "Honkai Nexus Anima Anima List - Companions, Aspects & Evolution",
+      "metaDescription": "Honkai Nexus Anima Anima list and collection guide: revealed companions, Aspects, Traits, evolution lines, and rare Chromatic variants for building your roster.",
+      "categoryLabel": "ANIMA LIST",
+      "whatIs": "What is the Anima section?",
+      "whatIsDescription": "The Anima section is your companion database for Honkai Nexus Anima, covering revealed Anima, their Aspect themes and Traits, evolution lines, Chromatic rare variants, and how the collection system feeds into combat and exploration.",
       "why": "Why collect Anima?",
       "whySteps": {
-        "step1Title": "Unlock Abilities",
-        "step1Description": "Bonding with Anima unlocks abilities tied to the concepts they embody",
-        "step2Title": "Build Your Team",
-        "step2Description": "A flexible Anima roster covers more roles in Nexus Battles",
-        "step3Title": "Discover Variants",
-        "step3Description": "Hunt rare Chromatic Anima and complete evolution lines"
+        "step1Title": "Build a Versatile Roster",
+        "step1Description": "Collect Anima across different Aspects so you can cover more battle roles.",
+        "step2Title": "Unlock Bond Abilities",
+        "step2Description": "Form bonds with Anima to unlock abilities tied to the concepts they embody.",
+        "step3Title": "Hunt Rare Variants",
+        "step3Description": "Track Chromatic Anima and evolution lines to complete your collection."
       },
       "featured": "Featured & Essential",
-      "all": "All Anima Guides"
-    },
-    "items": {
-      "title": "Honkai Nexus Anima Companions",
-      "description": "Detailed companion guides covering Anima roles, Aspects, evolution lines, and team-building tips for Nexus Battles.",
-      "metaTitle": "Honkai Nexus Anima Companions - Anima Roles & Aspects Guide",
-      "metaDescription": "Complete companion database for Honkai Nexus Anima including Anima roles, Aspects, evolution lines, and team-building strategies for Nexus Battles.",
-      "categoryLabel": "ANIMA & COMPANIONS",
-      "whatIs": "What are Companions?",
-      "whatIsDescription": "Comprehensive guides for Anima companions. Learn roles, Aspects, evolution paths, and optimal team combinations for combat and exploration.",
-      "why": "Why check companion guides?",
-      "whySteps": {
-        "step1Title": "Learn Roles",
-        "step1Description": "Discover how each Anima fits frontline, utility, or support roles",
-        "step2Title": "Optimize Teams",
-        "step2Description": "Choose the best Anima for your Nexus Battles strategy",
-        "step3Title": "Plan Evolution",
-        "step3Description": "Follow evolution lines to strengthen Anima over time"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Companions"
-    },
-    "biomes": {
-      "title": "Honkai Nexus Anima World and Planes",
-      "description": "Explore the Planes, regions, landmarks, and points of interest across the world of Honkai Nexus Anima.",
-      "metaTitle": "Honkai Nexus Anima World - Planes, Regions & Exploration",
-      "metaDescription": "Explore Honkai Nexus Anima world including the Reality Plane, Iia, landmarks, and regions. Find exploration points, factions, and Anima habitats.",
-      "categoryLabel": "WORLD & PLANES",
-      "whatIs": "What is the World?",
-      "whatIsDescription": "Guides to the Planes, regions, environmental features, and landmarks. Learn what to expect and how to prepare for each area you explore.",
-      "why": "Why explore the world?",
-      "whySteps": {
-        "step1Title": "Find Anima",
-        "step1Description": "Locate Anima companions and Chromatic variants across regions",
-        "step2Title": "Meet Characters",
-        "step2Description": "Discover factions, story hooks, and named locations",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right Anima and bonds for each Plane"
-      },
-      "featured": "Featured & Essential",
-      "all": "All World Guides"
-    },
-    "building": {
-      "title": "Honkai Nexus Anima Bonds and Progression",
-      "description": "Master Anima bonding, evolution, naming, and long-term progression systems across the Evolution Test and beyond.",
-      "metaTitle": "Honkai Nexus Anima Bonds - Anima Bonding & Progression",
-      "metaDescription": "Master Honkai Nexus Anima bonding and progression with Anima bonds, evolution, naming, and long-term growth strategies.",
-      "categoryLabel": "BONDS & PROGRESSION",
-      "whatIs": "What are Bonds?",
-      "whatIsDescription": "Guides to the Anima bond system, evolution lines, and progression. Learn to strengthen companions and unlock abilities tied to Nexus bonds.",
-      "why": "Why build bonds?",
-      "whySteps": {
-        "step1Title": "Unlock Abilities",
-        "step1Description": "Bonds grant abilities based on the concepts each Anima embodies",
-        "step2Title": "Grow Anima",
-        "step2Description": "Evolve and name companions to strengthen your roster",
-        "step3Title": "Deepen Strategy",
-        "step3Description": "Strong bonds unlock deeper Nexus Battles tactics"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Bond Guides"
-    },
-    "support": {
-      "title": "Honkai Nexus Anima Support",
-      "description": "Evolution Test support, platform setup, account help, and troubleshooting for common issues.",
-      "metaTitle": "Honkai Nexus Anima Support - Test Help & Platform Setup",
-      "metaDescription": "Get support for Honkai Nexus Anima including Evolution Test access, platform setup on PC, iOS, and Android, and answers to common account questions.",
-      "categoryLabel": "TEST SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Guides covering Evolution Test access, platform compatibility, account setup, and common questions about the closed beta.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Get Beta Access",
-        "step1Description": "Follow the official pre-registration and recruitment flow",
-        "step2Title": "Set Up Platforms",
-        "step2Description": "Install and play on PC, iOS, or Android",
-        "step3Title": "Solve Issues",
-        "step3Description": "Handle account, data wipe, and access questions"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Anima Articles"
     }
   }
 }
