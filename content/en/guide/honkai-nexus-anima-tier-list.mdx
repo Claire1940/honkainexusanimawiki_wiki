@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Honkai Nexus Anima Tier List: 2026 Community Rankings",
+  description: "Explore the latest Honkai Nexus Anima tier list based on community rankings to optimize your team composition and character progression.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Nexus+Anima+Tier+List",
+  date: "2026-07-13",
+  author: "Honkai Nexus Anima Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Honkai Nexus Anima tier list** ranks characters based on community consensus from CBT1 data.
+- **S-Tier units** represent the current meta, offering superior utility and damage potential for early progression.
+- Always prioritize **synergy over individual strength** when building your primary team.
+- Regularly check for **updated rankings** as new patches and balance changes are implemented in 2026.
+</Callout>
+
+<Section icon={Trophy} title="Understanding the Tier System">
+
+The community-driven rankings for Honkai Nexus Anima categorize units into five distinct tiers. These rankings reflect the performance of characters during the Closed Beta Test (CBT1), focusing on their base stats, ability scaling, and overall impact in team compositions.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier">
+    Top-tier units that define the current game meta and excel in almost every combat scenario.
+  </Card>
+  <Card title="A-Tier">
+    Highly reliable characters that provide significant value and can carry through most content.
+  </Card>
+  <Card title="B/C-Tier">
+    Niche picks that require specific team setups to shine or serve as placeholders for better units.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Strategic Advice">
+Tier lists are subjective and based on community voting. Use these rankings as a reference, but consider your specific team needs and playstyle before investing resources into a unit.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Character Performance Data">
+
+This table provides a high-level overview of how different archetypes compare within the current meta. Understanding the role of your units is essential for long-term success.
+
+| Archetype | Primary Role | Meta Standing | Investment Priority |
+| :--- | :--- | :--- | :--- |
+| Assault | Raw Damage | S-Tier | High |
+| Guardian | Damage Mitigation | A-Tier | Medium |
+| Support | Buffs & Healing | S-Tier | Very High |
+| Specialist | Debuffs & Control | B-Tier | Low |
+
+<Callout type="success" title="Meta Analysis">
+Support units currently hold the highest priority for investment. A well-built support can significantly amplify the damage output of your main Assault units, making them the backbone of any top-tier team.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Building Your Optimal Team">
+
+Creating a balanced team is more effective than stacking high-tier units with overlapping roles. Follow these steps to optimize your setup for various game modes.
+
+**Video Highlights:**
+- Identifying core team synergies
+- Balancing resource allocation for new players
+- Optimal character positioning in combat
+
+<Steps>
+  <Step num="1" title="Assess Your Roster">
+    Evaluate your current character pool and identify your strongest damage dealers.
+  </Step>
+  <Step num="2" title="Identify Role Gaps">
+    Ensure you have at least one dedicated Support and one Guardian to maintain team stability.
+  </Step>
+  <Step num="3" title="Test Synergy">
+    Run low-level content to see if the abilities of your characters complement each other effectively.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Progression Warning">
+Do not spread your resources too thin across too many characters. Focus on leveling your core team of four to maximize efficiency in challenging encounters.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progression Milestones">
+
+Use this checklist to track your progress and ensure you are meeting the necessary requirements to keep your team competitive in the evolving Honkai Nexus Anima landscape.
+
+<Checklist
+  id="progression-goals"
+  title="Core Milestones for 2026:"
+  items={[
+    "Clear all Main Story chapters on Normal difficulty",
+    "Reach Account Level 50",
+    "Fully ascend one S-Tier character",
+    "Complete the weekly farming route for materials",
+    "Join an active guild for shared resources"
+  ]}
+/>
+
+| Milestone | Expected Level | Key Reward |
+| :--- | :--- | :--- |
+| Beginner Phase | 1-20 | Basic Summon Tickets |
+| Mid-Game | 21-40 | Advanced Gear Materials |
+| End-Game | 41-60 | Legendary Upgrade Stones |
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How often does the Honkai Nexus Anima tier list update?",
+    answer: "The tier list is updated periodically based on community voting and major game patches. Check back after significant updates in 2026."
+  },
+  {
+    question: "Should I reroll for S-Tier characters?",
+    answer: "Rerolling can provide an early advantage, but it is not strictly necessary to enjoy or complete the content in Honkai Nexus Anima."
+  },
+  {
+    question: "Can B-Tier characters become viable?",
+    answer: "Yes, with the right gear, team composition, and investment, many lower-tier characters can perform exceptionally well in specific roles."
+  }
+]} />
+
+<Callout type="info" title="Community Resources">
+For more detailed community discussions, visit the official [TierMaker community page](https://tiermaker.com/categories/video-games/honkai-nexus-anima-characters-official-and-teased-15908277) to see how others are voting on their favorite characters.
+</Callout>
+
+</Section>

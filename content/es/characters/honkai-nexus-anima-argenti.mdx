@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Star } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Honkai Nexus Anima Argenti: Guía de la Mejor Build y Estrategia de Combate",
+  description: "Domina a Argenti en Honkai Nexus Anima con nuestra guía de 2026. Aprende las mejores builds de Kardia, sinergias de equipo y rotaciones de habilidades para dominar el Nexo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Argenti+Combat+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Honkai Nexus Anima",
+  keywords: "Argenti, Honkai Nexus Anima, build, guía, combate, Kardia, Nexo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Honkai Nexus Anima Argenti** es un atacante de área (AOE) de primer nivel especializado en la clasificación **Anima**.
+- **Mecánica principal**: Su poder escala con la **acumulación de energía**, lo que permite Principios Exclusivos devastadores.
+- **Mejor Build**: Concéntrate en conjuntos de Kardia de **Daño Crítico** y **Regeneración de Energía** para obtener el máximo rendimiento.
+- **Sinergia de equipo**: Combina excepcionalmente bien con unidades **Eidos** que proporcionan baterías de energía o aumentos de velocidad.
+- **Prioridad máxima**: Maximiza sus **Habilidades de Batalla** antes de enfocarte en rasgos pasivos para asegurar el dominio al inicio del juego.
+</Callout>
+
+<Section icon={Star} title="Resumen del Personaje Argenti y Roles">
+
+En el meta en evolución de 2026, **Honkai Nexus Anima Argenti** ha consolidado su posición como una unidad Anima de primer nivel. Como Caballero de la Rosa, su estilo de juego gira en torno a la elegancia y la fuerza abrumadora. A diferencia de las unidades Eidos estándar que podrían enfocarse en desventajas a un solo objetivo, Argenti prospera en escenarios con múltiples objetivos dentro de los diversos Planos del Nexo. 
+
+Los jugadores deben entender que Argenti es una unidad "sedienta de energía". Su efectividad está directamente ligada a la rapidez con la que puede ciclar sus habilidades para alcanzar su estado definitivo. En la jerarquía actual de Honkai Nexus Anima, sirve como el "Hyper-Carry" principal para los jugadores que buscan limpiar pisos de alta densidad de enemigos en el Vórtice Infinito.
+
+| Atributo | Valor Base (Niv 1) | Valor Máx (Niv 80) | Prioridad de Crecimiento |
+| :--- | :--- | :--- | :--- |
+| **Ataque** | 145 | 1280 | **Alta** |
+| **Defensa** | 80 | 650 | Media |
+| **PV** | 120 | 1100 | Baja |
+| **Velocidad** | 103 | 103 | **Muy Alta** |
+| **Tope de Energía** | 180 | 180 | Fijo |
+
+<Callout type="tip" title="Consejo Pro">
+Prioriza siempre las subestadísticas de Velocidad en tu selección de Kardia. Argenti necesita actuar con frecuencia para generar la energía requerida para su Principio Exclusivo de segundo nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desglose de Habilidades y Mecánicas de Combate de Argenti">
+
+Comprender los matices del conjunto de habilidades de **Honkai Nexus Anima Argenti** es la diferencia entre una partida mediocre y una victoria impecable. Sus habilidades se dividen en Habilidades de Batalla y Principios Exclusivos, cada una interactuando con sus acumulaciones únicas de "Esteta".
+
+<CardGrid cols={3}>
+  <Card title="Habilidad de Batalla: Fragancia Fugaz">
+    - **Tipo**: Físico en área (AOE)
+    - Inflige daño basado en el 120% del ATK.
+    - Genera 30 de Energía por golpe.
+  </Card>
+  <Card title="Pasiva: Piedad de la Belleza">
+    - **Tipo**: Mejora (Buff)
+    - Aumenta la Prob. CRIT en un 2,5% por acumulación.
+    - Acumulaciones máx: 10 al Nivel 10.
+  </Card>
+  <Card title="Principio: Por los Méritos Pasados">
+    - **Tipo**: Definitiva
+    - Dos etapas de poder basadas en la Energía.
+    - La Etapa 2 inflige un enorme daño adicional.
+  </Card>
+</CardGrid>
+
+La rotación de Argenti es sencilla pero requiere precisión. Debes mantener sus acumulaciones usando su Habilidad de Batalla en cada turno, liberando el Principio Exclusivo solo cuando la barra de Energía esté completamente llena (180 de Energía) en lugar de a la mitad (90 de Energía).
+
+| Nivel de Habilidad | Multiplicador de Daño | Ganancia de Energía | Efectos Adicionales |
+| :--- | :--- | :--- | :--- |
+| **Nivel 1** | 100% | 30 | Ninguno |
+| **Nivel 6** | 145% | 35 | +5% Daño CRIT |
+| **Nivel 10** | 180% | 40 | **Reset de Enfriamiento al Eliminar** |
+
+<Callout type="warning" title="Importante">
+Usar el Principio Exclusivo con 90 de Energía es una pérdida significativa de DPS. Hazlo solo si el enemigo tiene pocos PV y necesitas una eliminación inmediata para activar un reinicio.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Mejores Kardia y Builds de Equipamiento">
+
+Para maximizar a **Honkai Nexus Anima Argenti**, tu selección de Kardia (equipo) debe centrarse en su capacidad de asestar críticos y su necesidad de velocidad. En el meta de 2026, conjuntos específicos han surgido como la elección definitiva para el contenido de alto nivel.
+
+**Conjuntos de Kardia Recomendados:**
+
+1.  **Campeón de Boxeo Callejero (4 piezas)**: Aumenta el ATK en un 5% cada vez que el portador recibe un golpe o golpea a un enemigo. Esto se acumula hasta 5 veces, proporcionando un aumento masivo del 25% de ATK.
+2.  **Salsotto Inerte (2 piezas)**: Aumenta la Prob. CRIT en un 8%. Cuando la Prob. CRIT alcanza el 50% o más, el daño del Principio Exclusivo aumenta en un 15%.
+
+| Ranura | Prioridad de Estadística Principal | Prioridad de Subestadística |
+| :--- | :--- | :--- |
+| **Cabeza** | PV (Fijo) | Prob. CRIT / Daño CRIT / Velocidad |
+| **Manos** | ATK (Fijo) | Prob. CRIT / Daño CRIT / ATK% |
+| **Cuerpo** | **Daño CRIT** | Prob. CRIT / Velocidad / ATK% |
+| **Pies** | **Velocidad** | Prob. CRIT / Daño CRIT / ATK% |
+| **Cuerda de Unión** | **Regen. de Energía** | Prob. CRIT / Daño CRIT / Velocidad |
+
+<Callout type="success" title="Objetivo de Optimización">
+Busca una relación de 1:2 entre Prob. CRIT y Daño CRIT. Para Argenti, un 70% de Prob. CRIT y 140% de Daño CRIT es la base para la viabilidad en el juego avanzado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Progresión Paso a Paso">
+
+Desarrollar a **Honkai Nexus Anima Argenti** requiere un enfoque estructurado para la gestión de recursos. Sigue estos pasos para asegurarte de no desperdiciar materiales en mejoras ineficientes.
+
+<Steps>
+  <Step num="1" title="Nivel y Ascensión">
+    Concéntrate en alcanzar el Nivel 80 primero. El escalado de ATK base de Argenti es agresivo, y las estadísticas adicionales de la Ascensión 6 son obligatorias para el Vórtice Infinito.
+  </Step>
+  <Step num="2" title="Despertar de Rastros">
+    Prioriza su Definitiva (Principio Exclusivo) y Talento. Su Ataque Básico puede dejarse en el Nivel 1, ya que casi nunca deberías usarlo.
+  </Step>
+  <Step num="3" title="Farmear Kardia">
+    Gasta tu energía diaria en la "Caverna de la Corrosión: Senda de los Jades" para obtener el conjunto de Boxeo. No te conformes con piezas de 4 estrellas; busca las de 5 estrellas con al menos dos subestadísticas relevantes.
+  </Step>
+  <Step num="4" title="Ajuste de Sinergia de Equipo">
+    Ajusta la velocidad de tus unidades de apoyo (como Kiana o Kafka) para que actúen justo antes que Argenti. Esto les permite aplicar mejoras o generar energía antes de su turno.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo de Recursos">
+Guarda tus "Huellas del Destino" para los niveles finales de talento de Argenti. El salto del Nivel 9 al Nivel 10 proporciona un multiplicador oculto del 10% a su dispersión de área.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejores Composiciones de Equipo para Argenti">
+
+Argenti es un "Hyper-Carry", lo que significa que todo el equipo debe construirse para facilitar su daño. En **Honkai Nexus Anima**, la formación de equipos gira en torno al equilibrio de los tipos Anima y Eidos para activar bonificaciones de resonancia.
+
+| Arquetipo de Equipo | Espacio 1 (Carry) | Espacio 2 (Apoyo) | Espacio 3 (Apoyo) | Espacio 4 (Sustain) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Batería de Energía** | Argenti | **Tingyun** | **Hanya** | Huohuo |
+| **Amigable para F2P** | Argenti | Asta | Yukong | Natasha |
+| **Doble Anima** | Argenti | **Bronya** | Pela | Fu Xuan |
+
+**Desglose de Sinergias:**
+- **Tingyun**: Esencial por su recarga de Energía, permitiendo que Argenti use su Definitiva de Etapa 2 mucho más rápido.
+- **Bronya**: Su mecánica de adelantar acción permite que Argenti realice turnos dobles, acumulando cargas al doble de velocidad.
+- **Hanya**: Resuelve el hambre de puntos de habilidad de Argenti mientras proporciona un aumento significativo de velocidad.
+
+<Checklist
+  id="argenti-mastery"
+  title="Lista de Verificación de Preparación de Argenti:"
+  items={[
+    "Alcanzar el Nivel 80 y Ascensión 6",
+    "Equipar el conjunto de Kardia de 4 piezas de Campeón",
+    "Lograr al menos 134 de Velocidad",
+    "Subir el Principio Exclusivo al nivel 10",
+    "Emparejar con al menos un apoyo de batería de energía"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia">
+Evita emparejar a Argenti con otros usuarios intensivos de puntos de habilidad como Blade o Dan Heng IL. Él necesita usar su habilidad en cada turno para seguir siendo efectivo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es bueno Honkai Nexus Anima Argenti contra jefes de un solo objetivo?",
+    answer: "Aunque su especialidad es el área (AOE), su Principio Exclusivo de Etapa 2 inflige un daño masivo a un solo objetivo si no hay otros enemigos presentes. Es viable, pero no óptimo comparado con unidades de estilo Cacería."
+  },
+  {
+    question: "¿Qué conjunto de Kardia es mejor: Daño Físico o ATK%?",
+    answer: "El Daño Físico (conjunto Campeón) es generalmente superior porque Argenti ya obtiene mucho ATK% de sus rastros y de las mejoras de apoyo."
+  },
+  {
+    question: "¿Puedo usar a Argenti sin una batería de energía como Tingyun?",
+    answer: "Puedes, pero su rendimiento caerá significativamente. Sin una batería, es posible que solo uses su Definitiva de Etapa 2 una vez cada 4-5 turnos, lo cual es demasiado lento para el contenido con tiempo limitado."
+  },
+  {
+    question: "¿Cuál es la estadística más importante para Argenti en 2026?",
+    answer: "La Velocidad sigue siendo la estadística más crítica para asegurar que alcance los umbrales de 134 o 161 para acciones adicionales en los ciclos del Nexo."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+Argenti sigue siendo uno de los atacantes más consistentes y visualmente impresionantes en **Honkai Nexus Anima**. Con la inversión adecuada en Velocidad y Regeneración de Energía, puede llevar tu cuenta a través de los desafíos más difíciles de 2026.
+</Callout>
+
+</Section>

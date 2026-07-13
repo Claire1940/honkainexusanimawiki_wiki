@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tier List de Honkai: Nexus Anima: Clasificaciones de la Comunidad 2026",
+  description: "Explora la última tier list de Honkai: Nexus Anima basada en las clasificaciones de la comunidad para optimizar la composición de tu equipo y el progreso de tus personajes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Nexus+Anima+Tier+List",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Honkai: Nexus Anima"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **tier list de Honkai: Nexus Anima** clasifica a los personajes según el consenso de la comunidad a partir de los datos de la CBT1.
+- Las **unidades de Tier S** representan el meta actual, ofreciendo una utilidad superior y potencial de daño para el progreso inicial.
+- Prioriza siempre la **sinergia sobre la fuerza individual** al armar tu equipo principal.
+- Consulta regularmente las **clasificaciones actualizadas** a medida que se implementen nuevos parches y cambios de equilibrio en 2026.
+</Callout>
+
+<Section icon={Trophy} title="Entendiendo el Sistema de Tiers">
+
+Las clasificaciones impulsadas por la comunidad para Honkai: Nexus Anima categorizan a las unidades en cinco tiers distintos. Estas clasificaciones reflejan el rendimiento de los personajes durante la Prueba Beta Cerrada (CBT1), enfocándose en sus estadísticas base, escalado de habilidades y el impacto general en las composiciones de equipo.
+
+<CardGrid cols={3}>
+  <Card title="Tier S">
+    Unidades de nivel superior que definen el meta actual del juego y sobresalen en casi cualquier escenario de combate.
+  </Card>
+  <Card title="Tier A">
+    Personajes altamente confiables que aportan un valor significativo y pueden superar la mayor parte del contenido.
+  </Card>
+  <Card title="Tier B/C">
+    Opciones de nicho que requieren configuraciones de equipo específicas para destacar o sirven como reemplazos temporales para mejores unidades.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Estratégico">
+Las tier lists son subjetivas y se basan en la votación de la comunidad. Usa estas clasificaciones como referencia, pero considera las necesidades específicas de tu equipo y tu estilo de juego antes de invertir recursos en una unidad.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Datos de Rendimiento de Personajes">
+
+Esta tabla proporciona una visión general de alto nivel sobre cómo se comparan los diferentes arquetipos dentro del meta actual. Comprender el rol de tus unidades es esencial para el éxito a largo plazo.
+
+| Arquetipo | Rol Principal | Estado en el Meta | Prioridad de Inversión |
+| :--- | :--- | :--- | :--- |
+| Asalto | Daño Puro | Tier S | Alta |
+| Guardián | Mitigación de Daño | Tier A | Media |
+| Soporte | Mejoras y Curación | Tier S | Muy Alta |
+| Especialista | Debilitamientos y Control | Tier B | Baja |
+
+<Callout type="success" title="Análisis del Meta">
+Las unidades de Soporte tienen actualmente la mayor prioridad de inversión. Un soporte bien equipado puede amplificar significativamente el daño de tus unidades principales de Asalto, convirtiéndose en la columna vertebral de cualquier equipo de primer nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo Construir tu Equipo Óptimo">
+
+Crear un equipo equilibrado es más efectivo que acumular unidades de tier alto con roles duplicados. Sigue estos pasos para optimizar tu alineación en varios modos de juego.
+
+**Puntos Clave del Video:**
+- Identificación de sinergias clave en el equipo
+- Equilibrio en la asignación de recursos para nuevos jugadores
+- Posicionamiento óptimo de los personajes en combate
+
+<Steps>
+  <Step num="1" title="Evalúa tu Plantilla">
+    Evalúa tu grupo actual de personajes e identifica a tus distribuidores de daño más fuertes.
+  </Step>
+  <Step num="2" title="Identifica Vacíos de Roles">
+    Asegúrate de tener al menos un Soporte dedicado y un Guardián para mantener la estabilidad del equipo.
+  </Step>
+  <Step num="3" title="Prueba la Sinergia">
+    Supera contenido de nivel bajo para ver si las habilidades de tus personajes se complementan eficazmente.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de Progreso">
+No disperses demasiado tus recursos en demasiados personajes. Concéntrate en subir de nivel a tu equipo principal de cuatro para maximizar la eficiencia en los enfrentamientos desafiantes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hitos de Progreso">
+
+Usa esta lista de verificación para seguir tu progreso y asegurarte de cumplir con los requisitos necesarios para mantener a tu equipo competitivo en el cambiante entorno de Honkai: Nexus Anima.
+
+<Checklist
+  id="progression-goals"
+  title="Hitos Clave para 2026:"
+  items={[
+    "Completar todos los capítulos de la Historia Principal en dificultad Normal",
+    "Alcanzar el nivel de cuenta 50",
+    "Ascender por completo a un personaje de Tier S",
+    "Completar la ruta semanal de cultivo de materiales",
+    "Unirse a un gremio activo para compartir recursos"
+  ]}
+/>
+
+| Hito | Nivel Esperado | Recompensa Clave |
+| :--- | :--- | :--- |
+| Fase de Principiante | 1-20 | Boletos de Invocación Básicos |
+| Juego Medio | 21-40 | Materiales de Equipo Avanzados |
+| Juego Tardío | 41-60 | Piedras de Mejora Legendarias |
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Con qué frecuencia se actualiza la tier list de Honkai: Nexus Anima?",
+    answer: "La tier list se actualiza periódicamente según las votaciones de la comunidad y los parches principales del juego. Vuelve a consultar después de actualizaciones significativas en 2026."
+  },
+  {
+    question: "¿Debería hacer reroll para obtener personajes de Tier S?",
+    answer: "Hacer reroll puede proporcionar una ventaja inicial, pero no es estrictamente necesario para disfrutar o completar el contenido de Honkai: Nexus Anima."
+  },
+  {
+    question: "¿Pueden los personajes de Tier B volverse viables?",
+    answer: "Sí, con el equipamiento adecuado, la composición de equipo correcta y la inversión necesaria, muchos personajes de tiers más bajos pueden desempeñarse excepcionalmente bien en roles específicos."
+  }
+]} />
+
+<Callout type="info" title="Recursos de la Comunidad">
+Para discusiones más detalladas de la comunidad, visita la [página oficial de la comunidad en TierMaker](https://tiermaker.com/categories/video-games/honkai-nexus-anima-characters-official-and-teased-15908277) para ver cómo votan otros por sus personajes favoritos.
+</Callout>
+
+</Section>
